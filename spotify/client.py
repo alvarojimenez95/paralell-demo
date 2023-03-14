@@ -5,26 +5,8 @@ from base64 import b64encode, b64decode
 from pprint import pprint
 from urllib.parse import urlparse, parse_qs
 import webbrowser
-
-class _CustomAdapter(HTTPAdapter):
-    _RETRY_STATUS = [
-        # 500,
-        501,
-        502,
-        504,
-        504,
-        429,
-    ]
-    _BACKOFF_FACTOR = 0.1
-    _TOTAL_RETRIES = 3
-
-    def __init__(self):
-        super().__init__()
-        self.max_retries = Retry(
-            total=self._TOTAL_RETRIES,
-            backoff_factor=self._BACKOFF_FACTOR,
-            status_forcelist=self._RETRY_STATUS,
-        )
+import aiohttp
+import asyncio
 
 class HTTPClient:
     token_url = "https://accounts.spotify.com/api/token"
@@ -33,11 +15,8 @@ class HTTPClient:
         self.client_id = client_id
         self.client_secret = client_secret
         self.token = None
-        self._session = requests.Session()
-        self._session.mount(self.base_url, _CustomAdapter())
-
-    def __del__(self):
-        self._session.close()
+        self.retry_times  = 7
+        self.backoff_factor = 0.8
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
@@ -49,18 +28,44 @@ class HTTPClient:
         resp.raise_for_status()
         self.token = resp.json()["access_token"]
 
-    def call(self, method, endpoint, params = None, body = None, headers = None):
+    async def call(self, method, endpoint, params = None, body = None, headers = None):
         url = self.base_url + endpoint
         if headers:
             headers.update(self._prepare_auth_header())
         else:
             headers = self._prepare_auth_header()
-        resp = self._session.request(method = method, url = url, params = params, headers = headers, json = body)
-        resp.raise_for_status()
-        return resp.json()
+        retry_count = 0
+        while True:
+            try:
+                async with aiohttp.ClientSession() as session:
+                    async with session.request(
+                        method = method,
+                        url = url,
+                        json = body,
+                        params = params,
+                        headers = headers
+                    ) as resp:
+                        if resp.status in [
+                            503,
+                            500,
+                            429,
+                            406
+                        ]:
+                            if retry_count < self.retry_times:
+                                retry_count += 1
+                                await asyncio.sleep(retry_count * self.backoff_factor)
+                                continue
+                            else:
+                                resp.raise_for_status()
+                        resp.raise_for_status()
+                        json = await resp.json()
+                        return json
+            except Exception as err:
+                raise err  
         
-    def get(self, endpoint, params = None, headers = None):
-        return self.call("GET", endpoint, params, headers = headers)
+    async def get(self, endpoint, params = None, headers = None):
+        data = await self.call("GET", endpoint, params, headers = headers)
+        return data
     
     def _prepare_auth_header(self):
         return {"Authorization" : f"Bearer {self.token}"}
