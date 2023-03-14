@@ -13,7 +13,7 @@ class _CustomAdapter(HTTPAdapter):
         502,
         504,
         504,
-        429,
+        # 429,
     ]
     _BACKOFF_FACTOR = 0.1
     _TOTAL_RETRIES = 3
@@ -55,8 +55,8 @@ class HTTPClient:
             headers.update(self._prepare_auth_header())
         else:
             headers = self._prepare_auth_header()
-        resp = self._session.request(method = method, url = url, params = params, headers = headers, json = body)
-        resp.raise_for_status()
+        resp = self._session.request(method = method, url = url, params = params, headers = headers, json = body, timeout=2)
+        # resp.raise_for_status()
         return resp.json()
         
     def get(self, endpoint, params = None, headers = None):
