@@ -1,9 +1,30 @@
 import requests
+from requests.adapters import HTTPAdapter, Retry
 from typing import Optional, List, Mapping
 from base64 import b64encode, b64decode
 from pprint import pprint
 from urllib.parse import urlparse, parse_qs
 import webbrowser
+
+class _CustomAdapter(HTTPAdapter):
+    _RETRY_STATUS = [
+        # 500,
+        501,
+        502,
+        504,
+        504,
+        429,
+    ]
+    _BACKOFF_FACTOR = 0.1
+    _TOTAL_RETRIES = 3
+
+    def __init__(self):
+        super().__init__()
+        self.max_retries = Retry(
+            total=self._TOTAL_RETRIES,
+            backoff_factor=self._BACKOFF_FACTOR,
+            status_forcelist=self._RETRY_STATUS,
+        )
 
 class HTTPClient:
     token_url = "https://accounts.spotify.com/api/token"
@@ -13,6 +34,10 @@ class HTTPClient:
         self.client_secret = client_secret
         self.token = None
         self._session = requests.Session()
+        self._session.mount(self.base_url, _CustomAdapter())
+
+    def __del__(self):
+        self._session.close()
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
@@ -30,10 +55,9 @@ class HTTPClient:
             headers.update(self._prepare_auth_header())
         else:
             headers = self._prepare_auth_header()
-        with self._session as session:
-            resp = session.request(method = method, url = url, params = params, headers = headers, json = body)
-            resp.raise_for_status()
-            return resp.json()
+        resp = self._session.request(method = method, url = url, params = params, headers = headers, json = body)
+        resp.raise_for_status()
+        return resp.json()
         
     def get(self, endpoint, params = None, headers = None):
         return self.call("GET", endpoint, params, headers = headers)
