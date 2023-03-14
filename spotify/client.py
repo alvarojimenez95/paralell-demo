@@ -15,8 +15,8 @@ class HTTPClient:
         self.client_id = client_id
         self.client_secret = client_secret
         self.token = None
-        self.retry_times  = 7
-        self.backoff_factor = 0.8
+        self.retry_times  = 15
+        self.backoff_factor = 0.7
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
@@ -31,9 +31,9 @@ class HTTPClient:
     async def call(self, method, endpoint, params = None, body = None, headers = None):
         url = self.base_url + endpoint
         if headers:
-            headers.update(self._prepare_auth_header())
+            headers.update(await self._prepare_auth_header())
         else:
-            headers = self._prepare_auth_header()
+            headers = await self._prepare_auth_header()
         retry_count = 0
         while True:
             try:
@@ -67,7 +67,7 @@ class HTTPClient:
         data = await self.call("GET", endpoint, params, headers = headers)
         return data
     
-    def _prepare_auth_header(self):
+    async def _prepare_auth_header(self):
         return {"Authorization" : f"Bearer {self.token}"}
 
         

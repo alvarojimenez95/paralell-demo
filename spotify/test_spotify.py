@@ -6,7 +6,7 @@ from pprint import pprint
 import logging
 import asyncio
 
-logging.basicConfig(filename='app.log', filemode='w', level = logging.INFO, format='%(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='app.log', filemode='w', level = logging.DEBUG, format='%(name)s - %(levelname)s - %(message)s')
 load_dotenv()
 
 CLIENT_ID = os.getenv("CLIENT_ID")
@@ -105,11 +105,10 @@ ARTISTS = [
     "The Beatles"
 ]
 
-async def get_tracks():
-    c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+async def get_tracks(c:Spotify):
 
     track_ids = []
-    for idx, artist in enumerate(ARTISTS[:5]):
+    for idx, artist in enumerate(ARTISTS[:10]):
         logging.info(artist)
         tracks = await c.get_artist_track_ids(artist_name=artist)
         for track in tracks["tracks"]["items"]:
@@ -117,12 +116,13 @@ async def get_tracks():
     logging.info(f"Total number of artists: {len(track_ids)}")
     return track_ids
 
+
+
 async def get_track_by_id(c: Spotify, track_id: str):
     track = await c.get_track(track_id=track_id)
     return track 
 
-async def gather_tasks(track_ids):
-    c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+async def gather_tasks(c: Spotify, track_ids):
 
     tasks = [asyncio.create_task(get_track_by_id(c, track_id)) for track_id in track_ids]
     results = await asyncio.gather(*tasks)
@@ -132,9 +132,10 @@ def main():
     import cProfile
     import pstats
     with cProfile.Profile() as pr:
+        c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 
-        tracks = asyncio.run(get_tracks())
-        asyncio.run(gather_tasks(tracks))
+        tracks = asyncio.run(get_tracks(c))
+        asyncio.run(gather_tasks(c, tracks))
     stats = pstats.Stats(pr)
     stats.sort_stats(pstats.SortKey.TIME)
     stats.dump_stats(filename="profiling.prof")
