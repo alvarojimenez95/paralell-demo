@@ -106,7 +106,7 @@ ARTISTS = [
 
 def get_tracks(c: Spotify):
     track_ids = []
-    for idx, artist in enumerate(ARTISTS[:50]):
+    for idx, artist in enumerate(ARTISTS[:5]):
         logging.info(artist)
         tracks = c.get_artist_track_ids(artist_name=artist)
         for track in tracks["tracks"]["items"]:
@@ -119,17 +119,24 @@ def get_track_by_id(c: Spotify, track_id: str):
     return track 
 
 def main():
-    c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
-    tracks = get_tracks(c)
-    tracks_info = []
-    for track_id in tracks:
-        info = get_track_by_id(c, track_id)
-        logging.info(f"Song name: {info['name']} Artist: {info['artists'][0]['name']}")
-        tracks_info.append(info)
-    logging.info(f"Total number of tracks: {len(tracks_info)}")
+    import cProfile
+    import pstats
+    with cProfile.Profile() as pr:
 
+        c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+        tracks = get_tracks(c)
+        tracks_info = []
+        for track_id in tracks:
+            info = get_track_by_id(c, track_id)
+            logging.info(f"Song name: {info['name']} Artist: {info['artists'][0]['name']}")
+            tracks_info.append(info)
+        logging.info(f"Total number of tracks: {len(tracks_info)}")
+    stats = pstats.Stats(pr)
+    stats.sort_stats(pstats.SortKey.TIME)
+    stats.dump_stats(filename="profiling.prof")
 
 if __name__ == "__main__":
+
     from time import perf_counter
     start = perf_counter()
     main()
