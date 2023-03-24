@@ -109,34 +109,16 @@ ARTISTS = [
     "The Beatles"
 ]
 
-async def get_tracks(c:Spotify):
-
-    track_ids = []
-    for idx, artist in enumerate(ARTISTS[:10]):
-        logging.info(artist)
-        tracks = await c.get_artist_track_ids(artist_name=artist)
-        for track in tracks["tracks"]["items"]:
-            track_ids.append(track["id"])
-    logging.info(f"Total number of artists: {len(track_ids)}")
-    return track_ids
-
-
 
 async def get_track_by_id(c: Spotify, track_id: str):
     track = await c.get_track(track_id=track_id)
     return track 
 
-async def gather_tasks(c: Spotify, track_ids):
-
-    tasks = [asyncio.create_task(get_track_by_id(c, track_id)) for track_id in track_ids]
-    results = await asyncio.gather(*tasks)
-    return results
-
 def main(job_id: str) -> None:
     print(f"Starting job {job_id}")
     task_callback = partial(task_completed_callback_handler, job_id)
     job_callback = partial(job_completed_callback_handler, job_id)
-
+    # set the task data
     task_data = [
         {"task_id" : i, "artist" : artist} for i, artist in enumerate(ARTISTS)
     ]
@@ -149,5 +131,7 @@ def task_completed_callback_handler(job_id: str, callback_message: dict)-> None:
 
 def job_completed_callback_handler(job_id: str, callback_message: dict)-> None:
     print(f"Job completed in {job_id=}: {callback_message=}")
+
+
 if __name__ == "__main__":
     main(job_id = str(uuid4()))

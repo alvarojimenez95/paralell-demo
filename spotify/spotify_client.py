@@ -11,7 +11,7 @@ class Spotify:
         endpoint = f"/tracks/{track_id}"
         resp = await self.client.get(endpoint = endpoint)
         logging.info(f"Song: {resp['name']}. Artist: {resp['artists'][0]['name']}")
-        return resp
+        return {"name" : resp["name"], "artist" : resp["artists"][0]["name"]}
     
     async def get_artist(self, artist_id: str):
         endpoint = f"/artists/{artist_id}"

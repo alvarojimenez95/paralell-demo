@@ -32,15 +32,17 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         task_data = await work_queue.get()
         task_id = task_data["task_id"]
         artist = task_data["artist"]
-        start = perf_counter()
         track_ids = await get_tracks(c, artist)
-        end = perf_counter()
-        await result_queue.put(
-             {
-                "task_id" : task_id,
-                "track_ids" : track_ids,
-                "time_secs" : end- start,
-                "artist" : artist
-             }
-        )
+        for track_id in track_ids:
+             start = perf_counter()
+             track_data = await c.get_track(track_id)
+             end = perf_counter()
+             await result_queue.put(
+                  {
+                  "task_id" : task_id,
+                  "track_name" : track_data["name"],
+                  "artist" : artist,
+                  "time_secs" : end-start
+                  }
+             )
         work_queue.task_done()
