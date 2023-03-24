@@ -108,23 +108,23 @@ ARTISTS = [
 async def get_tracks(c:Spotify):
 
     track_ids = []
-    for idx, artist in enumerate(ARTISTS[:10]):
+    for idx, artist in enumerate(ARTISTS):
         logging.info(artist)
         tracks = await c.get_artist_track_ids(artist_name=artist)
         for track in tracks["tracks"]["items"]:
             track_ids.append(track["id"])
-    logging.info(f"Total number of artists: {len(track_ids)}")
+    logging.info(f"Total number of tracks: {len(track_ids)}")
     return track_ids
 
 
 
-async def get_track_by_id(c: Spotify, track_id: str):
-    track = await c.get_track(track_id=track_id)
+async def get_track_audio_features(c: Spotify, track_id: str):
+    track = await c.get_audio_features(track_id=track_id)
     return track 
 
 async def gather_tasks(c: Spotify, track_ids):
 
-    tasks = [asyncio.create_task(get_track_by_id(c, track_id)) for track_id in track_ids]
+    tasks = [asyncio.create_task(get_track_audio_features(c, track_id)) for track_id in track_ids]
     results = await asyncio.gather(*tasks)
     return results
 

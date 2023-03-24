@@ -13,6 +13,11 @@ class Spotify:
         logging.info(f"Song: {resp['name']}. Artist: {resp['artists'][0]['name']}")
         return resp
     
+    async def get_audio_features(self, track_id: str):
+        endpoint = f"/audio-features/{track_id}"
+        resp = await self.client.get(endpoint = endpoint)
+        return resp
+
     async def get_artist(self, artist_id: str):
         endpoint = f"/artists/{artist_id}"
         resp = await self.client.get(endpoint = endpoint)
