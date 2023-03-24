@@ -1,10 +1,7 @@
-from client import HTTPClient
-from spotify_client import Spotify
 from dotenv import load_dotenv
 import os
 from pprint import pprint 
 import logging
-import asyncio
 from functools import partial
 from controller import run_job
 from uuid import uuid4
@@ -109,10 +106,6 @@ ARTISTS = [
     "The Beatles"
 ]
 
-
-async def get_track_by_id(c: Spotify, track_id: str):
-    track = await c.get_track(track_id=track_id)
-    return track 
 
 def main(job_id: str) -> None:
     print(f"Starting job {job_id}")

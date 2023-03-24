@@ -1,6 +1,4 @@
 from client import HTTPClient
-import requests
-from pprint import pprint
 import logging
 class Spotify:
     def __init__(self, client_id: str, client_secret: str):

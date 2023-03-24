@@ -1,10 +1,5 @@
 import requests
-from requests.adapters import HTTPAdapter, Retry
-from typing import Optional, List, Mapping
-from base64 import b64encode, b64decode
-from pprint import pprint
-from urllib.parse import urlparse, parse_qs
-import webbrowser
+from base64 import b64encode
 import aiohttp
 import asyncio
 
