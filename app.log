@@ -1,0 +1,96 @@
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+asyncio - DEBUG - Using selector: KqueueSelector
+root - INFO - Talking Heads
+root - INFO - Carl Perkins
+root - INFO - Curtis Mayfield
+root - INFO - R.E.M.
+root - INFO - Diana Ross and the Supremes
+root - INFO - Lynyrd Skynyrd
+root - INFO - Nine Inch Nails
+root - INFO - Booker T. and the MGs
+root - INFO - Guns n’ Roses
+root - INFO - Tom Petty
+root - INFO - Carlos Santana
+root - INFO - The Yardbirds
+root - INFO - Jay-Z
+root - INFO - Gram Parsons
+root - INFO - Tupac Shakur
+root - INFO - Black Sabbath
+root - INFO - James Taylor
+root - INFO - Eminem
+root - INFO - Creedence Clearwater Revival
+root - INFO - The Drifters
+root - INFO - Elvis Costello
+root - INFO - The Four Tops
+root - INFO - The Stooges
+root - INFO - Beastie Boys
+root - INFO - The Shirelles
+root - INFO - Eagles
+root - INFO - Hank Williams
+root - INFO - Hank Williams
+root - INFO - AC/DC
+root - INFO - Frank Zappa
+root - INFO - The Police
+root - INFO - Jackie Wilson
+root - INFO - The Temptations
+root - INFO - Cream
+root - INFO - Al Green
+root - INFO - The Kinks
+root - INFO - Phil Spector
+root - INFO - Tina Turner
+root - INFO - Joni Mitchell
+root - INFO - Metallica
+root - INFO - The Sex Pistols
+root - INFO - Aerosmith
+root - INFO - Parliament and Funkadelic
+root - INFO - Grateful Dead
+root - INFO - Dr. Dre
+root - INFO - Eric Clapton
+root - INFO - Howlin’ Wolf
+root - INFO - The Allman Brothers Band
+root - INFO - Queen
+root - INFO - Pink Floyd
+root - INFO - Simon and Garfunkel
+root - INFO - David Bowie
+root - INFO - John Lennon
+root - INFO - Roy Orbison
+root - INFO - Madonna
+root - INFO - Michael Jackson
+root - INFO - Neil Young
+root - INFO - The Everly Brothers
+root - INFO - Smokey Robinson and the Miracles
+root - INFO - Johnny Cash
+root - INFO - Nirvana
+root - INFO - The Who
+root - INFO - The Clash
+root - INFO - Prince
+root - INFO - The Ramones
+root - INFO - Fats Domino
+root - INFO - Jerry Lee Lewis
+root - INFO - Bruce Springsteen
+root - INFO - U2
+root - INFO - Otis Redding
+root - INFO - Bo Diddley
+root - INFO - The Velvet Underground
+root - INFO - Marvin Gaye
+root - INFO - Muddy Waters
+root - INFO - Sam Cooke
+root - INFO - Stevie Wonder
+root - INFO - Led Zeppelin
+root - INFO - Buddy Holly
+root - INFO - The Beach Boys
+root - INFO - Bob Marley
+root - INFO - Ray Charles
+root - INFO - Aretha Franklin
+root - INFO - Little Richard
+root - INFO - James Brown
+root - INFO - Jimi Hendrix
+root - INFO - Chuck Berry
+root - INFO - The Rolling Stones
+root - INFO - Elvis Presley
+root - INFO - Bob Dylan
+root - INFO - The Beatles
+root - INFO - Total number of tracks: 1800
+asyncio - DEBUG - Using selector: KqueueSelector
+root - INFO - Time elapsed: 78.2553275829996 seconds
