@@ -18,6 +18,11 @@ class Spotify:
         resp = await self.client.get(endpoint = endpoint)
         return resp
 
+    async def get_audio_features(self, track_id: str):
+        endpoint = f"/audio-features/{track_id}"
+        resp = await self.client.get(endpoint = endpoint)
+        return resp
+
 
     async def get_artist_track_ids(self, artist_name: str = None, number: int = 100):
         endpoint = "/search"

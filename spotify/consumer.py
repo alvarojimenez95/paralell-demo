@@ -35,13 +35,20 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         track_ids = await get_tracks(c, artist)
         for track_id in track_ids:
              start = perf_counter()
-             track_data = await c.get_track(track_id)
+             track_data = await c.get_audio_features(track_id)
              end = perf_counter()
              await result_queue.put(
                   {
                   "task_id" : task_id,
-                  "track_name" : track_data["name"],
+                  "id" : track_data["id"],
                   "artist" : artist,
+                  "loudness" : track_data["loudness"],
+                  "acousticness" : track_data["acousticness"],
+                  "instrumentalness" : track_data["instrumentalness"],
+                  "tempo" : track_data["tempo"],
+                  "liveness" : track_data["liveness"],
+                  "energy" : track_data["energy"],
+                  "danceability" : track_data["danceability"],
                   "time_secs" : end-start
                   }
              )

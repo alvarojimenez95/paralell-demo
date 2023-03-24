@@ -127,10 +127,10 @@ def main(job_id: str) -> None:
 
 
 def task_completed_callback_handler(job_id: str, callback_message: dict)-> None:
-    print(f"Task completed in {job_id=}: {callback_message=}")
+    pprint(f"Task completed in {job_id=}: {callback_message=}")
 
 def job_completed_callback_handler(job_id: str, callback_message: dict)-> None:
-    print(f"Job completed in {job_id=}: {callback_message=}")
+    pprint(f"Job completed in {job_id=}: {callback_message=}")
 
 
 if __name__ == "__main__":
