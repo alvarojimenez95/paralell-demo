@@ -5,6 +5,10 @@ import os
 from pprint import pprint 
 import logging
 import asyncio
+from functools import partial
+from controller import run_job
+from uuid import uuid4
+
 
 logging.basicConfig(filename='app.log', filemode='w', level = logging.DEBUG, format='%(name)s - %(levelname)s - %(message)s')
 load_dotenv()
@@ -128,22 +132,22 @@ async def gather_tasks(c: Spotify, track_ids):
     results = await asyncio.gather(*tasks)
     return results
 
-def main():
-    import cProfile
-    import pstats
-    with cProfile.Profile() as pr:
-        c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+def main(job_id: str) -> None:
+    print(f"Starting job {job_id}")
+    task_callback = partial(task_completed_callback_handler, job_id)
+    job_callback = partial(job_completed_callback_handler, job_id)
 
-        tracks = asyncio.run(get_tracks(c))
-        asyncio.run(gather_tasks(c, tracks))
-    stats = pstats.Stats(pr)
-    stats.sort_stats(pstats.SortKey.TIME)
-    stats.dump_stats(filename="profiling.prof")
+    task_data = [
+        {"task_id" : i, "artist" : artist} for i, artist in enumerate(ARTISTS)
+    ]
 
+    run_job(task_data, task_callback, job_callback)
+
+
+def task_completed_callback_handler(job_id: str, callback_message: dict)-> None:
+    print(f"Task completed in {job_id=}: {callback_message=}")
+
+def job_completed_callback_handler(job_id: str, callback_message: dict)-> None:
+    print(f"Job completed in {job_id=}: {callback_message=}")
 if __name__ == "__main__":
-
-    from time import perf_counter
-    start = perf_counter()
-    main()
-    end = perf_counter()
-    logging.info(f"Time elapsed: {end - start} seconds")
+    main(job_id = str(uuid4()))
