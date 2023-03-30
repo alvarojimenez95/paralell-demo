@@ -28,6 +28,7 @@ async def get_track_by_id(c: Spotify, track_id: str):
     track = await c.get_track(track_id=track_id)
     return track 
 
+
 async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
     """Consumes data from the work queue and puts back the results into the result_queue. Consumer"""
     c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
@@ -35,29 +36,26 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         task_data = await work_queue.get()
         task_id = task_data["task_id"]
         artist = task_data["artist"]
+        track_id = task_data["track_id"]
         # get the tracks
-        track_ids = await get_tracks(c, artist)
-        for track_id in track_ids:
-             start = perf_counter()
-             logging.info(f"{artist} - {track_id}")
-             # get the audio features
-             track_data = await c.get_audio_features(track_id)
-             end = perf_counter()
+        start = perf_counter()
+        track_audio_features = await c.get_audio_features(track_id)
+        end = perf_counter()
              # put back the result into the result queue
-             await result_queue.put(
-                  {
-                  "task_id" : task_id,
-                  "id" : track_data["id"],
-                  "artist" : artist,
-                  "loudness" : track_data["loudness"],
-                  "acousticness" : track_data["acousticness"],
-                  "instrumentalness" : track_data["instrumentalness"],
-                  "tempo" : track_data["tempo"],
-                  "liveness" : track_data["liveness"],
-                  "energy" : track_data["energy"],
-                  "danceability" : track_data["danceability"],
-                  "time_secs" : end-start
-                  }
-             )
+        await result_queue.put(
+            {
+            "task_id" : task_id,
+            "id" : track_id,
+            "artist" : artist,
+            "loudness" : track_audio_features["loudness"],
+            "acousticness" : track_audio_features["acousticness"],
+            "instrumentalness" : track_audio_features["instrumentalness"],
+            "tempo" : track_audio_features["tempo"],
+            "liveness" : track_audio_features["liveness"],
+            "energy" : track_audio_features["energy"],
+            "danceability" : track_audio_features["danceability"],
+            "time_secs" : end-start
+            }
+        )
         # finish task
         work_queue.task_done()
