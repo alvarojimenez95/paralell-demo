@@ -109,9 +109,9 @@ async def get_tracks(c:Spotify):
 
     track_ids = []
     for idx, artist in enumerate(ARTISTS):
-        logging.info(artist)
         tracks = await c.get_artist_track_ids(artist_name=artist)
         for track in tracks["tracks"]["items"]:
+            logging.info(f"{artist}-{track['id']}")
             track_ids.append(track["id"])
     logging.info(f"Total number of tracks: {len(track_ids)}")
     return track_ids
@@ -120,6 +120,7 @@ async def get_tracks(c:Spotify):
 
 async def get_track_audio_features(c: Spotify, track_id: str):
     track = await c.get_audio_features(track_id=track_id)
+    pprint(track)
     return track 
 
 async def gather_tasks(c: Spotify, track_ids):
