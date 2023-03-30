@@ -31,3 +31,9 @@ class Spotify:
         params = {"limit" : 20, "q" : artist_name, "type": "track"}
         resp = requests.get(url = url, params = params, headers = headers)
         return resp.json()
+    
+
+    def get_audio_features(self, track_id: str):
+        endpoint = f"https://api.spotify.com/v1/audio-features/{track_id}"
+        resp = requests.get(url = endpoint)
+        return resp.json()
