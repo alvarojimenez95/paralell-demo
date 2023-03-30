@@ -1,96 +1,2576 @@
+asyncio - DEBUG - Using selector: KqueueSelector
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
 urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
-asyncio - DEBUG - Using selector: KqueueSelector
-root - INFO - Talking Heads
-root - INFO - Carl Perkins
-root - INFO - Curtis Mayfield
-root - INFO - R.E.M.
-root - INFO - Diana Ross and the Supremes
-root - INFO - Lynyrd Skynyrd
-root - INFO - Nine Inch Nails
-root - INFO - Booker T. and the MGs
-root - INFO - Guns n’ Roses
-root - INFO - Tom Petty
-root - INFO - Carlos Santana
-root - INFO - The Yardbirds
-root - INFO - Jay-Z
-root - INFO - Gram Parsons
-root - INFO - Tupac Shakur
-root - INFO - Black Sabbath
-root - INFO - James Taylor
-root - INFO - Eminem
-root - INFO - Creedence Clearwater Revival
-root - INFO - The Drifters
-root - INFO - Elvis Costello
-root - INFO - The Four Tops
-root - INFO - The Stooges
-root - INFO - Beastie Boys
-root - INFO - The Shirelles
-root - INFO - Eagles
-root - INFO - Hank Williams
-root - INFO - Hank Williams
-root - INFO - AC/DC
-root - INFO - Frank Zappa
-root - INFO - The Police
-root - INFO - Jackie Wilson
-root - INFO - The Temptations
-root - INFO - Cream
-root - INFO - Al Green
-root - INFO - The Kinks
-root - INFO - Phil Spector
-root - INFO - Tina Turner
-root - INFO - Joni Mitchell
-root - INFO - Metallica
-root - INFO - The Sex Pistols
-root - INFO - Aerosmith
-root - INFO - Parliament and Funkadelic
-root - INFO - Grateful Dead
-root - INFO - Dr. Dre
-root - INFO - Eric Clapton
-root - INFO - Howlin’ Wolf
-root - INFO - The Allman Brothers Band
-root - INFO - Queen
-root - INFO - Pink Floyd
-root - INFO - Simon and Garfunkel
-root - INFO - David Bowie
-root - INFO - John Lennon
-root - INFO - Roy Orbison
-root - INFO - Madonna
-root - INFO - Michael Jackson
-root - INFO - Neil Young
-root - INFO - The Everly Brothers
-root - INFO - Smokey Robinson and the Miracles
-root - INFO - Johnny Cash
-root - INFO - Nirvana
-root - INFO - The Who
-root - INFO - The Clash
-root - INFO - Prince
-root - INFO - The Ramones
-root - INFO - Fats Domino
-root - INFO - Jerry Lee Lewis
-root - INFO - Bruce Springsteen
-root - INFO - U2
-root - INFO - Otis Redding
-root - INFO - Bo Diddley
-root - INFO - The Velvet Underground
-root - INFO - Marvin Gaye
-root - INFO - Muddy Waters
-root - INFO - Sam Cooke
-root - INFO - Stevie Wonder
-root - INFO - Led Zeppelin
-root - INFO - Buddy Holly
-root - INFO - The Beach Boys
-root - INFO - Bob Marley
-root - INFO - Ray Charles
-root - INFO - Aretha Franklin
-root - INFO - Little Richard
-root - INFO - James Brown
-root - INFO - Jimi Hendrix
-root - INFO - Chuck Berry
-root - INFO - The Rolling Stones
-root - INFO - Elvis Presley
-root - INFO - Bob Dylan
-root - INFO - The Beatles
-root - INFO - Total number of tracks: 1800
-asyncio - DEBUG - Using selector: KqueueSelector
-root - INFO - Time elapsed: 78.2553275829996 seconds
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - A new Spotify client is created.
+root - INFO - Retrieving token
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): accounts.spotify.com:443
+urllib3.connectionpool - DEBUG - https://accounts.spotify.com:443 "POST /api/token?grant_type=client_credentials HTTP/1.1" 200 None
+root - INFO - Total number of tracks: 20
+root - INFO - Tom Petty - 5tVA6TkbaAH9QMITTQRrNv
+root - INFO - Total number of tracks: 20
+root - INFO - Nine Inch Nails - 2oDqmfa2g8W893LlwJG1qu
+root - INFO - Total number of tracks: 20
+root - INFO - Booker T. and the MGs - 4fQMGlCawbTkH9yPPZ49kP
+root - INFO - Total number of tracks: 20
+root - INFO - Curtis Mayfield - 0MHXrqn909p0LRTPsNsGEi
+root - INFO - Total number of tracks: 20
+root - INFO - Talking Heads - 1i6N76fftMZhijOzFQ5ZtL
+root - INFO - Total number of tracks: 20
+root - INFO - Carl Perkins - 6pU82AsqA4MbvXbAseqXTa
+root - INFO - Total number of tracks: 20
+root - INFO - Guns n’ Roses - 7snQQk1zcKl8gZ92AnueZW
+root - INFO - Total number of tracks: 20
+root - INFO - R.E.M. - 1xWH8zYtDeS9mW1JJG23VZ
+root - INFO - Total number of tracks: 20
+root - INFO - Diana Ross and the Supremes - 79Yk6AlSKi5dxDFINID2hS
+root - INFO - Total number of tracks: 20
+root - INFO - Lynyrd Skynyrd - 7e89621JPkKaeDSTQ3avtg
+root - INFO - Tom Petty - 7MooGz4ZPE4bNxjFegR6Jx
+root - INFO - Diana Ross and the Supremes - 6kAS4yj3wHJXcLp93vr5aG
+root - INFO - Talking Heads - 2VNfJpwdEQBLyXajaa6LWT
+root - INFO - Lynyrd Skynyrd - 1ju7EsSGvRybSNEsRvc7qY
+root - INFO - Booker T. and the MGs - 6KKcey1w86oP0qxN8frbfD
+root - INFO - Guns n’ Roses - 0G21yYKMZoHa30cYVi1iA8
+root - INFO - Carl Perkins - 5d6ZRqgbz26Sg4bk1oifQw
+root - INFO - R.E.M. - 31AOj9sFz2gM0O3hMARRBx
+root - INFO - Nine Inch Nails - 5ugzDiilhy6ILKmKfhEzd7
+root - INFO - Curtis Mayfield - 1Mq4vRRox3bcruJA75M4D9
+root - INFO - Tom Petty - 7gSQv1OHpkIoAdUiRLdmI6
+root - INFO - Diana Ross and the Supremes - 4yChgYDVcQrAgIEIErW27b
+root - INFO - Talking Heads - 6aBUnkXuCEQQHAlTokv9or
+root - INFO - Lynyrd Skynyrd - 5EWPGh7jbTNO2wakv8LjUI
+root - INFO - Booker T. and the MGs - 3XOVanRi3prWDEZQiZTlYx
+root - INFO - Nine Inch Nails - 1lo9k4PrxFd5Np4cAxXoKo
+root - INFO - Curtis Mayfield - 4XsH9zBWPOCdXoH9ZDdS8r
+root - INFO - R.E.M. - 2fdfsGuqb6SBX5ocoBWHUd
+root - INFO - Guns n’ Roses - 6eN1f9KNmiWEhpE2RhQqB5
+root - INFO - Carl Perkins - 3qz0e03PIaalwcCGwaJHMs
+root - INFO - Tom Petty - 3dmqIB2Qxe2XZobw9gXxJ6
+root - INFO - Diana Ross and the Supremes - 3Rhxe6P1im82NFVkt9X2qZ
+root - INFO - Talking Heads - 1Tr4K5MU5XYE44umXGDndd
+root - INFO - Booker T. and the MGs - 3Q031ckN7rwljKZhEQvvcR
+root - INFO - Lynyrd Skynyrd - 6PPhp1qpAjLUxQr75vSD4H
+root - INFO - Nine Inch Nails - 0m1DJ5Jkv3kdnGrcZsJFmC
+root - INFO - R.E.M. - 2oSpQ7QtIKTNFfA08Cy0ku
+root - INFO - Curtis Mayfield - 7zrPswSV1yxrill5OyCuaU
+root - INFO - Carl Perkins - 1Cp3Cv1oEqWebCs3YdjGe2
+root - INFO - Guns n’ Roses - 0vfPEfQk0ZCHExTZ007Ryr
+root - INFO - Diana Ross and the Supremes - 69EILuL34ggLWQsa626bes
+root - INFO - Tom Petty - 4mcZYzoGwPRDdhWVlygiHf
+root - INFO - Talking Heads - 38Ngied9rBORlAbLYNCl4k
+root - INFO - Booker T. and the MGs - 1XCqGflyHjZAE1BnRqWUc9
+root - INFO - Nine Inch Nails - 3ckd4YA4LcD3j50rfIVwUe
+root - INFO - Lynyrd Skynyrd - 0x2wtJbtJrox3SDmnMj97x
+root - INFO - Carl Perkins - 0T0qUG5LFTSDNSLtTPXvBA
+root - INFO - Curtis Mayfield - 2ouFIPC3O1HNBcVTw1d9AN
+root - INFO - R.E.M. - 22UhQSbYimuCnvI0Y07gFX
+root - INFO - Guns n’ Roses - 3YRCqOhFifThpSRFJ1VWFM
+root - INFO - Diana Ross and the Supremes - 4OS8sQZgai4XAJv91EjWgL
+root - INFO - Booker T. and the MGs - 1VQafOMVQSAngQwX8qe0FS
+root - INFO - Nine Inch Nails - 0XfNjyJcb7d2ZAscVM4K7J
+root - INFO - Tom Petty - 7MRyJPksH3G2cXHN8UKYzP
+root - INFO - Talking Heads - 7dSCxR4LqkmxoBrq9MzVSD
+root - INFO - Lynyrd Skynyrd - 52DKGPMQ21DauCR19pQ0BK
+root - INFO - Guns n’ Roses - 4JiEyzf0Md7KEFFGWDDdCr
+root - INFO - Carl Perkins - 75MzeS5tyJDX7a5ZytcqS8
+root - INFO - Curtis Mayfield - 01gDLZsi0j5fWC28FLPNO8
+root - INFO - R.E.M. - 6PypGyiu0Y2lCDBN1XZEnP
+root - INFO - Diana Ross and the Supremes - 69RH84na5iUNwrwxpgjC5j
+root - INFO - Booker T. and the MGs - 4lkwEgSppKli27thHdeRgc
+root - INFO - Tom Petty - 5x53pbGk6sbl1BGom19QQ5
+root - INFO - Lynyrd Skynyrd - 12WiGqEs3t5hrzBJTe1K0P
+root - INFO - Guns n’ Roses - 2N2yrmodOnVF10mKvItC9P
+root - INFO - Nine Inch Nails - 06UVb2bREPv8hvioVkaMvC
+root - INFO - Talking Heads - 5JwK7v6XhG0YgqDuCgzOy8
+root - INFO - Carl Perkins - 0wNnwLgq5N9lWYib8eUnu6
+root - INFO - Curtis Mayfield - 72aE17MO1hgAziGJa6bQQe
+root - INFO - R.E.M. - 3geRffSf6eAruhg23RkpKV
+root - INFO - Diana Ross and the Supremes - 4nop5UmWUqnlxkQ4kvG3Rp
+root - INFO - Booker T. and the MGs - 06yzME6dtXmBFO4DB5rVaT
+root - INFO - Tom Petty - 5yAu4njFSdM47dfsTkQPZ2
+root - INFO - Guns n’ Roses - 1OEoNpiyqBghuEUaT6Je6U
+root - INFO - Nine Inch Nails - 0ypg59NyOVCpWVzd0SUsT5
+root - INFO - Lynyrd Skynyrd - 64sn7wgJfeQKY3Jisnl59w
+root - INFO - Talking Heads - 1auuYcOrua5hrsGCS7idun
+root - INFO - R.E.M. - 7707eDBpR4qtNFoQ6nQyeR
+root - INFO - Booker T. and the MGs - 4QjiDW3IsWrWNynFCIRz7K
+root - INFO - Diana Ross and the Supremes - 6b6IMqP565TbtFFZg9iFf3
+root - INFO - Curtis Mayfield - 7gmB6hVMsv0XbjfiTgpATI
+root - INFO - Carl Perkins - 02kQ7OGoUqFnEZaWTtVdbG
+root - INFO - Guns n’ Roses - 0rFWuqFgHAfuzE8uSB9TWR
+root - INFO - Tom Petty - 4AiMaeCXwsldpwvA5wu5gM
+root - INFO - Nine Inch Nails - 2BUb9KdCYOtPUGSz2wsKYd
+root - INFO - Talking Heads - 7CqleiaEqHVazV19P532X9
+root - INFO - Lynyrd Skynyrd - 5rHGRbh5F1oFQ4CdpzFyhN
+root - INFO - Booker T. and the MGs - 7viT9kDjq8PIx57sRCID0b
+root - INFO - R.E.M. - 7ywlnXV5O0h8T5pCRUN1f5
+root - INFO - Diana Ross and the Supremes - 1UJWs9gXh34F1lV4RFg5rO
+root - INFO - Curtis Mayfield - 7J8F8mHNV79WSV3N2lVwHH
+root - INFO - Carl Perkins - 0unAl7To2LB54WHpwinPQz
+root - INFO - Guns n’ Roses - 6i4Qi1mJxXjqNIL9HfJhRs
+root - INFO - Tom Petty - 2Pr1nZpt8A8WP7QYpyq6L3
+root - INFO - Nine Inch Nails - 59FwEQpuagQZQVP71h9OIq
+root - INFO - Booker T. and the MGs - 07gqtfrAH5vzbL03fsC0xz
+root - INFO - R.E.M. - 1v2zyAJrChw5JnfafSkwkJ
+root - INFO - Talking Heads - 5gS8whHdcpbkdz0qonQZF8
+root - INFO - Lynyrd Skynyrd - 0uZs7p6cbEUNwGMdfNj9Kk
+root - INFO - Diana Ross and the Supremes - 1KbuhBnzMHp4eq1q6flhWd
+root - INFO - Carl Perkins - 6cXxTo92t1WZbqJeyQGi54
+root - INFO - Tom Petty - 5eMZ3EPIMGoWlrrVhxatdv
+root - INFO - Nine Inch Nails - 5mc6EyF1OIEOhAkD0Gg9Lc
+root - INFO - Curtis Mayfield - 42RQ7y3irkGGTwc4QUVhH9
+root - INFO - Guns n’ Roses - 6MtXDDHNC16r4RpdYhufO8
+root - INFO - Talking Heads - 7rurqfPGIwwPtEmIYmQ9QQ
+root - INFO - R.E.M. - 4jLv3tDBu8ww2R07DvL12s
+root - INFO - Booker T. and the MGs - 5gFlfviA4rdCIe2UPTi1yU
+root - INFO - Lynyrd Skynyrd - 02UFwtmJ0ogLQWMx43Okuh
+root - INFO - Diana Ross and the Supremes - 1JguzruTnY4PrbWu7BKD38
+root - INFO - Carl Perkins - 0y24jS32Msz0vmm8i9i8ZH
+root - INFO - Tom Petty - 17S4XrLvF5jlGvGCJHgF51
+root - INFO - Guns n’ Roses - 0dlTGl67UFWcKupzkxZYOn
+root - INFO - Nine Inch Nails - 1S30kHvkkdMkcuCTGSgS41
+root - INFO - Curtis Mayfield - 5wdlG60d0WHoo8P3QzrlbG
+root - INFO - Talking Heads - 1oV1tu8utgHQjLJsEK9sVl
+root - INFO - R.E.M. - 7sNhXWrg9eW3qRqeuePaIC
+root - INFO - Booker T. and the MGs - 2hiyBTmktBYzvLixq5V2v4
+root - INFO - Lynyrd Skynyrd - 2OOcagX0sr4SQuBbHJkE5I
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Diana Ross and the Supremes - 7oX8MJu78ZCGAC8lADvIWf
+root - INFO - Guns n’ Roses - 58YL9Jo1T0wyijCOZWRmyL
+root - INFO - Tom Petty - 3BSoskNONnjn05yRO2tYFX
+root - INFO - Carl Perkins - 4nVOqeA98ZOk7vteS1VJhr
+root - INFO - Nine Inch Nails - 14tKBoKXxGakkoEmYuFfor
+root - INFO - Talking Heads - 5DAW2q6DYyfNe4npGYKaHt
+root - INFO - Curtis Mayfield - 6Kp8JhZVCmL20H8Wd7Rs2E
+root - INFO - R.E.M. - 2ElyyOi86SHyMKcUrv2f8e
+root - INFO - Lynyrd Skynyrd - 2e6qroe20tHfu8aTQSTglt
+root - INFO - Booker T. and the MGs - 6EjWezCHHgaqxpQYhLSlP7
+root - INFO - Tom Petty - 0YkbYk24ODhuewb79zZZzM
+root - INFO - Guns n’ Roses - 0LwZjpeiM0f28VpFvqOSYQ
+root - INFO - Diana Ross and the Supremes - 0tSEr1QEKjSJgHUlWyOcZC
+root - INFO - Carl Perkins - 32q7HHkDDaAVQDf1y0VB4p
+root - INFO - Nine Inch Nails - 3o1nX61oecxnqXieA2ma0U
+root - INFO - Talking Heads - 3yO1OjqT59JyjHaQZcCYDX
+root - INFO - R.E.M. - 0svaiEE8lMG6Q3PjMWdxLq
+root - INFO - Curtis Mayfield - 4pbZcKtuu2GuX5hbrxkSUc
+root - INFO - Lynyrd Skynyrd - 2UQWW8rhNJo5tBt77LnbZH
+root - INFO - Booker T. and the MGs - 0AuM6Fku5nWZ0CM21YEzty
+root - INFO - Tom Petty - 5AzpZ5ADn1AFPxcEBd2Ugf
+root - INFO - Guns n’ Roses - 65G4Ib3w7tgLjUkO5GseN0
+root - INFO - Diana Ross and the Supremes - 4sIkDCqNjTubfb5UVs8lEA
+root - INFO - Carl Perkins - 3C1b5EFCrs5G18iiMYNaLv
+root - INFO - R.E.M. - 3xPKSMgZl4N3rfTyIgSPfa
+root - INFO - Nine Inch Nails - 0hZpRFdaq34ykHEwvWbviP
+root - INFO - Curtis Mayfield - 58g78TAudwqiMzSJHrhjYB
+root - INFO - Booker T. and the MGs - 73U40I3EmKz8Wh6PJaihJ0
+root - INFO - Lynyrd Skynyrd - 0ZQmpf5gk4k5VMopcAtyAc
+root - INFO - Talking Heads - 2Ts6CXoCmnFilpPKdaZz4i
+root - INFO - Guns n’ Roses - 3s03nrUInN3NAVjQtmnS0O
+root - INFO - Tom Petty - 4ZA0EXmjnZIYguEMf0Mc88
+root - INFO - Carl Perkins - 47QX0b8RYTJNXyHT8WSV5Y
+root - INFO - Diana Ross and the Supremes - 15WLFtkW9WgirercvrCmSW
+root - INFO - R.E.M. - 6MVsglpCXFeS8sY2aGU8DN
+root - INFO - Nine Inch Nails - 28cnXtME493VX9NOw9cIUh
+root - INFO - Curtis Mayfield - 5swauGxVgq6cUPHCohoOyf
+root - INFO - Booker T. and the MGs - 3S80BeZOHtVw59qop6i4bv
+root - INFO - Lynyrd Skynyrd - 5ftkCxdoFGmkXbm5zgu0lS
+root - INFO - Talking Heads - 5cE2nMYDgYj9gqG4KLafKy
+root - INFO - Guns n’ Roses - 7CBFRsUz1pz1cS12soVhih
+root - INFO - Tom Petty - 2ZS3jFe6p8UoVyrY5jWBlF
+root - INFO - Carl Perkins - 0QCeIQH7f19JsaSW0AQ9vF
+root - INFO - Diana Ross and the Supremes - 0cP6MyvBwQwYnGqNAS3lkf
+root - INFO - R.E.M. - 6pcGdT0AElXwOPOsAV9Gwy
+root - INFO - Nine Inch Nails - 7wWa2By6UumtuTAv1RAVfF
+root - INFO - Curtis Mayfield - 1aPTqdBzTN7IBKYQ6VzEg9
+root - INFO - Lynyrd Skynyrd - 72FTNsVwlDXMgxyEnmjwM0
+root - INFO - Booker T. and the MGs - 2wHCe9ru5uJ2qSRIHfBwbk
+root - INFO - Talking Heads - 0Q2b6AxWV5tD117XktdQxl
+root - INFO - Guns n’ Roses - 11VGhd5i7deLL0YB0ayicY
+root - INFO - Tom Petty - 4vvcGtmN9xgYa96teLUgFS
+root - INFO - Carl Perkins - 1ebdnKUYqnLLjcWS3xOtZW
+root - INFO - Diana Ross and the Supremes - 5pGfZLAljV8ZMXrGNMAbFg
+root - INFO - R.E.M. - 7iqds11TrI0RS6p3ALk004
+root - INFO - Curtis Mayfield - 0zBNc7XcWXNHxeszwFsKiL
+root - INFO - Nine Inch Nails - 3aN2V18W3EiW7eg5tHALpF
+root - INFO - Booker T. and the MGs - 6g9JgnMV5bFM2D7FKfeEEl
+root - INFO - Lynyrd Skynyrd - 1QoKN0d8DqFvPLp8FaBp0I
+root - INFO - Guns n’ Roses - 3q9npStSssk7sZWotiNQLK
+root - INFO - Talking Heads - 0WWGUNT3HTY36fzr1kGnnP
+root - INFO - Tom Petty - 1c0flvMImhKMuiZIc0VzEb
+root - INFO - Carl Perkins - 1TEQraT8zARRbUedP529N2
+root - INFO - R.E.M. - 32kmXl5F8I3XDVKNfwwM4J
+root - INFO - Diana Ross and the Supremes - 61TRrYfz8GXUqvKXs5e5tY
+root - INFO - Curtis Mayfield - 3PrqRBsMdy8eZkbDqDb32p
+root - INFO - Nine Inch Nails - 0jem8KSDqhiOoIWIqrJZbI
+root - INFO - Lynyrd Skynyrd - 07xYMBIPw1Oan0BreDq6lr
+root - INFO - Guns n’ Roses - 0xaNdYwK8ZF3cHSjraQGC0
+root - INFO - Booker T. and the MGs - 2UqeOpAxxmy5wVGkjGZeur
+root - INFO - Talking Heads - 0aRtXmOhG0zypXF6nkLi2r
+root - INFO - Tom Petty - 1Pbu4tX4D7H9zCNuXuynp8
+root - INFO - Carl Perkins - 6UtbVV8qRPwDibzHlSvjvF
+root - INFO - Diana Ross and the Supremes - 4kglp9a7VWHM8mKuqJGtl5
+root - INFO - Curtis Mayfield - 5VETCvX0BpeIEG9cxdqS5E
+root - INFO - R.E.M. - 4maK4voqPZfmxQXFvkuj9n
+root - INFO - Nine Inch Nails - 5ECySGXI4N8MCv6jf7HU9n
+root - INFO - Lynyrd Skynyrd - 2vLhb34HqnPwNCKx0atimx
+root - INFO - Talking Heads - 6VyR9z26oKw6BvlwSjqvoY
+root - INFO - Curtis Mayfield - 0mIpT5VijWPv4b9s0K76qA
+root - INFO - Carl Perkins - 6Xs8va9c9ZgR2cLKSlo466
+root - INFO - Total number of tracks: 20
+root - INFO - Black Sabbath - 1Y373MqadDRtclJNdnUXVc
+root - INFO - Total number of tracks: 20
+root - INFO - The Yardbirds - 6o21UfW2RHkzzleZGLfFpK
+root - INFO - Total number of tracks: 20
+root - INFO - Carlos Santana - 3DKWF8is9hzp84aSxnhlag
+root - INFO - Total number of tracks: 20
+root - INFO - Tupac Shakur - 0Z2J91b2iTGLVTZC4fKgxf
+root - INFO - Total number of tracks: 20
+root - INFO - Jay-Z - 4Li2WHPkuyCdtmokzW2007
+root - INFO - Total number of tracks: 20
+root - INFO - Gram Parsons - 7vOYp7KJ8gVmVbcatSVf9J
+root - INFO - Black Sabbath - 6q4yVOTF91QRCukCQ1IzTV
+root - INFO - Total number of tracks: 20
+root - INFO - James Taylor - 1oht5GevPN9t1T3kG1m1GO
+root - INFO - The Yardbirds - 5bC4y9Zhn6ng0MOzACCHkc
+root - INFO - Carlos Santana - 3XKIUb7HzIF1Vu9usunMzc
+root - INFO - Tupac Shakur - 6tDxrq4FxEL2q15y37tXT9
+root - INFO - Total number of tracks: 20
+root - INFO - The Drifters - 65jrjEhWfAvysKfnojk1i0
+root - INFO - Jay-Z - 2igwFfvr1OAGX9SKDCPBwO
+root - INFO - Gram Parsons - 044sG5pgwwUSXBekDecuZH
+root - INFO - Black Sabbath - 3IOQZRcEkplCXg6LofKqE9
+root - INFO - Total number of tracks: 20
+root - INFO - Creedence Clearwater Revival - 4BP3uh0hFLFRb5cjsgLqDh
+root - INFO - James Taylor - 1XUKItaRs2494LclJwHhl8
+root - INFO - The Yardbirds - 3HlbrnCBdrJ1NObHLMXSZh
+root - INFO - Carlos Santana - 4YMQXzscifAREG0a7KNGhB
+root - INFO - Tupac Shakur - 5g9lS8deSIxItFBmZRC4vN
+root - INFO - Jay-Z - 1gT5TGwbkkkUliNzHRIGi1
+root - INFO - The Drifters - 2s4B4fUlVIkE4ELgoupjXL
+root - INFO - Gram Parsons - 72DefuF22C6aPKrWhRFCBS
+root - INFO - Black Sabbath - 0HVQuuXGAcQ2P5mBN521ae
+root - INFO - Creedence Clearwater Revival - 2LawezPeJhN4AWuSB0GtAU
+root - INFO - Total number of tracks: 20
+root - INFO - Eminem - 561jH07mF1jHuk7KlaeF0s
+root - INFO - James Taylor - 2T5Ch09nefwckOu5NQvjIk
+root - INFO - The Yardbirds - 0AiuEo7FCxP2y2WTOpLPe5
+root - INFO - Tupac Shakur - 6LwrEZNkvFTOypNwSLjuaJ
+root - INFO - Carlos Santana - 7x6hO9VMAee9x1iWaeNkL6
+root - INFO - Jay-Z - 7LR85XLWw2yXqKBSI5brbG
+root - INFO - The Drifters - 7cNRqg0lbiqBaGeOlA4AEU
+root - INFO - Gram Parsons - 7DK9shWJm361lm1ks32axt
+root - INFO - Black Sabbath - 2rd9ETlulTbz6BYZcdvIE1
+root - INFO - Creedence Clearwater Revival - 5jRQvcl66ovRTjUwzXziZA
+root - INFO - Eminem - 7lQ8MOhq6IN2w8EYcFNSUk
+root - INFO - James Taylor - 5ONuwMIXAukbMNQCCSjjm0
+root - INFO - The Yardbirds - 07KYQySlrmE94gaLbhvp4X
+root - INFO - Carlos Santana - 0n2SEXB2qoRQg171q7XqeW
+root - INFO - Tupac Shakur - 3ia3dJETSOllPsv3LJkE35
+root - INFO - Jay-Z - 7m97yKVzPpXV9Z4ezEziOD
+root - INFO - The Drifters - 7pOWWGpUc3T05IXfymgIP3
+root - INFO - Gram Parsons - 7kJpAkJSFMCkM6T4plsRLd
+root - INFO - Creedence Clearwater Revival - 2tpPgG8Xkdbhn5xf77EVPP
+root - INFO - Eminem - 3yfqSUWxFvZELEM4PmlwIR
+root - INFO - Black Sabbath - 0xIZPPBfLqQEAj1BLmGrNc
+root - INFO - James Taylor - 75Nlnd9AJ4CYrLXgWGsuTF
+root - INFO - The Yardbirds - 2Bi0JWdxDMaKPanNofJSdL
+root - INFO - Tupac Shakur - 3j9UIPpivEXyfV67agjXKH
+root - INFO - Carlos Santana - 5u6y4u5EgDv0peILf60H5t
+root - INFO - Gram Parsons - 2PFNJwPprlAGmYyuJeoX0x
+root - INFO - Jay-Z - 2yPoXCs7BSIUrucMdK5PzV
+root - INFO - The Drifters - 391TUcoPonqYykPkSZ5Z9U
+root - INFO - Creedence Clearwater Revival - 20OFwXhEXf12DzwXmaV7fj
+root - INFO - Eminem - 5Z01UMMf7V1o0MzF86s6WJ
+root - INFO - Black Sabbath - 4MSqgoFS7e8LpsxeeMMVMu
+root - INFO - James Taylor - 0CMuiL9aePFA6VG3wBeNPi
+root - INFO - The Yardbirds - 4OjqrdD3QILzxkGwNoMk0c
+root - INFO - Carlos Santana - 3uRaD26t3RkJ8n549udQ83
+root - INFO - Tupac Shakur - 1ofhfV90EnYhEr7Un2fWiv
+root - INFO - Gram Parsons - 28xYsYblby21yWGCRcF5Cm
+root - INFO - Jay-Z - 4LGMSdeKOUoy5Wf75Je0Hl
+root - INFO - The Drifters - 72Z28IsvEVLjSWdUKEQgZ0
+root - INFO - Creedence Clearwater Revival - 5XE8c07vbpQBUriwybOHtd
+root - INFO - Eminem - 4xkOaSrkexMciUUogZKVTS
+root - INFO - Black Sabbath - 5clz8BOBulxx7q2yHxqOCk
+root - INFO - Carlos Santana - 2pX4FpOgwItRVPPUFdRcxA
+root - INFO - James Taylor - 1Q34tAtTWI6RdW1qzFQiPb
+root - INFO - The Yardbirds - 6pW2lKORQaIC6JR4qBNG9e
+root - INFO - Tupac Shakur - 4VQNCzfZ3MdHEwwErNXpBo
+root - INFO - Gram Parsons - 2NY6C7Eo5YNUsOK6y9Nxk1
+root - INFO - Jay-Z - 5Tl0HJvynZtKdSUMKbFVVX
+root - INFO - The Drifters - 4vBDAxKllafwCMDWD76atv
+root - INFO - Creedence Clearwater Revival - 2ciMJGCDW70hqq18Vgui68
+root - INFO - Black Sabbath - 4svkPL62HbvyFgf0nHFXAF
+root - INFO - Eminem - 7FIWs0pqAYbP91WWM0vlTQ
+root - INFO - Carlos Santana - 5tmrnhMxx39jnu3kjopMdP
+root - INFO - James Taylor - 70aUjWZmd9F3bRSsR4DwAJ
+root - INFO - The Yardbirds - 48fcwp3ZkLYlhk8xUL7Rib
+root - INFO - Tupac Shakur - 1qZqFtSINOOmjYH1UE9805
+root - INFO - Gram Parsons - 6Bijmp2RULR8SgmpqRe7tx
+root - INFO - Jay-Z - 5IVuqXILoxVWvWEPm82Jxr
+root - INFO - Creedence Clearwater Revival - 56dtB7EzO7EneUgYwX8krC
+root - INFO - The Drifters - 7nn0V1maFiJDBDg2umSGMb
+root - INFO - Black Sabbath - 2GnVuaoKSkB6Xa07l1BBg8
+root - INFO - Eminem - 77Ft1RJngppZlq59B6uP0z
+root - INFO - Carlos Santana - 4nmne9J3YCEdhvjTzwiAgu
+root - INFO - Tupac Shakur - 0XRbYXQUymj9SJkrr8YK5B
+root - INFO - James Taylor - 17PXXzOygMyXXUNLngVN5u
+root - INFO - The Yardbirds - 1oXq63OUf43LDnNPVtfvX8
+root - INFO - Jay-Z - 6JpN5w95em8SODPiM7W2PH
+root - INFO - Creedence Clearwater Revival - 5DnT9a5IM3eMjKgXTWVJvi
+root - INFO - The Drifters - 0jrdWPwYjUZvqfJcwE8ddh
+root - INFO - Gram Parsons - 5Cowo0HkGFfoeCRrc09jc0
+root - INFO - Black Sabbath - 7f5pVscGqWGPmzyAJ3thAI
+root - INFO - Eminem - 4woTEX1wYOTGDqNXuavlRC
+root - INFO - Carlos Santana - 2WoqgtWEBbbBKMDN6Becs7
+root - INFO - The Yardbirds - 2L5Bx3LhFMr078xAVfATny
+root - INFO - James Taylor - 6zV8IpLvw0tkRSVCFQJB1y
+root - INFO - Tupac Shakur - 6sCtddSFg3foJn4K2pIhfQ
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Black Sabbath - 5QdBAG8cpZhM3kIAQLDRN2
+root - INFO - Eminem - 6or1bKJiZ06IlK0vFvY75k
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - James Taylor - 69foTA1ElY03DJQb7bbA0e
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - James Taylor - 4sI8uN1G3PsoiNizkOqATO
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Jay-Z - 4h5KBcltGefua73AUPYps7
+root - INFO - Creedence Clearwater Revival - 2gE95JskwQ1pCACTpGe1Db
+root - INFO - Carlos Santana - 567UAkWoLBqZ709s3Qcbze
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Tupac Shakur - 4voEoczU7Ijborps9XF1n3
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Black Sabbath - 3Jl5GohfNwozDmpzmQBLDI
+root - INFO - Eminem - 15JINEqzVMv3SvJTAXAKED
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Gram Parsons - 6p7g9kd8ZgDyk05xJgxB8C
+root - INFO - The Drifters - 6V7KP8cBGKFMMvsWwNoRyh
+root - INFO - Gram Parsons - 1aACqF2tnGA9PTQysMSqRT
+root - INFO - The Drifters - 2806jBTs12WAfzFImSxJzL
+root - INFO - The Yardbirds - 0ZlHagHJBjhlVt7fUt6ywj
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - James Taylor - 1WDgdCoNSN0fosaTaLGXKU
+root - INFO - James Taylor - 6EuudaFtwibd4tzcWjonb2
+root - INFO - James Taylor - 2cNELi1hzt3eWwYHYkJKub
+root - INFO - James Taylor - 2OBaVeRFXblWxoZHC4sryf
+root - INFO - James Taylor - 72V7HVj71eNXogp7y4gfVw
+root - INFO - James Taylor - 1Pwcxq35Hl2kqwUVd5XCRg
+root - INFO - James Taylor - 0RJ6CvfsnjMK3v4KK4Y6fo
+root - INFO - James Taylor - 0i1XtQ6hOET96dz5oG45zl
+root - INFO - Creedence Clearwater Revival - 6z2AyfE9GZxoHqJVSA4NgN
+root - INFO - Jay-Z - 49FYlytm3dAAraYgpoJZux
+root - INFO - Carlos Santana - 35fC3Wq3slX4OBfyvBVmHm
+root - INFO - Tupac Shakur - 4AE7Lj39VnSZNOmGH2iZaq
+root - INFO - Black Sabbath - 6sjTzevtstOxOMsFsypsEm
+root - INFO - Eminem - 7iXF2W9vKmDoGAhlHdpyIa
+root - INFO - Jay-Z - 5MnXRG5LzgSzdpIkg5nagT
+root - INFO - Creedence Clearwater Revival - 4pa2MVIzM111QSg0i4yncf
+root - INFO - Gram Parsons - 3JsEYcCdBXiDUsuDqcZpaa
+root - INFO - Carlos Santana - 4VbOIkKqt0gkZpC75oKSxS
+root - INFO - The Drifters - 4u2Kn8DaYBEuB19AjWcMDn
+root - INFO - The Yardbirds - 2Ajtl0ro60h3VN3rD3Y1IF
+root - INFO - Tupac Shakur - 3tEF8OVMLIp56LEi3lTmbe
+root - INFO - Black Sabbath - 2bku1YWarHpKlxVC2FB9dH
+root - INFO - Eminem - 2SL6oP2YAEQbqsrkOzRGO4
+root - INFO - Jay-Z - 3Osd3Yf8K73aj4ySn6LrvK
+root - INFO - Gram Parsons - 3THXntC8T110BDg3X8OaOf
+root - INFO - Creedence Clearwater Revival - 11DjZQEZ69EXLo77HVj6yW
+root - INFO - Carlos Santana - 59uqWPaagd0khPaauWM2lU
+root - INFO - The Drifters - 5y2m5EePLwcTAUa3iXxztB
+root - INFO - Tupac Shakur - 4U6qrE2SSWYGVKCnT6VbmF
+root - INFO - The Yardbirds - 1v96RybZESo59gXCI0i96s
+root - INFO - Black Sabbath - 2FZ0yrA5aPClG5ZPBlV7n4
+root - INFO - Eminem - 3UmaczJpikHgJFyBTAJVoz
+root - INFO - Jay-Z - 2ey8VvW7LS4G0q9xtgEtBA
+root - INFO - Gram Parsons - 67nZEOZ5re0q0IueyF1dKc
+root - INFO - Creedence Clearwater Revival - 4Sk6QA0RoRqZ3Hg9TlAX4X
+root - INFO - Carlos Santana - 6VdGDiy7V3j9LqfC5E1Uvi
+root - INFO - Tupac Shakur - 2HQ2kMx7j93hQvfIA7Kzx9
+root - INFO - The Drifters - 3CH8M5lB931faZDzjCTfVW
+root - INFO - Black Sabbath - 34aKsAXIfB6ZI6rlMSkXkk
+root - INFO - The Yardbirds - 5XvRlVna2sUG53LM1d1Nkc
+root - INFO - Eminem - 1jo3TwNGCXfNdB5uba3ZVv
+root - INFO - Jay-Z - 3IrkbGQCoEPAkzJ0Tkv8nm
+root - INFO - Total number of tracks: 20
+root - INFO - Elvis Costello - 3oyc1mIdCBGaU55wX7otqM
+root - INFO - Gram Parsons - 7FE9gpMY21ujjILiOsfaM0
+root - INFO - Creedence Clearwater Revival - 6pxWv6GV35VGmcPf5dh6CH
+root - INFO - Carlos Santana - 6ROdBdytf5vS5jo2nHBvO5
+root - INFO - Tupac Shakur - 3djNBlI7xOggg7pnsOLaNm
+root - INFO - The Yardbirds - 0hIuZ0A7mlWQvSAoqYBbRn
+root - INFO - Black Sabbath - 2VDg6h3Qr3F8UuFVInQxE6
+root - INFO - Eminem - 23wfXwnsPZYe5A1xXRHb3J
+root - INFO - The Drifters - 6aPCq4osIKVgGyBJpH5g30
+root - INFO - Jay-Z - 5Pt83OUaK3K9C2if4C5JOk
+root - INFO - Elvis Costello - 1P9523tBg56NRc78lX2i4l
+root - INFO - Gram Parsons - 7hVRUAN5zIQjjCJwS9SXnG
+root - INFO - Creedence Clearwater Revival - 0LMURKNxUPx7OIInOqSc3N
+root - INFO - Carlos Santana - 41IShViF79gmulEkIHAjcb
+root - INFO - The Yardbirds - 7GsshbbtIlBFU5SKNDED5s
+root - INFO - Eminem - 2kQuhkFX7uSVepCD3h29g5
+root - INFO - Tupac Shakur - 7k4dnllwnFDizWHAWkYXsh
+root - INFO - Black Sabbath - 51MKd0GzWjAPmiB539tQAJ
+root - INFO - The Drifters - 5eh0402zJwaohvhArtKhQ4
+root - INFO - Elvis Costello - 1v98rfd0an913AzHvMNG8a
+root - INFO - Jay-Z - 7sLpSWxQazJzDVG6YGzlVs
+root - INFO - Gram Parsons - 0G4nINwiV4vjSdedpdA3Jz
+root - INFO - Creedence Clearwater Revival - 1YqJSpIxdavjQ8BxAttU0r
+root - INFO - Carlos Santana - 7xq4NAM0ukz7QqK0cBqpzt
+root - INFO - The Yardbirds - 4AgTyC3Sk2VEDjPPYtY3Q2
+root - INFO - Eminem - 4dh34dyav8M5jCN3yidn8Z
+root - INFO - Tupac Shakur - 5hzoEKZvvov9EKzrx419Ys
+root - INFO - The Drifters - 4USaMjmEK5XE5zqYbS7pAa
+root - INFO - Black Sabbath - 0wjptUxT1jhKZ3Xm4lX8OF
+root - INFO - Elvis Costello - 31Tp5iKrVUayn65qhg06nE
+root - INFO - Gram Parsons - 1J4VSGnisSb9ECF8z7pCPQ
+root - INFO - Jay-Z - 5sNESr6pQfIhL3krM8CtZn
+root - INFO - Creedence Clearwater Revival - 0mRLlcbMVGMjT5Pca8uMzl
+root - INFO - Carlos Santana - 7cDxjUnMitNKQC5c8RQUko
+root - INFO - The Drifters - 2JMKGaEUAwWXSMGDBqpmwM
+root - INFO - Tupac Shakur - 2S2x5N5VJNn7vqYukvoFFC
+root - INFO - Eminem - 75IN3CtuZwTHTnZvYM4qnJ
+root - INFO - The Yardbirds - 3RZJ8t73VrZ0DjGese3L84
+root - INFO - Elvis Costello - 0KrYPz4S4mKHeBjCwYJp0s
+root - INFO - Jay-Z - 68WCiBa9dfDU5PBhTl6MYe
+root - INFO - Gram Parsons - 6Y94d2AileV6DBWh9YoO14
+root - INFO - Creedence Clearwater Revival - 2ZFxZ4QNiciMhvJV2GjKWL
+root - INFO - The Drifters - 46Vcm3EXcBhWmdHKQ4eyQA
+root - INFO - Eminem - 7Ie9W94M7OjPoZVV216Xus
+root - INFO - The Yardbirds - 3WJtN4tfE2aUoPAU8Vq5N9
+root - INFO - Elvis Costello - 5zHgT1ibsBrSOEnQwZapto
+root - INFO - Creedence Clearwater Revival - 1Ay5MiilZj2ZGQLeTWVJ6o
+root - INFO - The Drifters - 3ntA3FI3FR18yPO9snKvZ3
+root - INFO - Eminem - 7BMO7O7ImjV8HNTH74Tshv
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Total number of tracks: 20
+root - INFO - The Four Tops - 6b6IMqP565TbtFFZg9iFf3
+root - INFO - Total number of tracks: 20
+root - INFO - The Stooges - 672N8DGGTOLCOgWe0koX5g
+root - INFO - Total number of tracks: 20
+root - INFO - Beastie Boys - 0Puj4YlTm6xNzDDADXHMI9
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Elvis Costello - 39rkLB2TEENIvhwAlRC5ae
+root - INFO - Elvis Costello - 6iwAag2I6ItdcixPp6A8KI
+root - INFO - Total number of tracks: 20
+root - INFO - Eagles - 40riOy7x9W7GXjyGp4pjAv
+root - INFO - Total number of tracks: 20
+root - INFO - Hank Williams - 73ZTWCuwudUVvvWipRnQnQ
+root - INFO - The Four Tops - 6q8NBpF6twALMb86FBpLgQ
+root - INFO - Elvis Costello - 1bqlDsBlBPxjK0zuFQcSXq
+root - INFO - Total number of tracks: 20
+root - INFO - The Shirelles - 25IiJu0DjOqsnQXgNHWp5i
+root - INFO - The Stooges - 79MMMdYL00iwKVHBSAUkLY
+root - INFO - Beastie Boys - 5NLuC70kZQv8q34QyQa1DP
+root - INFO - Hank Williams - 4tj7IsJrn4MvesuhoY0JBy
+root - INFO - Eagles - 01YKhZ5wPNWW2zNxYDtGRy
+root - INFO - The Four Tops - 3aCbwWCYCT3MJjZeUnlcp4
+root - INFO - Total number of tracks: 20
+root - INFO - AC/DC - 57bgtoPSgt236HzfBOd8kj
+root - INFO - Elvis Costello - 77XzsYwTkvLoveW01Lanrk
+root - INFO - The Shirelles - 7n5s7Hc5BU6C6KYa7NT3Fq
+root - INFO - The Stooges - 00sydAz6PeOxYzwG1dRIPi
+root - INFO - Beastie Boys - 2tY1gxCKslfXLFpFofYmJQ
+root - INFO - Total number of tracks: 20
+root - INFO - Frank Zappa - 4PPwkLq2ld1k09Bl5NkyZB
+root - INFO - Total number of tracks: 20
+root - INFO - Hank Williams - 73ZTWCuwudUVvvWipRnQnQ
+root - INFO - AC/DC - 2zYzyRzz6pRmhPzyfMEC8s
+root - INFO - Hank Williams - 0jo2E9nTTflJzAadadRaek
+root - INFO - Eagles - 4yugZvBYaoREkJKtbG08Qr
+root - INFO - Elvis Costello - 2xthFytAw7m7Tob2TOOmJv
+root - INFO - The Shirelles - 1SN5fcUZyWFktGbEoHdHOm
+root - INFO - The Stooges - 3NpnrlBcEwRIgBs8tUrhyb
+root - INFO - The Four Tops - 3aSWQJcWnnqgwYbAgidvlV
+root - INFO - Beastie Boys - 5fpizYGbi5IQoEraj6FP0R
+root - INFO - Frank Zappa - 1QY4TdhuNIOX2SHLdElzd5
+root - INFO - Hank Williams - 4tj7IsJrn4MvesuhoY0JBy
+root - INFO - Elvis Costello - 0qvo5kciIqZJn1t8jdfqDn
+root - INFO - Hank Williams - 77dcKrzRUI02XjHd2okARp
+root - INFO - Eagles - 2bzgKuK3pVez40qUvo8sYr
+root - INFO - The Shirelles - 4QMvxtZGcmvwWtmmoiRs5B
+root - INFO - AC/DC - 2SiXAy7TuUkycRVbbWDEpo
+root - INFO - The Stooges - 4bscUDqkO6soLEFXMr22ji
+root - INFO - The Four Tops - 6Pkj4nv5K53i64cLVgkVyY
+root - INFO - Beastie Boys - 0rVd7bTGtrQUW34xSLzozd
+root - INFO - Frank Zappa - 5uDu2qOoDou7cFXsipAo8l
+root - INFO - Hank Williams - 0jo2E9nTTflJzAadadRaek
+root - INFO - Eagles - 6gXrEUzibufX9xYPk3HD5p
+root - INFO - Elvis Costello - 2fcpeIoCs3pVmYzexXAnIk
+root - INFO - Hank Williams - 5kCsIDXG306DriJZ2gViLt
+root - INFO - AC/DC - 08mG3Y1vljYA6bvDt4Wqkj
+root - INFO - The Shirelles - 4HdRMye6yPWOFrfLLM7W6b
+root - INFO - The Stooges - 2ukIOcbkpWR5pjDtCRHCcX
+root - INFO - The Four Tops - 2PUkN5yn30Zqyte21DamYO
+root - INFO - Beastie Boys - 5qxChyzKLEyoPJ5qGrdurN
+root - INFO - Frank Zappa - 4dr49yNcSnkVXTlgXhpd13
+root - INFO - Hank Williams - 77dcKrzRUI02XjHd2okARp
+root - INFO - AC/DC - 0C80GCp0mMuBzLf3EAXqxv
+root - INFO - Eagles - 02BsTeJE4q5gWOTt58ur5U
+root - INFO - The Shirelles - 5sGeyWYDvUIF7QjERNCY7L
+root - INFO - Hank Williams - 61GEP8lryEfcuEgBMbRmNi
+root - INFO - Elvis Costello - 2HcE0UBhTeY1LYj4VcseJZ
+root - INFO - The Stooges - 4jgtwIapMV2IFv9hFKrRCa
+root - INFO - The Four Tops - 7d1ustAIlXG7ht5Q4IOv7s
+root - INFO - Hank Williams - 5kCsIDXG306DriJZ2gViLt
+root - INFO - Beastie Boys - 3gKwVWwKmeuFtPubICbOGc
+root - INFO - Frank Zappa - 6pqWrRF9K2PHpBmmRSIte4
+root - INFO - Eagles - 608xszaAxVh4m7NcKJiAbF
+root - INFO - Hank Williams - 0SW6NfA6MTCC6OWNt6SAkV
+root - INFO - AC/DC - 7LRMbd3LEoV5wZJvXT1Lwb
+root - INFO - Elvis Costello - 7uYyLVNjKY49L8o3AouXZd
+root - INFO - The Shirelles - 2mRg1R9LKzZJWRAtKVollf
+root - INFO - The Four Tops - 0LVvnJs7eOuHIkWwjWHEWF
+root - INFO - The Stooges - 77bHrxVX3E2SWopfaoWrTw
+root - INFO - Frank Zappa - 0Q2dRzhPWFOex89dOjbq5Y
+root - INFO - Beastie Boys - 5h40ovzXu7rF7Giwb9oXYy
+root - INFO - Hank Williams - 61GEP8lryEfcuEgBMbRmNi
+root - INFO - Eagles - 40h65HAR8COEoqkMwUUQHu
+root - INFO - Hank Williams - 5gbm0aNo7eXNuOEkQi5m9B
+root - INFO - The Shirelles - 5rrXkymfQdhNBgBZ3BUVbB
+root - INFO - Elvis Costello - 5aYR2yKYdcWxX7gAO2CYps
+root - INFO - AC/DC - 69QHm3pustz01CJRwdo20z
+root - INFO - The Four Tops - 5feUxmo1qphxusEo1N9GRt
+root - INFO - Beastie Boys - 21REQ1bCUWphT2QK3bLWYQ
+root - INFO - The Stooges - 6LCw7eVCjDq7568JhgFgZI
+root - INFO - Hank Williams - 0SW6NfA6MTCC6OWNt6SAkV
+root - INFO - Frank Zappa - 4ESMVDgQZh49krQ6VTM5iw
+root - INFO - Hank Williams - 5TWhLgjy8cgb6CRPnnlnn2
+root - INFO - Elvis Costello - 3miNUXAGvMFePI3EwItWWY
+root - INFO - The Four Tops - 7gfAYm7X5HMSuKcO4dy8Wi
+root - INFO - The Shirelles - 7xt1KHm7ToHgfOaNhvONRR
+root - INFO - Eagles - 2cWHN0WK52RGAWHgaDamUA
+root - INFO - AC/DC - 2d4e45fmUnguxh6yqC7gNT
+root - INFO - Beastie Boys - 25pl7kV4OxafIc9wPAggYf
+root - INFO - Hank Williams - 5gbm0aNo7eXNuOEkQi5m9B
+root - INFO - The Stooges - 6hAOC89VqirgFxREaQoGDQ
+root - INFO - Frank Zappa - 0W7SzJd9YNDiEUxxeKGdTU
+root - INFO - Hank Williams - 0WwmFdGXe7Yky4T2J1oqLk
+root - INFO - Elvis Costello - 3AaPC1M5Vsvt8AcpVlHpsL
+root - INFO - AC/DC - 7nemcVsXVFZF01iqpIIo2Y
+root - INFO - The Shirelles - 5LtlI4DtIVgiKa4o7yURwE
+root - INFO - Eagles - 1WYokrkFOb9TFVuTrmxTTt
+root - INFO - Beastie Boys - 6yKldTTcSa2BdpKPEtdYp3
+root - INFO - The Four Tops - 6Vnhclsv9eXGKnEs5JZ012
+root - INFO - Hank Williams - 5TWhLgjy8cgb6CRPnnlnn2
+root - INFO - Frank Zappa - 38X4S3BDVY2aEzxYYXUYOY
+root - INFO - The Stooges - 4giZRI3pgupzawIJXLx7T9
+root - INFO - Hank Williams - 0XqB5gOpCdI9vV3MhKQyyX
+root - INFO - Elvis Costello - 4PMmRKupIkdHQzSNxCPP1C
+root - INFO - AC/DC - 4feXJ5IC3avXsVW9WNFSag
+root - INFO - Eagles - 6rGRyG69Dwixc5jCbeNHxl
+root - INFO - The Four Tops - 2sD2XkPogLt7keXttj7F9o
+root - INFO - Beastie Boys - 6fyfrrqJe9XOlNNgxHwJ3h
+root - INFO - Frank Zappa - 4tSTpnw8UYNlroCEo774tm
+root - INFO - The Shirelles - 365aSqfttyHcCsUZyJqVlg
+root - INFO - Hank Williams - 0WwmFdGXe7Yky4T2J1oqLk
+root - INFO - The Stooges - 7bebHZwpRnV1r2CDsuApgD
+root - INFO - Hank Williams - 0hveAq1VSNWo9MQYGMHvFF
+root - INFO - The Stooges - 5HqH67HTL7ow5z5zUAHmlc
+root - INFO - The Four Tops - 0PpamSdfQzIAvj5OB9Bz54
+root - INFO - Eagles - 2TjnCxxQRYn56Ye8gkUKiW
+root - INFO - Beastie Boys - 18tgx070tbAM4TKxEwzWaG
+root - INFO - Elvis Costello - 5qIWEtVAzylkR5zzMEk5uA
+root - INFO - AC/DC - 2iEGj7kAwH7HAa5epwYwLB
+root - INFO - The Shirelles - 6QGL2yWEAh2H7cuWd55wZV
+root - INFO - Frank Zappa - 2HudfMAHpahXeWpgeZkk3r
+root - INFO - Hank Williams - 0XqB5gOpCdI9vV3MhKQyyX
+root - INFO - Hank Williams - 2VV9KHwOfrS7ZOEzPZJFLJ
+root - INFO - The Stooges - 77cNhikwSwGJdls6slQy7k
+root - INFO - Beastie Boys - 7G7JZECVScySAqBhgO8C3k
+root - INFO - Hank Williams - 0hveAq1VSNWo9MQYGMHvFF
+root - INFO - Frank Zappa - 2x9EX4jEmUTW8SgpsXhEl6
+root - INFO - AC/DC - 2KmSnPWWCIsEomVsKnbE1a
+root - INFO - The Four Tops - 1a6o3Lh2T6u1m3FRCf1hcB
+root - INFO - Eagles - 5lQKRR3MdJLtAwNBiT8Cq0
+root - INFO - The Shirelles - 3TclLf5lQhBdvtZ0VMENRr
+root - INFO - Hank Williams - 13Oi7vfd9mrujcEmGAYAPe
+root - INFO - The Stooges - 3BnVqaDfgKyI4CFCfozors
+root - INFO - Beastie Boys - 0gmGBCJ5XhOmoNR37MmxEE
+root - INFO - Eagles - 7bJSiwLFnhoO7g83bWkCtA
+root - INFO - The Four Tops - 3FPaQv0qldYuF0XD0ziwT8
+root - INFO - AC/DC - 17lu4tymfnhmcIDlzBbtAb
+root - INFO - Hank Williams - 2VV9KHwOfrS7ZOEzPZJFLJ
+root - INFO - Frank Zappa - 1m2bxi6oXt69p07HuJcsU1
+root - INFO - The Shirelles - 6zW80jVqLtgSF1yCtGHiiD
+root - INFO - Hank Williams - 70PPOFwmuD4luTtLpnjesg
+root - INFO - The Stooges - 21xrImrAULwa0VT8n4BJoA
+root - INFO - The Shirelles - 7vjrRo9zu1pvrqLe6A5Yex
+root - INFO - Eagles - 6Zyz8lsnMFpIrCTuvGurCB
+root - INFO - AC/DC - 6yl8Es1tCYD9WdSkeVLFw4
+root - INFO - The Four Tops - 6DdWSQJNCQuQjXJQBHXTz0
+root - INFO - Frank Zappa - 6v2oklBp4VelDxBBwtL2y9
+root - INFO - Beastie Boys - 2qq0RYYIuQxXcOxQKN0drC
+root - INFO - Hank Williams - 13Oi7vfd9mrujcEmGAYAPe
+root - INFO - Hank Williams - 5IirHic5goVkgpxyur1lmh
+root - INFO - The Stooges - 2WhCRMcrpYbi45bikRnfna
+root - INFO - The Shirelles - 7J5RR5ugv2zxAtz5awGWKU
+root - INFO - Eagles - 5MLLuLqPdUlx8bfKtdkLwO
+root - INFO - Total number of tracks: 20
+root - INFO - The Police - 1JSTJqkT5qHq8MDJnJbRE1
+root - INFO - The Four Tops - 1h4rkW5vlG8JnvEUeIBoXl
+root - INFO - AC/DC - 5u5F7qLDvZjBSktaDp4HxB
+root - INFO - Frank Zappa - 2KKBJHEvZP00gygdA7lEzz
+root - INFO - Beastie Boys - 56H98l4uinRifnTH8e308N
+root - INFO - Hank Williams - 70PPOFwmuD4luTtLpnjesg
+root - INFO - Hank Williams - 5zFgBVbfMdfo6kCKm5hD6t
+root - INFO - The Stooges - 7mvN904TRvKl9CPQXFJ16t
+root - INFO - AC/DC - 6J17MkMmuzBiIOjRH6MOBZ
+root - INFO - Frank Zappa - 2KfjGQ3MjL1PlRsf2xUH5s
+root - INFO - Eagles - 0CKxrnF9KplS21LTjkkqsW
+root - INFO - The Police - 3EYOJ48Et32uATr9ZmLnAo
+root - INFO - The Shirelles - 5FWLUMdWgvpzWvfyIzvlln
+root - INFO - The Four Tops - 5RcIofhXhi7CTrmNXCOn4G
+root - INFO - Beastie Boys - 6WLLZfhaancZg4cVPuIKFq
+root - INFO - Hank Williams - 5IirHic5goVkgpxyur1lmh
+root - INFO - Hank Williams - 2KJOfVTxWkbtRMGByeEQ7V
+root - INFO - The Stooges - 5z79Fpw4FEEkSzt8Lbwr46
+root - INFO - AC/DC - 6rvldt6EoZwzogApECUCwd
+root - INFO - The Shirelles - 145IdgzmeONmQKvOx9aTAw
+root - INFO - The Four Tops - 0GiWjFOVWv3mVaNCxkgqlq
+root - INFO - Eagles - 603KXhZ58l2fqgiyuIsEj8
+root - INFO - The Police - 44aTAUBF0g6sMkMNE8I5kd
+root - INFO - Frank Zappa - 3toxxSU3TcvzgmeR8LLUiX
+root - INFO - Beastie Boys - 6aaPceG6TnixvAZQ1wBMdp
+root - INFO - Hank Williams - 5zFgBVbfMdfo6kCKm5hD6t
+root - INFO - Hank Williams - 3pPirtTb893uRSatvGmy4v
+root - INFO - The Shirelles - 11XXkGv4pof3CTz6c3dmMx
+root - INFO - The Stooges - 0L7F1blNNYj3AjIu4gCjhP
+root - INFO - AC/DC - 4wYq5wugZDzQiMZQYG4wVB
+root - INFO - The Police - 1oYYd2gnWZYrt89EBXdFiO
+root - INFO - Eagles - 3fgch6faHYPKqE6C3hIYfo
+root - INFO - Frank Zappa - 6wafqF12CJR0HCiUm4MUbR
+root - INFO - The Four Tops - 2mhFroJn2fNDzWc7DUHSVR
+root - INFO - Beastie Boys - 7mPfubAjo4PVuRqO84bHZb
+root - INFO - Hank Williams - 2KJOfVTxWkbtRMGByeEQ7V
+root - INFO - Hank Williams - 1OwQ7xpk7nCXlt8TqVoNl1
+root - INFO - The Shirelles - 0fmUYByJx5aens7Cds1JXD
+root - INFO - AC/DC - 52UWtKlYjZO3dHoRlWuz9S
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Police - 4frelkLhC4ATqJH9VGJztu
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Eagles - 436yrzQWA32vb1sTZKXg9r
+root - INFO - Hank Williams - 3pPirtTb893uRSatvGmy4v
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - AC/DC - 4JDjZ2AzlHnde5uUy0TveV
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Total number of tracks: 20
+root - INFO - Jackie Wilson - 1hmPyDaLxfscy8AJpJsKJI
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Frank Zappa - 1etNpbcaYERqGELSCSOWRL
+root - INFO - The Police - 5veJDT0MLsLbhYsx42GXUD
+root - INFO - Hank Williams - 1OwQ7xpk7nCXlt8TqVoNl1
+root - INFO - Frank Zappa - 6Ln5KqJbn672z67ZowD2pu
+root - INFO - The Police - 400ZJAUFuEuIGXhr7ie4xf
+root - INFO - The Police - 1sCAw7YZY2vE4h19wA1aMF
+root - INFO - Total number of tracks: 20
+root - INFO - Al Green - 63xdwScd1Ai1GigAwQxE8y
+root - INFO - Total number of tracks: 20
+root - INFO - Phil Spector - 5p21qVjMmA9GMLPBaugcfF
+root - INFO - The Police - 62uLNJgVZaFiEiKV4LpoYJ
+root - INFO - Total number of tracks: 20
+root - INFO - The Kinks - 4ZKgPZ9d4V5WW6H2s4qMD3
+root - INFO - Total number of tracks: 20
+root - INFO - The Temptations - 745H5CctFr12Mo7cqa1BMH
+root - INFO - Total number of tracks: 20
+root - INFO - Cream - 4O89rUWrGgWYKaHJUOp314
+root - INFO - Total number of tracks: 20
+root - INFO - Metallica - 3VqHuw0wFlIHcIPWkhIbdQ
+root - INFO - Al Green - 10vkYRKw6Jjr7try1ir50G
+root - INFO - Jackie Wilson - 5qyq1H5OPMlfuvZQ1wQNo7
+root - INFO - Total number of tracks: 20
+root - INFO - Tina Turner - 4kOfxxnW1ukZdsNbCKY9br
+root - INFO - Phil Spector - 7LaCTjMLXG03oWhl6Va3PZ
+root - INFO - The Kinks - 5IPEy9jMguqxZzAiZVNSiV
+root - INFO - Cream - 119c93MHjrDLJTApCVGpvx
+root - INFO - The Temptations - 4CoGNqLap7UGU5Q3VdKug0
+root - INFO - The Police - 0HbLLjx0S7v9QRYrTcgCp1
+root - INFO - Metallica - 54bm2e3tk8cliUz3VSdCPZ
+root - INFO - Jackie Wilson - 4TBBPZks71c60whhq0PgdP
+root - INFO - Total number of tracks: 20
+root - INFO - Joni Mitchell - 5EsPLgSs1UQIDJG0U00RuJ
+root - INFO - Al Green - 6SMHgPgNkhe9lneNTbgtel
+root - INFO - Tina Turner - 6gJdDnF2TzfA1WPMXuCa3x
+root - INFO - The Kinks - 29SyMC0plk6qw8NMF7lfRL
+root - INFO - Phil Spector - 46pF1zFimM582ss1PrMy68
+root - INFO - Cream - 6PUabSMXmPnZna361Wwmf7
+root - INFO - The Temptations - 1tjpccwiGZTMDfHr5VGCmT
+root - INFO - Jackie Wilson - 6TYR3IVgIwDK6ydc2EPEQq
+root - INFO - The Police - 7sNcS22kY05snYa9aHMYzK
+root - INFO - Metallica - 1tTPC0hsnXq1IGpvWY54JC
+root - INFO - Joni Mitchell - 0vItJLwvxJzu5PPw6o62A6
+root - INFO - Al Green - 6lUXneXZ9jc3HSMHgd8oqh
+root - INFO - Tina Turner - 3ErsOxqe2RmXkR65wkygDz
+root - INFO - The Kinks - 78JmElAFmrPNhLjovDR9Jm
+root - INFO - Phil Spector - 3jSoCdCbyZ2gMrQ9J3LA47
+root - INFO - The Temptations - 39Bd345OWEhRNyfayhp9gv
+root - INFO - Cream - 6tg98hPnLIKh9id1P5F5GW
+root - INFO - Joni Mitchell - 4XPC5QEa8US2fNStQ5LIYk
+root - INFO - Jackie Wilson - 0CAzT38ct3vgDW3p6yIzUe
+root - INFO - Al Green - 5EPMGpzwuUAutClCLFyGVh
+root - INFO - Metallica - 51YZAJhOwIC5Gg3jMbAmhZ
+root - INFO - The Police - 2wnsBaxrmkthIFAm6vqCuX
+root - INFO - Tina Turner - 3Be7CLdHZpyzsVijme39cW
+root - INFO - The Kinks - 5i305QcqbNK8ErelBTzJKH
+root - INFO - Phil Spector - 5msxn2HUcd83qOsuQW7Kdb
+root - INFO - Cream - 441fSUzU17J5WKFu3wU291
+root - INFO - The Temptations - 676Rf0qIOh2gKNEl9TnCOx
+root - INFO - Joni Mitchell - 2tUzZiFwDCpIx6Hfa8ofoW
+root - INFO - Al Green - 62r1CS9zL1FL5Ilb7hLX7n
+root - INFO - The Police - 0SNGe4xksgp7CGnY5kMXOJ
+root - INFO - Jackie Wilson - 5bhvrqUcsa3SnxhgLNxybU
+root - INFO - Metallica - 2CtemffYhT0DJWcT1XW047
+root - INFO - The Kinks - 1LH9QyMF3YIqYRoVsoXihB
+root - INFO - Phil Spector - 7GNsHkiYPcQQjvhTiILFUL
+root - INFO - Tina Turner - 1qyJ6XpMHdsJD8pkiA7Qww
+root - INFO - Cream - 3Xls4cNOwy01dtrNXb1inG
+root - INFO - The Temptations - 7iMDtQVTT4gxlX12SHkzdq
+root - INFO - Jackie Wilson - 3o1AFukFi4OhiNW23wDbaj
+root - INFO - Metallica - 0LAcM6I7ijW4VVW0aytl1t
+root - INFO - The Police - 6DjKJgwe9c90Bd2iya0fre
+root - INFO - Al Green - 09kEUjIvixNShjfl3YoyWo
+root - INFO - Joni Mitchell - 1EhvYd5e7vkoN3udEN1Vyl
+root - INFO - Tina Turner - 6pPWRBubXOBAHnjl5ZIujB
+root - INFO - The Kinks - 0DQqzCHlPyKQXfF8uL01SI
+root - INFO - Phil Spector - 5ASM6Qjiav2xPe7gRkQMsQ
+root - INFO - The Temptations - 3496rr5XSGD6n1Z1OKXovb
+root - INFO - Cream - 0LpZy8WZPTtyHHzqlsYjDq
+root - INFO - Jackie Wilson - 4c9g1LMBE6RMxmI9DcxlQw
+root - INFO - Metallica - 745sNpjWbAxo2MA2zSYbyD
+root - INFO - The Police - 1V15l05snHYHYVxerjMFGo
+root - INFO - Al Green - 2GEDd9qtGXU7IvGgqTF6Uj
+root - INFO - Joni Mitchell - 1sNsU0aOPkhloRCQBiI0nd
+root - INFO - Tina Turner - 4OeFQtRyT7vsLnRTv7t8YT
+root - INFO - The Kinks - 0cTwMCvozZBj8jCq6o27nk
+root - INFO - Phil Spector - 1QpFBIMJ4DtRZaNlRoPulY
+root - INFO - The Temptations - 7MiLmLbwNoyf47xQ4TCVYp
+root - INFO - Cream - 6ndF1qXSgTJ7EjqpwI877r
+root - INFO - Metallica - 5UaDi8KzCGJqFfVAOBfXhi
+root - INFO - The Police - 2EEp2vTGSRDSLHWUF80EZZ
+root - INFO - Jackie Wilson - 7F1eoVZd2ySSJ70iP3PN1m
+root - INFO - Al Green - 6QbcnA5zCrjiZIUBzAP4nY
+root - INFO - Joni Mitchell - 3fnMthu5iCFiPnHPwruqOj
+root - INFO - Tina Turner - 623ZeL2lWuz5v03TVkRBZa
+root - INFO - The Kinks - 5nrmGFJ87crVoJF5xdRqwn
+root - INFO - Phil Spector - 5usNPz6U1acDrkUYekGYDY
+root - INFO - The Temptations - 0Vpswx5knuuXW8HmNK1LrT
+root - INFO - Cream - 1sxtxIKhRiQwuGpUwHoEHq
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Police - 5ynO8cYFjDwELIZfFHHeYe
+root - INFO - Jackie Wilson - 5LyElscSQby9EfOil2uaZQ
+root - INFO - Metallica - 7lwvxYumAEo10lzAplRGXM
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Phil Spector - 6LHzCuLzfZQr0V8eZD9TPC
+root - INFO - Joni Mitchell - 4e6Y85KHKWhn9EdguhfB6l
+root - INFO - Tina Turner - 2W2ieVidLIx9TDvxu0ZT6F
+root - INFO - The Temptations - 08tGkN9bFtNe5d5GaRDKrt
+root - INFO - Cream - 2K2M0TcglCRLLpFOzKeFZA
+root - INFO - Al Green - 49qkJtDdi3KHmENFzleve4
+root - INFO - The Kinks - 5e3isD5st7PGYzSJuoRSIV
+root - INFO - Jackie Wilson - 3h4udS0WeWbsur3yfjvnm4
+root - INFO - The Police - 3PfBnnkOf0LbCw2jixUCQG
+root - INFO - Metallica - 3ZpWy5rBZv2aLQAldnmTsP
+root - INFO - Phil Spector - 7n5m8nDAnyXo81tr4B3Bcw
+root - INFO - Joni Mitchell - 1MgxDe2vrgoaro1aSISKm2
+root - INFO - Cream - 4QnjK45IBBZRVRWTEeZ3T8
+root - INFO - The Temptations - 1ELKkbWqtKRwvdCBGvETBp
+root - INFO - The Kinks - 7h6FCFfT61nB0Dttr4ArA6
+root - INFO - Tina Turner - 3dLg6cqxvKQl2E6lnD62ZT
+root - INFO - Al Green - 43YXZFad8aVLWojvBLZ62V
+root - INFO - Jackie Wilson - 3f2dCpOap3vfqebOyVPHIs
+root - INFO - The Police - 2e2P8zydI5GtcaVhTkOYa9
+root - INFO - Metallica - 7wz8LNfmGZ3C0PwKW9LdDg
+root - INFO - Joni Mitchell - 6UPMrJt8MhYeXPiRDwLZBx
+root - INFO - Phil Spector - 2G2YzndIA6jeWFPBXhUjh5
+root - INFO - Al Green - 2J9ChZBgjDLdGaIKdKQcP0
+root - INFO - The Kinks - 0aGkeYwsDGqtsjzOQnmVAB
+root - INFO - Cream - 2wz3OO7ndJQj15z3drwKkf
+root - INFO - Tina Turner - 5xfsQtywRJdSZ0PpSuMbQn
+root - INFO - The Temptations - 1A8gqfrso63AC4XVW6DTTw
+root - INFO - Jackie Wilson - 2SnzwEu9uB9VGCx8Faj97j
+root - INFO - Metallica - 0dqGfCMAGyDgpUAgLNOjWd
+root - INFO - The Police - 59ePSqa0c34JYeZgQjIgxH
+root - INFO - Joni Mitchell - 6aOfJ4YJy6CNo9AuUYVwxZ
+root - INFO - Phil Spector - 12YAgUbl6Uk9E7fzopF4Ji
+root - INFO - Al Green - 663E41fUIDEnzN7xTnFLT0
+root - INFO - Jackie Wilson - 4xPNaHofsEWeDnD63eIUXp
+root - INFO - The Temptations - 4GzEUG2exyfdIVfhHCxeVs
+root - INFO - Cream - 3oaSvU9VBBmyfPA4lbibQM
+root - INFO - Tina Turner - 4ppxp8rJB8eOhM9TFm6dK2
+root - INFO - The Kinks - 4KvaAwAeXLKyRjroj2QyjE
+root - INFO - Metallica - 3IolN0Ae207i0Fr9IHuNbu
+root - INFO - Joni Mitchell - 7iiOJLZuky8CLrxeyRrxWo
+root - INFO - Al Green - 2pYCyEwJ0xKnWbuQkqNHgp
+root - INFO - Phil Spector - 0ubuJV6bCSUME2iCKovVwo
+root - INFO - Jackie Wilson - 0qHYYS4hQPRNU2RPOImDlM
+root - INFO - The Temptations - 6aL6pPBaTMGgM558mplSnj
+root - INFO - Tina Turner - 6FcQD1qOpqV8NdhY45sKyI
+root - INFO - Cream - 4SsmPapFY7YgQsJqc9ftQi
+root - INFO - The Kinks - 4DMLmnQWu3qKVHTe2y1Mou
+root - INFO - Metallica - 7HPhrbgMHV5cUskknWA2oo
+root - INFO - Al Green - 20wu6USlvWRghMOvUdfLgE
+root - INFO - Joni Mitchell - 7Fv5A20g3t75ATGMLCcNiG
+root - INFO - Phil Spector - 4FqUtvO3kF5FKTWHTqoluu
+root - INFO - Jackie Wilson - 79kk3BS5nhll19cRYGxUrV
+root - INFO - The Temptations - 5XOGZdDM17WzrXRQz96Fu1
+root - INFO - Tina Turner - 65EEFtvat4QSRAACzjM21Z
+root - INFO - Cream - 7lPm28FKUomKbBkVxpvi6S
+root - INFO - The Kinks - 6UTxpt4Fn0cRBZlki1dRFq
+root - INFO - Metallica - 4k1IS2uF2dGcU3GzOOZqqb
+root - INFO - Total number of tracks: 20
+root - INFO - The Sex Pistols - 3LoDeIbiR12sAznmpNEmKA
+root - INFO - Al Green - 0ZhwlFI7I69yaXphO7t5R8
+root - INFO - Joni Mitchell - 1i5x68aEHBmPSK4xf7XBNx
+root - INFO - Phil Spector - 0EwuAHdON2ma8UBa7Flpee
+root - INFO - Jackie Wilson - 1hJZFxflhsCvlfVIXh2vlQ
+root - INFO - The Temptations - 4gAsVttMY36zJUCa7FYoJN
+root - INFO - Tina Turner - 3hegW7SUAm1jYB5luV24tv
+root - INFO - Cream - 3YaRY9vbpnggTArCdGVXnS
+root - INFO - The Kinks - 3ItpNOnkRgC18OAktmC9bl
+root - INFO - Metallica - 7LHZ7HA45ezKcdN8sBrBuS
+root - INFO - Al Green - 4fiC7RTotySw4ZeYaCSsXP
+root - INFO - Joni Mitchell - 2tjPtYQMmZyvjPTGthh8fS
+root - INFO - The Sex Pistols - 6ui6l3ZNvlrGQZArwo8195
+root - INFO - Phil Spector - 2VVH86uKy0U84loFlseCR2
+root - INFO - Jackie Wilson - 7whPRouBzTXLW5afFNus4H
+root - INFO - The Temptations - 3Rhxe6P1im82NFVkt9X2qZ
+root - INFO - Tina Turner - 7IUTUjBJ8mzMwZpyxcI5g0
+root - INFO - Metallica - 4XeqABCbUqyznqTgB8Ckzj
+root - INFO - Cream - 2uxsnsH0XzOBZkMrSFVmll
+root - INFO - The Kinks - 6EOsbubL3lIxRmVz6L1cfK
+root - INFO - Joni Mitchell - 6svLUwvJZHSip55XavG4GP
+root - INFO - Phil Spector - 2lT2w8qVNDUAzrdO4yCdxE
+root - INFO - Al Green - 6ey8HhYmR57lhESTf15RcF
+root - INFO - Jackie Wilson - 0FxvG0bBiPsdw67cdImVe8
+root - INFO - The Sex Pistols - 2mKj8Em0GLFu8I78yM1CfU
+root - INFO - The Temptations - 5igKwBONSuxkQ99H0hk7Ut
+root - INFO - Tina Turner - 19DVNifOaTnuP0iq1kTqgW
+root - INFO - Cream - 3hEUtaQZbmXOWlHfiIE3lk
+root - INFO - Metallica - 5DrNFzZZZVfXaEZCaceKnp
+root - INFO - The Kinks - 0DU2orNjqEw5IAH8R1C05n
+root - INFO - Joni Mitchell - 54CjnCOpxjgwvj3vxdDhSB
+root - INFO - Phil Spector - 7jBpGlnsgJNF4bASYLV7Zm
+root - INFO - Al Green - 33u6xmMvhuI29rftBhJwbM
+root - INFO - The Sex Pistols - 2e4RcQohKWo8oZIUfjxiGo
+root - INFO - The Temptations - 009OfbHjpExE4nRs66c4WJ
+root - INFO - Jackie Wilson - 533NW3XHuW3MjO4vLqY2iV
+root - INFO - Tina Turner - 50TuB3sRSVsEADokDTgpTD
+root - INFO - Cream - 08xsXR637CEqbxJmpFcuSA
+root - INFO - Metallica - 7myke8Id4WyKFlWcRBJdIF
+root - INFO - Phil Spector - 24bMh8AF6XZsklVgnHwlrP
+root - INFO - Joni Mitchell - 5QFlfy1zqj0Qcb2CXEl1kT
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Kinks - 34UnzNK51PfiYFrEgc9lrD
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Tina Turner - 44BmNSqH9uZV5OfIjGcER3
+root - INFO - The Temptations - 2FEtlnZ3qzhqW25Z4MdWsV
+root - INFO - Al Green - 3ZzlW5lzXyE0tnsVvzxzZu
+root - INFO - The Sex Pistols - 21MwEJ8tHezcPy77BaELJ6
+root - INFO - Cream - 2JbS4ZDBIUcXavA9mfb2nC
+root - INFO - Metallica - 1CWNxbzLVfehed7ev8igyA
+root - INFO - Tina Turner - 5LNSHyPAr0qWGapTj54VU1
+root - INFO - The Sex Pistols - 4GtIKUB1Q5O65ofahYPRfX
+root - INFO - Joni Mitchell - 5Ynb3XE6NE4fmKRPWkloUb
+root - INFO - The Kinks - 5HOQNAXcPSwV7Gt8AV8qiP
+root - INFO - The Sex Pistols - 6jjASY7DtqLdM0zJbAQcnX
+root - INFO - Joni Mitchell - 5vG1QiAJFoT7oYYHRKobKO
+root - INFO - Total number of tracks: 20
+root - INFO - Aerosmith - 1xsYj84j7hUDDnTTerGWlH
+root - INFO - The Sex Pistols - 4AqfCW0jMeByTMZdoqHlH4
+root - INFO - Aerosmith - 73TxYZd0lBCVRrHawrAglA
+root - INFO - Total number of tracks: 20
+root - INFO - Parliament and Funkadelic - 2w7R3CQgvl8PIKJlwtT9Mv
+root - INFO - Total number of tracks: 20
+root - INFO - Dr. Dre - 503OTo2dSqe7qk76rgsbep
+root - INFO - Total number of tracks: 20
+root - INFO - Eric Clapton - 6zC0mpGYwbNTpk9SKwh08f
+root - INFO - Total number of tracks: 20
+root - INFO - Grateful Dead - 5ZLzl6T8JwqMTMdoE0nCbU
+root - INFO - The Sex Pistols - 1rKK9rLl9JLIFWYY68GXv9
+root - INFO - Aerosmith - 225xvV8r1yKMHErSWivnow
+root - INFO - Total number of tracks: 20
+root - INFO - The Allman Brothers Band - 1hHGUdFaiJHw9hVZGJWYO2
+root - INFO - Parliament and Funkadelic - 1v1PV2wERHiMPesMWX0qmO
+root - INFO - Dr. Dre - 7iXF2W9vKmDoGAhlHdpyIa
+root - INFO - Total number of tracks: 20
+root - INFO - Howlin’ Wolf - 2HUZVffVPXvqnrml0gXggp
+root - INFO - Eric Clapton - 3ykSdTGmYPFl8pDBXer1zG
+root - INFO - Grateful Dead - 5YzzWlWfAVNvtduNDHKhHc
+root - INFO - The Sex Pistols - 18wiCEC2cQzuT0kyw81X4E
+root - INFO - Aerosmith - 4JfuiOWlWCkjP6OKurHjSn
+root - INFO - Total number of tracks: 20
+root - INFO - Queen - 14LdhxElpZS0rKVV4nxtdA
+root - INFO - Parliament and Funkadelic - 6SgQIoLn8kpu8J4wfwGWy8
+root - INFO - The Allman Brothers Band - 5JBUpI6OGZahUqchMKe6UY
+root - INFO - Dr. Dre - 4LwU4Vp6od3Sb08CsP99GC
+root - INFO - Eric Clapton - 1kgdslQYmeTR4thk9whoRw
+root - INFO - Howlin’ Wolf - 7j02rdE5RVtNcNMuLGY5SS
+root - INFO - Total number of tracks: 20
+root - INFO - Pink Floyd - 2TjdnqlpwOjhijHCwHCP2d
+root - INFO - Grateful Dead - 7LbfuQVct78YoghmoPtsQ8
+root - INFO - The Sex Pistols - 2Hs7YqZwFEPIxRTnqtrHvP
+root - INFO - Aerosmith - 74irxdVWstNlEQjsvArITq
+root - INFO - Queen - 6l8GvAyoUZwWDgF1e4822w
+root - INFO - Parliament and Funkadelic - 0GIfaHgivfBCV67eYF996A
+root - INFO - Dr. Dre - 5Tbpp3OLLClPJF8t1DmrFD
+root - INFO - The Allman Brothers Band - 5cfYurP1XKldMBtvBBJiTs
+root - INFO - Eric Clapton - 0zxj7dVhYZq5ACyaDx5XIo
+root - INFO - Pink Floyd - 5HNCy40Ni5BZJFw1TKzRsC
+root - INFO - Grateful Dead - 4DpBfWl3q8e0gGB76lAaox
+root - INFO - Howlin’ Wolf - 1a8vVeidOsauNu6rQmHBRS
+root - INFO - Aerosmith - 0NJC0FDCODpPUntRTTQq97
+root - INFO - The Sex Pistols - 0NHbdY5yC3ItJi2olhm7fK
+root - INFO - Queen - 7tFiyTwD0nx5a1eklYtX2J
+root - INFO - Parliament and Funkadelic - 5t6N3Gn8oJf3GZliOjv3Yd
+root - INFO - Dr. Dre - 21NA5Zggba7pyACm25h6k4
+root - INFO - The Allman Brothers Band - 2FZv72gyxqvSr4AdQm6gzt
+root - INFO - Eric Clapton - 5Ds0VGkTSQ1jf4KzLUpZPb
+root - INFO - Grateful Dead - 1I6l01BaBgBCVkfQCpIlR6
+root - INFO - Howlin’ Wolf - 14RtX37onWzSyGDxrVEjnH
+root - INFO - Pink Floyd - 2ctvdKmETyOzPb2GiJJT53
+root - INFO - The Sex Pistols - 6FAF8l0j91yX6SwkQNhrm7
+root - INFO - Aerosmith - 6gQUbFwwdYXlKdmqRoWKJe
+root - INFO - Queen - 2Y3x5VcEAxLNmVHxQOE0jB
+root - INFO - Parliament and Funkadelic - 4XRkQloZFcRrCONN7ZQ49Y
+root - INFO - The Allman Brothers Band - 30St98Bok3jJmXdkkHVPQe
+root - INFO - Dr. Dre - 6MdqqkQ8sSC0WB4i8PyRuQ
+root - INFO - Grateful Dead - 7M7AwtGvWdMYudqx5Iuh1m
+root - INFO - Eric Clapton - 1oar8gdDX5yHWzVstAHDav
+root - INFO - Howlin’ Wolf - 7LdbDjg6esKNAsnFElpFnB
+root - INFO - Pink Floyd - 6mFkJmJqdDVQ1REhVfGgd1
+root - INFO - The Sex Pistols - 7uuBt92N2eQfiMb0lQ7e5U
+root - INFO - Aerosmith - 3kfXUGIdBNpyr2gBvU3Guj
+root - INFO - Queen - 4o05DiC0RQ9DNtGJGauwna
+root - INFO - Parliament and Funkadelic - 1alxqrqIYG7YIlaCmwzl6p
+root - INFO - Dr. Dre - 7jIujRjK5JKNrMCcAvYUTN
+root - INFO - The Allman Brothers Band - 4euYSSvpQZSAQ4gThyL2QD
+root - INFO - Pink Floyd - 3TO7bbrUKrOSPGRTB5MeCz
+root - INFO - Eric Clapton - 6io0LJIP9ntX35hTfaxwQG
+root - INFO - Howlin’ Wolf - 22o1qy3iZ7CyXUdK6BIf2n
+root - INFO - Aerosmith - 5qlJg0Wbj3sslxfwiaRNpq
+root - INFO - Grateful Dead - 1lNRVjK8MukRZpeurYssIx
+root - INFO - The Sex Pistols - 577YdYQOjBpPNWDb5iDrQr
+root - INFO - Queen - 1xyUCr7dIJYaUaaiDf4Q1L
+root - INFO - Parliament and Funkadelic - 4Zo6eZpzDMLd26c2xp3Ig8
+root - INFO - Dr. Dre - 0Ed7MeXx64f6OcIuoTRCg1
+root - INFO - The Allman Brothers Band - 701oRFDRzsz3WdhCFOtUJj
+root - INFO - Pink Floyd - 6pnwfWyaWjQiHCKTiZLItr
+root - INFO - Howlin’ Wolf - 1TrOTKixl3cYx8FICICXzK
+root - INFO - Aerosmith - 6qUEOWqOzu1rLPUPQ1ECpx
+root - INFO - The Sex Pistols - 41Tk8SBbrIGxkI9xOf4LQr
+root - INFO - Eric Clapton - 0e4os6wHr1jbFn4yPtSEOe
+root - INFO - Grateful Dead - 1OE5l6sedVcIFELMuxQOPI
+root - INFO - Parliament and Funkadelic - 6iIWTfBSFDcQU0WnDyvN7i
+root - INFO - Queen - 57JVGBtBLCfHw2muk5416J
+root - INFO - The Allman Brothers Band - 6iX1QW1gGIVNEItnqyvFfH
+root - INFO - Dr. Dre - 0LskV3ejYLWa6Ew2d4tcf4
+root - INFO - The Sex Pistols - 0PgpDLsbk8wnYpgMCynGLz
+root - INFO - Grateful Dead - 3PgIhd4XmwtmV2XGU5qhzZ
+root - INFO - Aerosmith - 4avSaixVwu8uqfSs7zgoj3
+root - INFO - Parliament and Funkadelic - 7rLAPi81R7qlVqgXfykdEL
+root - INFO - Queen - 7hQJA50XrCWABAu5v6QZ4i
+root - INFO - Eric Clapton - 3UqHlIBI771FNCiLY5MKrp
+root - INFO - Pink Floyd - 4gMgiXfqyzZLMhsksGmbQV
+root - INFO - Howlin’ Wolf - 1Y1hNxaBEY5Rsz9MoAZmLh
+root - INFO - Dr. Dre - 1SWVDBtw6h3tm9OehOkDhv
+root - INFO - The Sex Pistols - 6vdlfweskDwbacC8dBxFs0
+root - INFO - The Allman Brothers Band - 7a014uMHF3nlqzXCxV551C
+root - INFO - Grateful Dead - 0mJQlCl9YgxW7kyeltNiVk
+root - INFO - Queen - 53b4d9jHQZq89EtQxwUURr
+root - INFO - Parliament and Funkadelic - 6vawh26HdFQ5Rap325zU2l
+root - INFO - Aerosmith - 2KCJYwlBWxdlwyIYckIf6V
+root - INFO - Pink Floyd - 3ieDOGcOqVxScs2VZBzidt
+root - INFO - Howlin’ Wolf - 3cvr7I6DJxIq3GL4UAU8p4
+root - INFO - Eric Clapton - 2mnUGxY7QpO62QH1KqhY4O
+root - INFO - The Allman Brothers Band - 2WPLFvAldG0GG6Ad3Xa0TO
+root - INFO - Dr. Dre - 3tHEJsKdVY8mg7YGDpUIFM
+root - INFO - Grateful Dead - 3euDGpS2R0NC2Xssqxohva
+root - INFO - The Sex Pistols - 1sRWDB2Db5mZVealHeNYJt
+root - INFO - Parliament and Funkadelic - 6jO8FdgfPLjcesTmRpFCPX
+root - INFO - Pink Floyd - 0vFOzaXqZHahrZp6enQwQb
+root - INFO - Aerosmith - 0Xl2pAlIRE6ANULPdEI7fx
+root - INFO - Queen - 6cFZ4PLC19taNlpl9pbGMf
+root - INFO - Howlin’ Wolf - 0nWFmSvTZmgxGKFxodXgIq
+root - INFO - Eric Clapton - 0UOxp1BpnD8uPQMKU4wKjz
+root - INFO - The Allman Brothers Band - 2tVQhBSJ1SQtb4gX0taaiR
+root - INFO - Grateful Dead - 6iToMQQwaRZ8RjKhDI4bDq
+root - INFO - Dr. Dre - 5ddME3ojStqcg5IAMpqv5n
+root - INFO - The Sex Pistols - 0NUzX8hwfUC7ZZ1kaXckvb
+root - INFO - Parliament and Funkadelic - 0EHK2aemZUbYHGJLDeMk4d
+root - INFO - Pink Floyd - 1GEOSS415bZVHNuXWlCT6b
+root - INFO - Aerosmith - 5fMwvrqujbQjUxcNPcYrUF
+root - INFO - Queen - 2dOUErBzFZJ8l7MbV6FcYW
+root - INFO - Howlin’ Wolf - 12notHo8LwKc09rKORGtAQ
+root - INFO - Eric Clapton - 5phbwzg5d2MqNAoc0435Zu
+root - INFO - Grateful Dead - 2ydjxozpSUZLzmi82KV4Qp
+root - INFO - The Allman Brothers Band - 3q7em8kVHiHpZbKQuVYwFQ
+root - INFO - Dr. Dre - 1iQ5E4z6CJ38dIzvMI9Wdo
+root - INFO - Parliament and Funkadelic - 6VSm4HuSiOGWjbt6zpPnvh
+root - INFO - Pink Floyd - 05uGBKRCuePsf43Hfm0JwX
+root - INFO - Howlin’ Wolf - 0MkINaEoNBJfG9G6ewd4xM
+root - INFO - Aerosmith - 2fAYTT9kcUm8tnUrhD80sC
+root - INFO - Eric Clapton - 3gce83TvahSnFHFtCqbe4R
+root - INFO - Queen - 0a9sd6MEXZXIPHk0fAxpZ4
+root - INFO - The Allman Brothers Band - 7CopJCaFaOsTrNpZanANip
+root - INFO - Dr. Dre - 4dK00wCxlqWEeN8BoM1BHT
+root - INFO - Grateful Dead - 2EB1aFLWC4uIfld5Z3Yj1z
+root - INFO - Parliament and Funkadelic - 35EkpR321QjWm9ASPvQu74
+root - INFO - Pink Floyd - 1tDWVeCR9oWGX8d5J9rswk
+root - INFO - Howlin’ Wolf - 10HdfEE0sausAJu8HJD3Dp
+root - INFO - Aerosmith - 6beFuzSjwhOKFZp2aqYDdY
+root - INFO - Eric Clapton - 0VzLAYIns618H651sG09Gp
+root - INFO - Queen - 2GAIycsMaDVtMtdvxzR2xI
+root - INFO - The Allman Brothers Band - 1BnfAYVesByA18sA9EAGiI
+root - INFO - Grateful Dead - 5RwRcOzX6sn8CrGseiPOW8
+root - INFO - Parliament and Funkadelic - 5uQ9lDKORWOuaXkiYQ1AtC
+root - INFO - Dr. Dre - 36yUCSB9OaMz0RMUQDOSpT
+root - INFO - Pink Floyd - 1TKTiKp3zbNgrBH2IwSwIx
+root - INFO - Aerosmith - 3WPYapjyqcVpShYXQuChcs
+root - INFO - Eric Clapton - 6o21UfW2RHkzzleZGLfFpK
+root - INFO - Howlin’ Wolf - 6UAPJQ5qrM5oRViQCC9sFd
+root - INFO - Queen - 7GqWnsKhMtEW0nzki5o0d8
+root - INFO - The Allman Brothers Band - 10Q26DXQAlvQlnKRdZJgec
+root - INFO - Grateful Dead - 2op5szd2IY8bOPzumqmFY3
+root - INFO - Dr. Dre - 7lgvU7WnwcNZ8dbGUz8yhP
+root - INFO - Total number of tracks: 20
+root - INFO - Simon and Garfunkel - 6QhXQOpyYvbpdbyjgAqKdY
+root - INFO - Parliament and Funkadelic - 6m29fPL6H5aC38uaIRoEIA
+root - INFO - Pink Floyd - 3CmHvyZQQAGkKkTjTBFWN6
+root - INFO - Aerosmith - 6uhj7EIZZm3OwVr0gWfkQn
+root - INFO - Eric Clapton - 02FvigqN15ekfiaR42pJHu
+root - INFO - Queen - 6AWe04n4zsYkGKb3Pf7LMk
+root - INFO - Howlin’ Wolf - 7aHS9MdIBgmkedKRFhjFEK
+root - INFO - The Allman Brothers Band - 2hv2NiSq8p4pgL28pxcqAJ
+root - INFO - Grateful Dead - 5flDhT6sUuy90ZndPERpIn
+root - INFO - Simon and Garfunkel - 3YfS47QufnLDFA71FUsgCM
+root - INFO - Dr. Dre - 3a2jFwnts4Cf0OwJbK61SL
+root - INFO - Parliament and Funkadelic - 5kwEmWUZA1Awvs4SowXYYt
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Pink Floyd - 7F02x6EKYIQV3VcTaTm7oN
+root - INFO - Queen - 291RmMazWAmDitFuD6NJCv
+root - INFO - Eric Clapton - 2lcfGO79t1PqcXc2Mbxyd5
+root - INFO - Howlin’ Wolf - 1HJvxhYzcw6c5cwRsRCYA5
+root - INFO - The Allman Brothers Band - 1Rm9HY2oV8hRECzb8FypF0
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Simon and Garfunkel - 0iOZM63lendWRTTeKhZBSC
+root - INFO - Pink Floyd - 574y1r7o2tRA009FW0LE7v
+root - INFO - Queen - 3lUx27TOwV2nAiKwnYYXxe
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Allman Brothers Band - 7eVr2GN82f4tJQ8qj4vtju
+root - INFO - Pink Floyd - 7K6xMPtAjTuLPNlJMLf5bS
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Allman Brothers Band - 4Um5JeJZ4GeRb8JVjuRdH9
+root - INFO - Pink Floyd - 3H6k8idXDB2ip78UlPGTge
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Pink Floyd - 5VWC7v2dC2K0SIIjT9WTLN
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Aerosmith - 6FfE10CNarokEyIGxWhz2g
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Dr. Dre - 70ATm56tH7OrQ1zurYssz0
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Eric Clapton - 2GGskYwS4j8LDMSDUJ8vrl
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Dr. Dre - 4FI0rdztOAYJZMupujL5Gp
+root - INFO - Queen - 7zFXDAZ2V52022GPNYOxyH
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Grateful Dead - 6GgTJJmtDddHoo8Bp6lVcf
+root - INFO - Parliament and Funkadelic - 6f9CtBSBVs0HPlI2182YFP
+root - INFO - Howlin’ Wolf - 5UDsgV8tHUP3wnh12MYbpZ
+root - INFO - Simon and Garfunkel - 4Xl2PrS3DJqqSKXCo6Uhv9
+root - INFO - Grateful Dead - 3YPBV5DacTbhgh7vharn6w
+root - INFO - Howlin’ Wolf - 2EZSfrALQ4qzqKll2kQJOl
+root - INFO - Parliament and Funkadelic - 3OgPv1D0HINMvsjppJvYD6
+root - INFO - Simon and Garfunkel - 6dfhF1BDGmhM69fnCb6wSC
+root - INFO - Grateful Dead - 6Ezs4gCrYR8uPkrGW3GAil
+root - INFO - Howlin’ Wolf - 4LYZ56NfIsuIizQewrfEr9
+root - INFO - Simon and Garfunkel - 5y788ya4NvwhBznoDIcXwK
+root - INFO - Howlin’ Wolf - 21SP5PYTLcth1BjKfqyKBO
+root - INFO - Simon and Garfunkel - 6l8EbYRtQMgKOyc1gcDHF9
+root - INFO - Pink Floyd - 6yjHSsa7N7YOHd2Jzb1dwa
+root - INFO - The Allman Brothers Band - 23KUlJNvJmKrRVmo3XBvxM
+root - INFO - Simon and Garfunkel - 0djZ2ndRfAL69WYNra5jRC
+root - INFO - Total number of tracks: 20
+root - INFO - David Bowie - 11IzgLRXV7Cgek3tEgGgjw
+root - INFO - Simon and Garfunkel - 3CepTOU9Y7FezTt0CF3lCw
+root - INFO - Total number of tracks: 20
+root - INFO - John Lennon - 7pKfPomDEeI4TPT6EOYjn9
+root - INFO - David Bowie - 3ix6K4wZY29bCujrSznwFZ
+root - INFO - Simon and Garfunkel - 76TZCvJ8GitQ2FA1q5dKu0
+root - INFO - John Lennon - 5URfZHMlUWTWxPvvSBWcPk
+root - INFO - David Bowie - 7Jh1bpe76CNTCgdgAdBw4Z
+root - INFO - Total number of tracks: 20
+root - INFO - Roy Orbison - 48i055G1OT5KxGGftwFxWy
+root - INFO - Total number of tracks: 20
+root - INFO - Madonna - 4v7SAP4KD96BFLWiCd1vF0
+root - INFO - Simon and Garfunkel - 0byOqNZN9ailhoORv5Ps0Z
+root - INFO - Total number of tracks: 20
+root - INFO - Michael Jackson - 5BKKy9fIJL5uM9fz1SnqyP
+root - INFO - John Lennon - 26Kw6zBo3Uy98q5LTlFfVJ
+root - INFO - David Bowie - 0pQskrTITgmCMyr85tb9qq
+root - INFO - Aerosmith - 1l6DV8qhmCdgOKLSAFzPOe
+root - INFO - Roy Orbison - 0RteYQqW1AOq3JNL0yMWYt
+root - INFO - Michael Jackson - 1OOtq8tRnDM8kG2gqUPjAj
+root - INFO - Madonna - 22sLuJYcvZOSoLLRYev1s5
+root - INFO - Simon and Garfunkel - 5MbXzXGbqobR8xPVPs8OXA
+root - INFO - John Lennon - 0GGxVTb0UwDwdaKNjBdCn3
+root - INFO - David Bowie - 72Z17vmmeQKAg8bptWvpVG
+root - INFO - Eric Clapton - 713D0u0XMewrhWIQwjrlrd
+root - INFO - Simon and Garfunkel - 0b1NUCAYfEOuPx9nELBBfX
+root - INFO - Roy Orbison - 6r20M5DWYdIoCDmDViBxuz
+root - INFO - Michael Jackson - 5ChkMS8OtdzJeqyybCc9R5
+root - INFO - Madonna - 6lknMmJZALXxx7emwwZWLX
+root - INFO - John Lennon - 5GMQdzgtI7vtpmtps2YiYx
+root - INFO - David Bowie - 0LrwgdLsFaWh9VXIjBRe8t
+root - INFO - Dr. Dre - 1eRBW1HcyM1zPlxO26cScZ
+root - INFO - Queen - 0ExiKxfY5rHBW06TcV1xXU
+root - INFO - Eric Clapton - 6SeQ9g3IQEh5Hpdg8psO1Q
+root - INFO - Simon and Garfunkel - 0dzbfio3qTYG9uk40SJNcr
+root - INFO - Madonna - 1z3ugFmUKoCzGsI6jdY4Ci
+root - INFO - Roy Orbison - 52HAHV1j93s5B8GoTNI7DJ
+root - INFO - Michael Jackson - 2bCQHF9gdG5BNDVuEIEnNk
+root - INFO - John Lennon - 27RYrbL6S02LNVhDWVl38b
+root - INFO - Queen - 6ljkRMigoNtu0x1mlTEsKc
+root - INFO - Simon and Garfunkel - 3obrfotpr4kLCKiOu2GZ4Q
+root - INFO - David Bowie - 2EC9IJj7g0mN1Q5VrZkiYY
+root - INFO - Roy Orbison - 6eLL7QTdMWdhhG4i3jHDR9
+root - INFO - Michael Jackson - 7oOOI85fVQvVnK5ynNMdW7
+root - INFO - John Lennon - 43Ud1IajwtBvw6ONj6aK2Q
+root - INFO - Total number of tracks: 20
+root - INFO - Neil Young - 58q9HQ973MIbexDlnIsWQT
+root - INFO - Madonna - 5ZQ2slXNqImBi0SdomcjYN
+root - INFO - Simon and Garfunkel - 2GB8OypbvrvCee61FKx5dp
+root - INFO - David Bowie - 3gxEZXUjrNbl3TlSrTGbR5
+root - INFO - Roy Orbison - 0PkBTqRtN25z3oKasWoKlj
+root - INFO - Michael Jackson - 3tS8q8SXxtrYSN8UgeQt6q
+root - INFO - Neil Young - 7cdlPfu77tOqnzWwGJ19s1
+root - INFO - Simon and Garfunkel - 3g2fYZW5v2od8KIF7VktT0
+root - INFO - John Lennon - 1BrbXIJ7b161oQ0PfC0K32
+root - INFO - Madonna - 1oHClQEgDmmbcEx12Kc5nZ
+root - INFO - David Bowie - 6mib3N4E8PZHAGQ3xy7bho
+root - INFO - Total number of tracks: 20
+root - INFO - Smokey Robinson and the Miracles - 3nsJGZ5RV2ZHkbKvD771gU
+root - INFO - Roy Orbison - 3sVHb3bve7yVoI98XBtoRP
+root - INFO - Michael Jackson - 7J1uxwnxfQLu4APicE5Rnj
+root - INFO - Neil Young - 73uAQw29X3mrO1taWZaOvm
+root - INFO - Total number of tracks: 20
+root - INFO - The Everly Brothers - 7dblNGnRXEBrVJunazs2U5
+root - INFO - Madonna - 2m0M7YqCy4lXfedh18qd8N
+root - INFO - John Lennon - 4bN43jYf41eIjJZ3UXQpuA
+root - INFO - Simon and Garfunkel - 1eN42Q7IWRzRBq8eW2Y2TE
+root - INFO - David Bowie - 5Ei9o2fHEnfHb84YrPuz4v
+root - INFO - Smokey Robinson and the Miracles - 6QyQmdvQ1ywNccYa0pwLNQ
+root - INFO - Madonna - 1ZPlNanZsJSPK5h9YZZFbZ
+root - INFO - Roy Orbison - 5YsyqcewwE0c1ukzHVciS3
+root - INFO - The Everly Brothers - 6oRHRkQigTzJ3KwpO3XOV6
+root - INFO - Simon and Garfunkel - 5Bh8l8evdBSIoaK6EP1bWI
+root - INFO - Neil Young - 5T1mYdPKZjnpD8n6HLt2W5
+root - INFO - Michael Jackson - 3S2R0EVwBSAVMd5UMgKTL0
+root - INFO - John Lennon - 3QmUhaY5KZiOuaUH8H71LG
+root - INFO - Total number of tracks: 20
+root - INFO - Johnny Cash - 7C2Th9WKovi6NyjGoqaPsK
+root - INFO - David Bowie - 3Vn9oCZbdI1EMO7jxdz2Rc
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Madonna - 3850dYVgOFIXJh5U4BFEWH
+root - INFO - The Everly Brothers - 1MA9StLzlFftLbuqOmoWij
+root - INFO - Smokey Robinson and the Miracles - 6Hd8mrDwBQ8rLo70FwFG5C
+root - INFO - Michael Jackson - 5T7ywazdGIydr6JCW6t02j
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - John Lennon - 2BkXpZSvPoUDMLI2Xw9kAL
+root - INFO - Roy Orbison - 44pN9jfSqY3d3lrKuv3QeN
+root - INFO - Neil Young - 285vxuRky8WKTIrNP332sl
+root - INFO - Simon and Garfunkel - 4Acofe9hICRvyBTP5hFNk0
+root - INFO - Johnny Cash - 28cnXtME493VX9NOw9cIUh
+root - INFO - David Bowie - 3ZE3wv8V3w2T2f7nOCjV0N
+root - INFO - John Lennon - 5zcUFhuJ5lOiSgknBghHeJ
+root - INFO - Neil Young - 03s5inSZMzvL75LoBldjAo
+root - INFO - Roy Orbison - 3HZMEIZY9Z6GdhPaG5bAK2
+root - INFO - David Bowie - 1PehfITh0TTRx3LkDdV4h3
+root - INFO - Johnny Cash - 0LTSNmOLBt25GMjHlxp9OR
+root - INFO - The Everly Brothers - 27bw4i8LnECzVlbMZ4kFHw
+root - INFO - Madonna - 3ibAzRj9JnowdoLkyllk3n
+root - INFO - Michael Jackson - 3wuCCNCnBhJlwkIJTBZFiv
+root - INFO - Smokey Robinson and the Miracles - 7ifcJ5DDytGf8aITxmgsLN
+root - INFO - John Lennon - 6uKsrF9ejNeVy0lZvOQFdp
+root - INFO - Neil Young - 6DavaRzYekSRYl0VMHnlwo
+root - INFO - Roy Orbison - 7FMXSSzIRW8aJwUPfzXsa2
+root - INFO - Johnny Cash - 2fDHuS1PTkHBbCWWZF1ph9
+root - INFO - David Bowie - 3YZa4IzxK2UtEKTvdTgsi8
+root - INFO - The Everly Brothers - 11fNLqDB47gMKj7BHhR2Qr
+root - INFO - Smokey Robinson and the Miracles - 4Dq749x2QP6OXTURJ9GGY8
+root - INFO - Madonna - 6r8k1vznHrzlEKYxL4dZEe
+root - INFO - Michael Jackson - 46eu3SBuFCXWsPT39Yg3tJ
+root - INFO - John Lennon - 3ntrdR24dLkKrzSGRv1FlH
+root - INFO - Neil Young - 1HipTbE3pVedq6OGGjxhWj
+root - INFO - Roy Orbison - 6a0arm7sfmKWF30xWqAL9D
+root - INFO - Total number of tracks: 20
+root - INFO - Nirvana - 5ghIJDpPoe3CfHMGu71E6T
+root - INFO - Smokey Robinson and the Miracles - 42V7F468ieBbxKwaxBlpls
+root - INFO - Johnny Cash - 6YffUZJ2R06kyxyK6onezL
+root - INFO - David Bowie - 5IyL3XOaRPpTgxVjRIAxXU
+root - INFO - The Everly Brothers - 0Tjdbd83LEAWrA0atsXMDJ
+root - INFO - Michael Jackson - 2u2udGmop1z67EPpr91km7
+root - INFO - Neil Young - 3gXMNdXzS4KkS8DQJbXxdN
+root - INFO - John Lennon - 3D9iV6cYkYJRAPFO6DRKIE
+root - INFO - Roy Orbison - 40w5KzJx6pS9J4hIEQDgIa
+root - INFO - Madonna - 6A8OnjnpShshNpcqWtZRjr
+root - INFO - Nirvana - 4P5KoWXOxwuobLmHXLMobV
+root - INFO - David Bowie - 1mSClObliRtgPVT399COQH
+root - INFO - Smokey Robinson and the Miracles - 2gliw3L0oa4w8LqaHploje
+root - INFO - Johnny Cash - 6RFkVsPmrM4pzlDkFswwJl
+root - INFO - The Everly Brothers - 3lWuagNhAzcqOikD5KnBku
+root - INFO - Michael Jackson - 4jnFqNWeJCeCRHc4HCdxfd
+root - INFO - Roy Orbison - 6U7QjXYOaLJ741cIWPBTyN
+root - INFO - Neil Young - 7KpUdNQcjIIRdcIHkxcyOJ
+root - INFO - John Lennon - 4ZVWvCUwsOnIGmJMj71RkG
+root - INFO - Madonna - 27QvYgBk0CHOVHthWnkuWt
+root - INFO - Nirvana - 11LmqTE2naFULdEP94AUBa
+root - INFO - The Everly Brothers - 4BMhwvrqMUSm65RRB0RAEa
+root - INFO - David Bowie - 4mWahKerLaVddUjb8d1Q4Q
+root - INFO - Michael Jackson - 3AoeaZs8dFemFJr3JdzOL0
+root - INFO - Smokey Robinson and the Miracles - 7FwkoTz8Ic8C5YaE9XXGIU
+root - INFO - Johnny Cash - 0sxjKt8SWwl1svkyYxfszu
+root - INFO - Roy Orbison - 4q5CT5LUEabNmnMgaJmU20
+root - INFO - John Lennon - 6KCmJ8VI6VYNRNubSqi0Ck
+root - INFO - Neil Young - 7kwliM8TCIwdAXBXX0LJXd
+root - INFO - Nirvana - 2YodwKJnbPyNKe8XXSE9V7
+root - INFO - Madonna - 095MMFhB9qxPx2VsmvjnUs
+root - INFO - Smokey Robinson and the Miracles - 0lpMixnQYLyRkvLXpCTkQj
+root - INFO - David Bowie - 5TdXeWOn7NysrbimErhM2i
+root - INFO - Neil Young - 1jcHzPuNvWCCWd9tBFhfmc
+root - INFO - The Everly Brothers - 6hgY1l6EqrfrHRNrxwKRiK
+root - INFO - John Lennon - 14yws39qBiZig9vh3LiqHR
+root - INFO - Michael Jackson - 1AZXNAVDD9ZFIEKySgflFz
+root - INFO - Johnny Cash - 7hxZF4jETnE5Q75rKQnMjE
+root - INFO - Roy Orbison - 2brxFq9YHrI4v6RGrocn5X
+root - INFO - Nirvana - 1nFtiJxYdhtFfFtfXBv06s
+root - INFO - Madonna - 6B4oVElDIKRNcNUary0WG7
+root - INFO - David Bowie - 4JRem7xHp2l0kmUvt9zCKu
+root - INFO - Smokey Robinson and the Miracles - 5tJtbMylDCdtsQf4R02qer
+root - INFO - Neil Young - 2IrXyIb3NSMihMa6ilsuQt
+root - INFO - The Everly Brothers - 4FrMb1ckGBrhARbHySQKx5
+root - INFO - John Lennon - 49nBXQzYNyjoBmUda3ezMf
+root - INFO - Johnny Cash - 5rDkA2TFOImbiVenmnE9r4
+root - INFO - Michael Jackson - 3BovdzfaX4jb5KFQwoPfAw
+root - INFO - Roy Orbison - 6QAqKjiz6V7r57fW4doWYz
+root - INFO - Madonna - 2v7ywbUzCgcVohHaKUcacV
+root - INFO - Nirvana - 55yvzYuvJYG2RUEnMK78tr
+root - INFO - Smokey Robinson and the Miracles - 0z3Z4lt6sbOCkYepxptJ6H
+root - INFO - David Bowie - 1vP2JEXRsGrFbwOZ0foOQ5
+root - INFO - The Everly Brothers - 0V58TmLnChjbNycM9QfFC0
+root - INFO - Neil Young - 1mH7MvtshIFTz2eEv8AZ16
+root - INFO - Johnny Cash - 1TKPfF2fvn6gVLVfp3iG4j
+root - INFO - Michael Jackson - 1CgmY8fVN7kstVDZmsdM5k
+root - INFO - John Lennon - 4fKhRRYn7F5shZItjJkPJU
+root - INFO - Nirvana - 5mJGLBNJM0GULqAoL5mb9C
+root - INFO - Madonna - 42U5dJxBY8OsD3HI7JGlPX
+root - INFO - Roy Orbison - 3FIvCLgCbhOW1MRnh4Wn2T
+root - INFO - Smokey Robinson and the Miracles - 7LOYcC6phKAVOckgmVZJJT
+root - INFO - Nirvana - 5gRcv46AMTrosmTOqrOV3Q
+root - INFO - Johnny Cash - 5aoCdtDbTW93E00wik2JmW
+root - INFO - Michael Jackson - 5lA3pwMkBdd24StM90QrNR
+root - INFO - The Everly Brothers - 7wHvCwzBDk1TwSeCDuQnMR
+root - INFO - Neil Young - 2Qi054wnuSOtoToyPEbboR
+root - INFO - Madonna - 6ioBgySxoeQKALvAeLEmId
+root - INFO - Roy Orbison - 3fpZgZh9G1jCslrbEFBml6
+root - INFO - Smokey Robinson and the Miracles - 5s3zYvzEpBk0WbG6AgFUBK
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Johnny Cash - 3QHOeZLrjWV3R1ps587v7c
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Johnny Cash - 4sBOU30e7J2KF2VzBwDG2M
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Johnny Cash - 3Jq9rsqmRtqcVKtzP9dnxZ
+root - INFO - Johnny Cash - 4K1imZQQ0yKtJ40vGmUajS
+root - INFO - Johnny Cash - 121sjkub4p4zcFNozkKnQD
+root - INFO - Johnny Cash - 59J3FhCGYl18G3ouDReUge
+root - INFO - Johnny Cash - 6i8SZ4NIrYeyrbBOoRSC9z
+root - INFO - Johnny Cash - 4VNvzf9nHWAZBHAJxfzVcy
+root - INFO - Johnny Cash - 0oqMBe7dyOKx20e30segWX
+root - INFO - Total number of tracks: 20
+root - INFO - Prince - 4yzDNpEa75MSTypGg7tCAx
+root - INFO - Prince - 1Pt2STlAgfB1CiEV8mf3CN
+root - INFO - Prince - 2I1W3hcSsPIsEJfD69pHrW
+root - INFO - Prince - 3F8ydJz1se1vIxZTRcRjIJ
+root - INFO - Prince - 2QSUyofqpGDCo026OPiTBQ
+root - INFO - Prince - 2O9KgUsmuon6Gycdmagc6t
+root - INFO - Prince - 0u4N6w5lBw5xMrzJitRWUo
+root - INFO - Prince - 0iNWLdHYOnlBA9GUWeGQij
+root - INFO - Prince - 07squf0xpI7hHUwZ4hezKP
+root - INFO - Prince - 6ADP8ay0KMHR0A3ZYQOqdG
+root - INFO - Prince - 4HXOBjwv2RnLpGG4xWOO6N
+root - INFO - Prince - 51H2y6YrNNXcy3dfc3qSbA
+root - INFO - Prince - 1NAf61L4b3jFgLJhThTQ8B
+root - INFO - Prince - 0P3QZGxM5VhBY1CT8gJOa9
+root - INFO - Prince - 7kyTxkkDXo8tClrKewPFJg
+root - INFO - Prince - 0kGWW4eGT2byt4giNjacRJ
+root - INFO - Prince - 62LJFaYihsdVrrkgUOJC05
+root - INFO - Michael Jackson - 6JZYMxvcoeLD4IifJPvDux
+root - INFO - Neil Young - 4Z65ex2SD2OblueL5FjRPT
+root - INFO - Nirvana - 30HCB1FoE77IfGRyNv4eFq
+root - INFO - Roy Orbison - 2YzZnfWzmOPgfmcHmd0Tla
+root - INFO - Prince - 54X78diSLoUDI3joC2bjMz
+root - INFO - The Everly Brothers - 2erTdgDOZmjJNaNhjhWXhJ
+root - INFO - Madonna - 2OfXS87A79c5FJ7RFFh0WC
+root - INFO - Smokey Robinson and the Miracles - 1vG906bxMqUVufJoLSF4rV
+root - INFO - Michael Jackson - 2EI8uljBPaI23VUr2tv4eS
+root - INFO - Neil Young - 2xKTTp7bTGc8pB5HCEw8rx
+root - INFO - Nirvana - 5Rizj5FLb2AyNKu9esjYY6
+root - INFO - Prince - 15BL8ku45JiAS9dSuAD2ap
+root - INFO - Madonna - 2BcOZ4vOeu2qZowIHrvTYy
+root - INFO - The Everly Brothers - 0x1m7c3igAKDQG8E0hETUA
+root - INFO - Smokey Robinson and the Miracles - 5khAYmr8HHFwI3sp0Lw9wp
+root - INFO - Nirvana - 40VSbBSYbPN10vJYeZq4tm
+root - INFO - Neil Young - 641D3IAwlMFK0gIRh7nqov
+root - INFO - Prince - 417BgvwuyihreDKPXbp2kS
+root - INFO - The Everly Brothers - 2ZCkqAo0tzzCVOth7ityh5
+root - INFO - Total number of tracks: 20
+root - INFO - The Clash - 39shmbIHICJ2Wxnk1fPSdz
+root - INFO - Total number of tracks: 20
+root - INFO - The Who - 3qiyyUfYe7CRYLucrPmulD
+root - INFO - Smokey Robinson and the Miracles - 7EYzRM7HZv5fRebDqZNB12
+root - INFO - Neil Young - 5iBAQwRzX6m8iiCNeOyBy4
+root - INFO - Nirvana - 0lSKzDg5UsGaULM74JYteH
+root - INFO - Smokey Robinson and the Miracles - 7uK7xGxTNumIRHKDbibPWD
+root - INFO - The Clash - 2ax1vei61BzRGsEn6ckEdL
+root - INFO - The Everly Brothers - 3NUXLtK8UGdD8TvZ12b4dD
+root - INFO - The Who - 7BKbcBpIS7jMKsjbry09JF
+root - INFO - Total number of tracks: 20
+root - INFO - The Ramones - 4KcH1ZRV2W1q7Flq0QqC76
+root - INFO - Neil Young - 3NaZTWIYB7WofsW24QhVy8
+root - INFO - Nirvana - 0Pie5DFAHHxpkONFUsAI6s
+root - INFO - Smokey Robinson and the Miracles - 2cc3PDGjT6BRBHwa58mzrD
+root - INFO - The Clash - 56KqaFSGTb7ifpt16t5Y1N
+root - INFO - The Everly Brothers - 7F4z7VV5aVWX72YK4bM9HB
+root - INFO - The Who - 0LN5gIsS5tQSmRzQrHSaTR
+root - INFO - The Ramones - 5NoQvINZLBV1wMYPdNmReL
+root - INFO - Total number of tracks: 20
+root - INFO - Fats Domino - 06PdA0DLgF4BfAeUNZAbFG
+root - INFO - Nirvana - 5Ddlk6C2JVxb1SReZ6O1wk
+root - INFO - Total number of tracks: 20
+root - INFO - Jerry Lee Lewis - 64VP3skE86iTvdOlbzuIcO
+root - INFO - Smokey Robinson and the Miracles - 5aHNXJOzXAEp2TT7KLTKly
+root - INFO - The Everly Brothers - 5nBTYxDKVKo6uVYiuz1GiV
+root - INFO - The Clash - 124Y9LPRCAz3q2OP0iCvcJ
+root - INFO - The Who - 6LbbHFEajG9e4m0G3L47c4
+root - INFO - The Ramones - 0N8c4Yf3gp8KnngZggvpqi
+root - INFO - Fats Domino - 0CIc4SaHV9RaQvXscSlVFH
+root - INFO - Smokey Robinson and the Miracles - 0udI4HbJX4siq9P9yUp6MV
+root - INFO - Jerry Lee Lewis - 7xe3EQCvXnx6Q0zs41Y65n
+root - INFO - Nirvana - 3w5Ekq9O8g0gGFEsT77Ydi
+root - INFO - Total number of tracks: 20
+root - INFO - Bruce Springsteen - 7FwBtcecmlpc1sLySPXeGE
+root - INFO - The Clash - 6ITuEsxEy2qPhqMowdDAeI
+root - INFO - The Everly Brothers - 0Suvt6p6nR713tBFWXaGtr
+root - INFO - The Who - 1LzFh1VZ0FLeUesOFEuhyl
+root - INFO - The Ramones - 4FzPIalyruWIiefI91qe4B
+root - INFO - Fats Domino - 4ZfQwNx3FlCN07cnUvekh3
+root - INFO - Nirvana - 1Ic9pKxGSJGM0LKeqf6lGe
+root - INFO - Bruce Springsteen - 3PzsbWSQdLCKDLxn7YZfkM
+root - INFO - Jerry Lee Lewis - 3PjEcmGe6aOsOvRkUgCu22
+root - INFO - The Everly Brothers - 0LFtYzQb0xflHSlu00pO0S
+root - INFO - The Clash - 5jzma6gCzYtKB1DbEwFZKH
+root - INFO - The Who - 23IJ5wLRhEZ9DOuia5mPiZ
+root - INFO - Total number of tracks: 20
+root - INFO - U2 - 6wpGqhRvJGNNXwWlPmkMyO
+root - INFO - The Ramones - 61MZN0yyMWSEwrLPUUGfgJ
+root - INFO - Fats Domino - 1XOqI1ZpiG3hMb1JfqrGbv
+root - INFO - Nirvana - 3BtHClmMmURD8UHF2fiyxt
+root - INFO - Bruce Springsteen - 6hTcuIQa0sxrrByu9wTD7s
+root - INFO - Jerry Lee Lewis - 6wO13Xb3EdHUNixFOEJ0KV
+root - INFO - The Clash - 72boGlgSwUK01n44O2tOCv
+root - INFO - The Who - 0cKk8BKEi7zXbdrYdyqBP5
+root - INFO - The Ramones - 6x7B9cDXyH4X7lCwH6B40o
+root - INFO - U2 - 6ADSaE87h8Y3lccZlBJdXH
+root - INFO - Fats Domino - 7iwQPvyViIkyT0HWnatjnk
+root - INFO - Bruce Springsteen - 2Y90nL1ohB4sgYELDs7uNx
+root - INFO - Nirvana - 15VRO9CQwMpbqUYA7e6Hwg
+root - INFO - Jerry Lee Lewis - 5UvE5QlINnvEc7aFO14DVL
+root - INFO - The Who - 074v54tSEWLbq3Hu5wf6uh
+root - INFO - The Clash - 5T4j3Uv33fQO7tsR2lMl4y
+root - INFO - U2 - 6QPhpvO1pWDS91EsEmzsbc
+root - INFO - Fats Domino - 2gZlblsff9FKnhSIwB2ZsU
+root - INFO - The Ramones - 6vvmYYUvGXtZLU8msxKvzF
+root - INFO - Bruce Springsteen - 3fbnbn6A5O5RNb08tlUEgd
+root - INFO - Nirvana - 6y1etHPLRsgA467gLBOgBm
+root - INFO - Jerry Lee Lewis - 5mISdAfF2PxfbFBjvczPha
+root - INFO - Total number of tracks: 20
+root - INFO - Otis Redding - 3zBhihYUHBmGd2bcQIobrF
+root - INFO - The Clash - 5dAxeuDkIkpa6wZpMOuG9i
+root - INFO - The Who - 0cJPLFrlV7TTCyPLupHzcH
+root - INFO - Bruce Springsteen - 1KsI8NEeAna8ZIdojI3FiT
+root - INFO - Fats Domino - 6z0tyKIUzITK4Avrd1ubOy
+root - INFO - The Ramones - 5VzglnWFMmqBqTl8OHdVYv
+root - INFO - U2 - 3G69vJMWsX6ZohTykad2AU
+root - INFO - Nirvana - 48YkpE5enOln5c7jXSTuHL
+root - INFO - Jerry Lee Lewis - 5jw1zzcYFivmuJK52JrnMK
+root - INFO - Otis Redding - 6vegnfDS8DAEaCqWaPYGPy
+root - INFO - The Who - 1mpSmPwWONa4LFdvpzcM7S
+root - INFO - The Clash - 7lSDCrF11sdTVfjbAQVZE8
+root - INFO - Bruce Springsteen - 0dOg1ySSI7NkpAe89Zo0b9
+root - INFO - The Ramones - 4dyBuBbYZj1iiK0ywYjYzT
+root - INFO - U2 - 1VuBmEauSZywQVtqbxNqka
+root - INFO - Fats Domino - 5TcEq6qNQJ7HXeTxwB3ZGB
+root - INFO - Jerry Lee Lewis - 3wvlh2iH7lnbx3zvSQGoQl
+root - INFO - Otis Redding - 4pdLyulbYLCrPmDzWWeJIZ
+root - INFO - The Who - 4Mqs0h95KAeNiGp7u4udlt
+root - INFO - The Clash - 6ywRlumSQjOOkcSnJYAgHw
+root - INFO - Total number of tracks: 20
+root - INFO - Bo Diddley - 2R7uUQ0Dehu80gsOcydQC9
+root - INFO - The Ramones - 1jvzmNw7sVTSDnprPuEi0D
+root - INFO - Fats Domino - 2NkAoxQOr6MGdMB5JDTU81
+root - INFO - U2 - 4qgZs0RNjdzKAS22lP0QjY
+root - INFO - Bruce Springsteen - 6dahFmHrgncgVJjsI1ws7e
+root - INFO - Jerry Lee Lewis - 7Fyo9lTrk6pjT1rVW3GlBG
+root - INFO - Otis Redding - 7FXuCkl1kfxwS5icDjTwbM
+root - INFO - The Who - 4rVvheUQ2wQpn5uXX5l0gS
+root - INFO - The Clash - 0jnFDxgNhS156vu6roUVco
+root - INFO - Bo Diddley - 760clbeDBWmBsBLbszWuNZ
+root - INFO - The Ramones - 2PN0JeaGtkHrlcmwZFWzBM
+root - INFO - Bruce Springsteen - 56lhDZNQ5J47aog6mGKeGk
+root - INFO - Fats Domino - 5Gw6d1Mt428wFoJbSVy94i
+root - INFO - U2 - 6C4LXC9UFH1IKiHYOp0BiJ
+root - INFO - Jerry Lee Lewis - 6Qdn9exwp1diIoRVypQl13
+root - INFO - The Who - 4lzNP52B3CfeVr2drfPh6X
+root - INFO - The Clash - 4W9zZsQKsqikYbKM9vcN5Q
+root - INFO - Total number of tracks: 20
+root - INFO - The Velvet Underground - 11VwZwNF29HrqwalYUMitb
+root - INFO - Otis Redding - 1aj4GXfmEYXfdVZohCpNKu
+root - INFO - Bo Diddley - 7hajZgAZPUxRu6YwuyODI8
+root - INFO - Fats Domino - 0Zkuewgtp8XbeJ5xInG4p8
+root - INFO - The Ramones - 2GMujhtXaUVaSNbcTSGQ8m
+root - INFO - Bruce Springsteen - 6ZOdsfgq6ygEPnG3nCIY8L
+root - INFO - U2 - 40EiOxrNDU2DObDLOgcbdw
+root - INFO - Jerry Lee Lewis - 62LpVevmzDipu72WObdsZk
+root - INFO - The Who - 10Aebb38sIB5JqkHmYSMJ9
+root - INFO - The Clash - 3v8PlUFGQQDBIk1J86waCo
+root - INFO - Otis Redding - 4skknrc3sJqaPTtUr2cwFq
+root - INFO - The Velvet Underground - 3fElupNRLRJ0tbUDahPrAb
+root - INFO - Bo Diddley - 3rm6yFyS9FidnIsrEM4hg5
+root - INFO - U2 - 6Pztn1vmTohZrFICkaDOEa
+root - INFO - Bruce Springsteen - 4Z80C8NlDd1AO4axf1O3n0
+root - INFO - Fats Domino - 4U2b99X9hSSDjPbHCpIeJj
+root - INFO - Jerry Lee Lewis - 3EdEML9OuJmadb6qHvLvID
+root - INFO - The Ramones - 2j3PFZXmenUxgjjBUIod7F
+root - INFO - The Who - 5orygsZ5Ga0jEOvftsXqw2
+root - INFO - The Clash - 60TThBDrPpek5k520l0W0L
+root - INFO - Otis Redding - 36AlMHDBFwSsD3FQOy1R81
+root - INFO - The Velvet Underground - 4PINSJIlBWsnVeveicq1S8
+root - INFO - Bo Diddley - 1UvHVFv5bZBEIg55yjiM9E
+root - INFO - U2 - 1z2xo6JexRrA8R2PIDOJPW
+root - INFO - Fats Domino - 6WHzRPYYEoyFwiHn4iPZTj
+root - INFO - The Ramones - 2HZGsnMByx3V8KmNW6LqWF
+root - INFO - Bruce Springsteen - 68uuz61IqrSJjO6ffO3yHc
+root - INFO - Jerry Lee Lewis - 72MezBoX0leds0kvEX7tyz
+root - INFO - The Who - 4u9f8hqstB7iITDJNzKhQx
+root - INFO - The Clash - 6wtmql7FJ7SSLuSw8JD8rX
+root - INFO - Otis Redding - 2tT6mzIeQG2tAFIMTwR6DV
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Fats Domino - 1tEd3vYEYxdlmb0esRFRk6
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - U2 - 3xjTuTBaihydhSC7ByNoSb
+root - INFO - The Velvet Underground - 3PG7BAJG9WkmNOJOlc4uAo
+root - INFO - Bo Diddley - 4HEmPMRG1Mz4pYEpYbWTO0
+root - INFO - The Who - 0xHxeH4QTqlfNrQvczkoTA
+root - INFO - The Clash - 6SjbzGo7arjfM5cXpXhc5B
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Otis Redding - 1LIM0zOPitSNpUIU8H1BNQ
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - U2 - 1WLRX6ZlRdSnvaCas1eWZd
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - U2 - 2CwMxEXxMiLRrKPLjQLmne
+root - INFO - U2 - 2Xnbnmo8pIBbfkcgEBVydz
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Ramones - 29imR7dda5XqwPRFmby7HS
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Bo Diddley - 1miwQNADgNEBikbUBful7z
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Fats Domino - 5UzBH9eW6D8rP0TC69vL7p
+root - INFO - The Clash - 6YrT6JE75lYqssLCJuKtnY
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Clash - 7GSntpo11wYMwZc3q3GfyN
+root - INFO - Fats Domino - 3FkzSXO9uZbQ4sgRgR8O0m
+root - INFO - The Clash - 66MwdlxiFMZ8TJGLEJnS7x
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Velvet Underground - 11607FzqoipskTsXrwEHnJ
+root - INFO - The Who - 0BiqmkasE5FdrChwKfVp8X
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Bruce Springsteen - 2zMlWt4aYreVczVERFK94w
+root - INFO - Jerry Lee Lewis - 6NCZcw0ycxbhA0egE0WQMs
+root - INFO - Bruce Springsteen - 0M1YQiRGel1tTMjA3orfRd
+root - INFO - Jerry Lee Lewis - 0o218zC3mFf0zqyiCR19We
+root - INFO - Otis Redding - 3p6keDkfLYYpuAdvv1Ktsh
+root - INFO - Bruce Springsteen - 0VkDedVtP7TQDlaCMq9QVx
+root - INFO - Jerry Lee Lewis - 1IzdDoX6afO75QGfISsc9U
+root - INFO - Otis Redding - 50uGbeaQIxKiSc7jvRTjWx
+root - INFO - Bruce Springsteen - 0nqbZ17t9v52SCemAm1QP0
+root - INFO - Jerry Lee Lewis - 6LivLb2QdgYkSDvN1QVTT8
+root - INFO - Otis Redding - 4PFiLGx8jAzcAJxwPLUeZ9
+root - INFO - U2 - 50JK22El2PTIzZBU2liLDI
+root - INFO - Bruce Springsteen - 4Gmdm6oRVwJgsM8gYnwRoE
+root - INFO - Jerry Lee Lewis - 7AMovn0lWLmHmB04BZGlfw
+root - INFO - Otis Redding - 4Y4Gd3ty8uut6Qw43c7yJc
+root - INFO - U2 - 6KzXx4tQdsBs19KpX2FQuE
+root - INFO - Bruce Springsteen - 7i0VrdLCDhvgWXfcT6EQJG
+root - INFO - Jerry Lee Lewis - 60Sps9J3QT59Y4p9RfzePN
+root - INFO - Otis Redding - 4sDXEltU35xgga78VFvmJe
+root - INFO - U2 - 7ndGFo9nZ108KPgXtfYWCe
+root - INFO - Bruce Springsteen - 6s2wpWPFPAgKg2LXxi1Oee
+root - INFO - Jerry Lee Lewis - 24wqXyXfO0fZxnM47ox9HV
+root - INFO - Otis Redding - 2gFfG8Ick2LGOzFHiWOV22
+root - INFO - U2 - 5pmrqutc908t5jqcXU6ha6
+root - INFO - Bruce Springsteen - 5Nj8kBJdpJJ4I9wxQyp8JH
+root - INFO - Otis Redding - 3kN1om53zT8Q4F7MNpPjPq
+root - INFO - U2 - 57ZXcBtCZXSg9TVV5xRdnR
+root - INFO - Otis Redding - 4Ym0HjYfgEaUgjI3WuDqMK
+root - INFO - U2 - 7wAbGha9YKADhOCmNRnlu1
+root - INFO - Otis Redding - 16dz1n3ctolQbuZPtvHVqH
+root - INFO - The Ramones - 6z58gUUWR7TRXJwGep7l9q
+root - INFO - Otis Redding - 2qjqtLmX0FLTwdG8aBHH90
+root - INFO - The Ramones - 70U8S3FnHJlwPuid3D2A5d
+root - INFO - Total number of tracks: 20
+root - INFO - Marvin Gaye - 7tqhbajSfrz2F7E1Z75ASX
+root - INFO - Bo Diddley - 2rW9GxH8MrqLNVAWyUhF6h
+root - INFO - Otis Redding - 3AW8RH8wosGLxd6ZojTGBe
+root - INFO - Total number of tracks: 20
+root - INFO - Muddy Waters - 28t0Fp23qgptKwnTn55Hq2
+root - INFO - Marvin Gaye - 3VZmChrnVW8JK6ano4gSED
+root - INFO - The Ramones - 2Tli1Nz0iF8DHlir0XsreF
+root - INFO - Fats Domino - 5UNgEkAGHeLHvAVNdi4okj
+root - INFO - Bo Diddley - 2bih4rmQ7dwmNbqD502rBc
+root - INFO - Muddy Waters - 58PSYdY0GFg0LFb2PxYk4T
+root - INFO - The Who - 0G40R1RtAbgAUI8SslMsTB
+root - INFO - The Velvet Underground - 1o6DclZHw0HomxXEQR1ijX
+root - INFO - Total number of tracks: 20
+root - INFO - Sam Cooke - 0KOE1hat4SIer491XKk4Pa
+root - INFO - Marvin Gaye - 7rl1z4j7MurMDnn9rHh4M2
+root - INFO - The Ramones - 0vGCxnTwYZFtOAW3oz28kd
+root - INFO - Muddy Waters - 3KSchPNSklO5McIqRH3qYX
+root - INFO - Fats Domino - 7GoBeudlghOYGNoRuz9yLI
+root - INFO - The Velvet Underground - 1rJi8cf8OWsrX4CqBnMSoQ
+root - INFO - Bo Diddley - 3Caj3EuBDu2cpjpFNNTXLL
+root - INFO - The Who - 632wpQN4nWLEvxUyGZxyLM
+root - INFO - Sam Cooke - 7jVBSPLSbL1jKVBDMXlRCx
+root - INFO - Marvin Gaye - 4JmZyfkzXWN7pHJsJpN6XP
+root - INFO - Muddy Waters - 2eZuFG3KSALN1BowCuSB1A
+root - INFO - The Ramones - 7yZxVG3fPC22r9cvcjcqMI
+root - INFO - Fats Domino - 6pS2nLsZBUOrMaFMPvFVwM
+root - INFO - The Velvet Underground - 6cA1usDL8nTHeSgFewQat3
+root - INFO - Bo Diddley - 213gRSQQOk83VQpBa8edPj
+root - INFO - Sam Cooke - 5EoYc5wvRYOtkudLfrjsL1
+root - INFO - Marvin Gaye - 1tqT6DhmsrtQgyCKUwotiw
+root - INFO - Total number of tracks: 20
+root - INFO - Stevie Wonder - 2eF8pWbiivYsYRpbntYsnc
+root - INFO - Muddy Waters - 1S3H39nXecr4c1g7qnuMeu
+root - INFO - Fats Domino - 0KmbPjTHwZV7lmIwhBeXmV
+root - INFO - The Velvet Underground - 29engDqjmMr3VLqMm0c0WE
+root - INFO - Total number of tracks: 20
+root - INFO - Led Zeppelin - 78lgmZwycJ3nzsdgmPPGNx
+root - INFO - Bo Diddley - 15wbuzzUSRwr3Vne6X4TK7
+root - INFO - Marvin Gaye - 39l1UORIhuHvUWfxG53tRZ
+root - INFO - Sam Cooke - 2g2GkH3vZHk4lWzBjgQ6nY
+root - INFO - Stevie Wonder - 01lewSOj9ZaXplh9TpNKL4
+root - INFO - Muddy Waters - 1YM0WEEhit7WL15fkLkwMI
+root - INFO - Led Zeppelin - 6Vjk8MNXpQpi0F4BefdTyq
+root - INFO - The Velvet Underground - 0i19MAZbyn8uTir7FprXId
+root - INFO - Bo Diddley - 03hAALcuWwNZEv1B3EoEso
+root - INFO - Sam Cooke - 24lvdbt9pS7DFEjhEWSl49
+root - INFO - Marvin Gaye - 3IDc87lrpEHWFBASmgTgFV
+root - INFO - Stevie Wonder - 1h2xVEoJORqrg71HocgqXd
+root - INFO - Muddy Waters - 4pyJrDKo7bXM51Q94Rxzkc
+root - INFO - The Velvet Underground - 3cw3Z7mS55gd3NUjh4k0bL
+root - INFO - Bo Diddley - 3BnfMMWFkPFpgI41mHWOKf
+root - INFO - Led Zeppelin - 0hCB0YR03f6AmQaHbwWDe8
+root - INFO - Total number of tracks: 20
+root - INFO - Buddy Holly - 3mwvKOyMmG77zZRunnxp9E
+root - INFO - Marvin Gaye - 3Um9toULmYFGCpvaIPFw7l
+root - INFO - Sam Cooke - 0YfOnJWqmAKaUvEL1QcNop
+root - INFO - Muddy Waters - 5CP9ibCqNjkhA88DNTyzg6
+root - INFO - Stevie Wonder - 4N0TP4Rmj6QQezWV88ARNJ
+root - INFO - The Velvet Underground - 5by3w3NXvwDpV9FBSOR35u
+root - INFO - Buddy Holly - 39lnzOIUCSNaQmgBHoz7rt
+root - INFO - Led Zeppelin - 5CQ30WqJwcep0pYcV4AMNc
+root - INFO - Sam Cooke - 7FS541dJh3iQAEXEZoDhE6
+root - INFO - Marvin Gaye - 7ohR0qPH6f2Vuj2pUNanJG
+root - INFO - Bo Diddley - 6uNSPeniN037HeHsAX9Rxg
+root - INFO - Muddy Waters - 0h06YSqzwbAU9ZDuIvw8pk
+root - INFO - Stevie Wonder - 4pNiE4LCVV74vfIBaUHm1b
+root - INFO - Total number of tracks: 20
+root - INFO - The Beach Boys - 5qHYXcVvc9xsFB2uH7GpMN
+root - INFO - Total number of tracks: 20
+root - INFO - Bob Marley - 5O4erNlJ74PIF6kGol1ZrC
+root - INFO - The Velvet Underground - 2LAZn3ygMkecVRmyXvGjHO
+root - INFO - Buddy Holly - 50RwvvEKX5Q7AZt8FTAwIF
+root - INFO - Led Zeppelin - 3MODES4TNtygekLl146Dxd
+root - INFO - Sam Cooke - 5z8DiKSG4EwxmO6gUi12rZ
+root - INFO - Marvin Gaye - 6Ndauo9gCxNjTfklsFYS7b
+root - INFO - Bo Diddley - 3v30QiQtdQQAUIWwfKByN7
+root - INFO - Muddy Waters - 7FDFtgdyzlBN0tUo3boGZe
+root - INFO - Stevie Wonder - 13toFl1UwJPsRxDiD9jgtn
+root - INFO - The Velvet Underground - 341b9JIDHZ3oaMVNwS0OsA
+root - INFO - Bob Marley - 7vggqxNKwd6xdRoYS0pQtM
+root - INFO - The Beach Boys - 2Gy7qnDwt8Z3MNxqat4CsK
+root - INFO - Buddy Holly - 2OARIMw1hpehr86Iwmv04c
+root - INFO - Led Zeppelin - 3qT4bUD1MaWpGrTwcvguhb
+root - INFO - Sam Cooke - 6e6Kxot9nHyZ4I8GgmGKII
+root - INFO - Marvin Gaye - 2gmWJA9oF4GD2Vw5QoRqu1
+root - INFO - Bo Diddley - 2OkBGZr3g5LFdFqn4QuFQE
+root - INFO - Muddy Waters - 0kTBdysOL5AHuqx7tYEcbj
+root - INFO - Stevie Wonder - 6RNDeRnWsRMjPdNVgupZCs
+root - INFO - Bob Marley - 75FYqcxt1YEAtqDLrOeIJn
+root - INFO - The Velvet Underground - 7qJreNMHmeV7Ezs4y9eddQ
+root - INFO - Buddy Holly - 36sqkyqgRWvA5gc12tJTzc
+root - INFO - The Beach Boys - 6VojZJpMyuKClbwyilWlQj
+root - INFO - Led Zeppelin - 5uUhS7XDkyycNa5FaNfPGT
+root - INFO - Sam Cooke - 0WVTQp3SOCuMr08jh1jweV
+root - INFO - Marvin Gaye - 6ukMqDxnOPOgoHdak7Kyp3
+root - INFO - Bo Diddley - 4FUsQKpFlrL3EPgfL2ToTI
+root - INFO - Muddy Waters - 7kqGCWwUTnwisFFz5d37gE
+root - INFO - Stevie Wonder - 4kP69y3GKHi9tXckfgp4bK
+root - INFO - The Velvet Underground - 2Vp0ue7NNLHFF6RKSdOEuN
+root - INFO - Bob Marley - 6JRLFiX9NJSoRRKxowlBYr
+root - INFO - Buddy Holly - 2gCVGneTiQbvp5oaPZ7Bu4
+root - INFO - The Beach Boys - 0wz1LjDb9ZNEYwOmDJ3Q4b
+root - INFO - Led Zeppelin - 70gbuMqwNBE2Y5rkQJE9By
+root - INFO - Marvin Gaye - 5hReWjUHqPqkHi31G7izL4
+root - INFO - Bo Diddley - 54bVjN7h227cwMIXV8xzZa
+root - INFO - Sam Cooke - 1sK10Me7qS9em2QTx6dYRe
+root - INFO - Muddy Waters - 61K6lqGyrl2Aerk0LjAZem
+root - INFO - Stevie Wonder - 3NlLmKBJozwoi0k03Feb1N
+root - INFO - The Velvet Underground - 63OJHHu2ambZAvdrvhdT2b
+root - INFO - Buddy Holly - 1kQHxPaqKWXKxrbwalPN3i
+root - INFO - Bob Marley - 3PQLYVskjUeRmRIfECsL0X
+root - INFO - The Beach Boys - 5t9KYe0Fhd5cW6UYT4qP8f
+root - INFO - Led Zeppelin - 4ItljeeAXtHsnsnnQojaO2
+root - INFO - Sam Cooke - 0JgMWvvUhH6UyWOG2oeG1b
+root - INFO - Marvin Gaye - 0jHkgTtTaqg5LNCiYDQPUB
+root - INFO - Bo Diddley - 1v17yvMyseAvDp4Wlb9msK
+root - INFO - Stevie Wonder - 0dMd4rilfd6gPbXaLpNYhu
+root - INFO - Muddy Waters - 2txRs0wxjGE1uzOhcBxN7L
+root - INFO - Buddy Holly - 3rYD7DIw2Ov2NFbq3lMMzm
+root - INFO - The Velvet Underground - 0ZfP7K8NoyJRjEfWWk8Mlv
+root - INFO - Bob Marley - 5LyfiK6iXEIBNEtcaGKohl
+root - INFO - The Beach Boys - 2EPr9Wx7e1cpGEbNAtuN7x
+root - INFO - Led Zeppelin - 0QwZfbw26QeUoIy82Z2jYp
+root - INFO - Marvin Gaye - 2zF8ro2hX0aEYaqXQdEKW1
+root - INFO - Sam Cooke - 0BFEyqJ9DJXS7gKg0Kj46R
+root - INFO - Stevie Wonder - 0n2pjCIMKwHSXoYfEbYMfX
+root - INFO - Muddy Waters - 73HQSD2qTu24jGVAF4Utxq
+root - INFO - Buddy Holly - 6NDg4EyQE5lalcCEEpytsM
+root - INFO - The Velvet Underground - 7qOVMMY0couqt76ObwY947
+root - INFO - Bob Marley - 4aUCPal9bxTnQkEfdIY6sG
+root - INFO - The Beach Boys - 6KZqW1CRQjzpRgXoOmLkKQ
+root - INFO - Led Zeppelin - 16VhHtoaOjTU4AJBNSBNQ1
+root - INFO - Stevie Wonder - 1O1mCVN5hue4lOOqd5EysZ
+root - INFO - Sam Cooke - 7N15WWy12QAMpGAh6QMAej
+root - INFO - Marvin Gaye - 15pYj5ZiUJgBydzD7w6NbJ
+root - INFO - Muddy Waters - 2aZ8nrq3RIXEXUviAwzyLV
+root - INFO - Buddy Holly - 4UcHTV3TjlThmMlZgOG4Kr
+root - INFO - The Velvet Underground - 4Hh6Q9GhhE8DeON2iUtYMT
+root - INFO - The Beach Boys - 1GLmaPfulP0BrfijohQpN5
+root - INFO - Bob Marley - 43a41kwTMZClWCLTONiaqm
+root - INFO - Led Zeppelin - 6WE7jSshLCuVKoCmobVKVf
+root - INFO - Sam Cooke - 4UcxTnA6C5vCW79PIZ38Vx
+root - INFO - Stevie Wonder - 6RANU8AS5ICU5PEHh8BYtH
+root - INFO - Muddy Waters - 4bWAx9mMt1xd1FqVxwmky5
+root - INFO - Marvin Gaye - 4N9DOPhK7km5WnsgVD9GMI
+root - INFO - Buddy Holly - 2Aq3BiLhITGHe6YSzkzOvi
+root - INFO - The Beach Boys - 6kCo655sDMmZZvkqHzfTH4
+root - INFO - Bob Marley - 2pZJhvpin385eqAFRp3ASJ
+root - INFO - Led Zeppelin - 4PRGxHpCpF2yoOHYKQIEwD
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Sam Cooke - 5Iev69m1Jnf7oc79VvPjpd
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Total number of tracks: 20
+root - INFO - Ray Charles - 5dUMh0ugelpKfoFp3qChuK
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Buddy Holly - 6GET9G7aO1R6wy5aB5PxFs
+root - INFO - The Beach Boys - 6iGU74CwXuT4XVepjc9Emf
+root - INFO - Bob Marley - 7BfW1eoDh27W69nxsmRicb
+root - INFO - Led Zeppelin - 2eDdFHgqNJltzlvlZFVDWd
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Ray Charles - 2xar08Fq5xra2KKZs5Bw9j
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Beach Boys - 3v9xlH6BpmRbqL7hgNJhfT
+root - INFO - Bob Marley - 6SR0dDuXH2vtgBfMLrivKV
+root - INFO - Led Zeppelin - 6hu1f1cXSw7OAqhpSQ2zDy
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Beach Boys - 1gah8SqU1AecbAglS7LnjH
+root - INFO - Bob Marley - 23EmReYCtIOWmBFjyaNXyf
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - The Beach Boys - 4frYZuZTsRR01B5JW4fp28
+root - INFO - Bob Marley - 64xslN8DB3jG1tK2l3H1mA
+root - INFO - The Beach Boys - 2ULL3VZf4WwBKO4vjwT7Bg
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Marvin Gaye - 4ihykcy9d9SSC5qxHIhPcf
+root - INFO - Muddy Waters - 7Ak1aR9cK5b4yKHdhIhNVq
+root - INFO - Stevie Wonder - 3cJSJTrEKNfm1TmoswErkW
+root - INFO - Sam Cooke - 6VuO6xcpSeeLfqBo4ePbkw
+root - INFO - Buddy Holly - 33aYzW5ToRjiFOzkubeJ8H
+root - INFO - Marvin Gaye - 3t7msVUiQICoZCdWYaqKDx
+root - INFO - Stevie Wonder - 1QvWxgZvTU0w8rlPRE5Zrv
+root - INFO - Muddy Waters - 18n0zch7bRo453Iwq98xYf
+root - INFO - Ray Charles - 6yMGxqKj0218mFR5KqsMRq
+root - INFO - Sam Cooke - 3CDEoUqFIzVap4v8YFnjr4
+root - INFO - Buddy Holly - 7s7Zu78CztOUFUyQ4BijBQ
+root - INFO - Total number of tracks: 20
+root - INFO - Aretha Franklin - 7s25THrKz86DM225dOYwnr
+root - INFO - Marvin Gaye - 7gs18umrgrIpRlDQIzKhpH
+root - INFO - Led Zeppelin - 3i25w2HOWoafnTIiWJCL71
+root - INFO - Stevie Wonder - 687YZan9Gol1UVvbpUSO6Y
+root - INFO - Muddy Waters - 2PatEYrrVBNx5LPjTL2ruP
+root - INFO - Sam Cooke - 0J1JdPuKQ1uUOueYLEU2BC
+root - INFO - Ray Charles - 2HoqbEOXgbDSLZ5XCePEXt
+root - INFO - Buddy Holly - 20UjAGdEjVb8DniNXvqHJy
+root - INFO - Led Zeppelin - 4ZkhFcoS3apzze9w2yI9NO
+root - INFO - Stevie Wonder - 0Hw6SCrtU9pFCjgAONpnGZ
+root - INFO - Aretha Franklin - 5K09WxKdlkroDyEVyOSySy
+root - INFO - Sam Cooke - 4yjz1aazw6R8ZURpGbCAkp
+root - INFO - Ray Charles - 5uPakSfc8x3RpbAGSpEHeB
+root - INFO - Bob Marley - 26PwuMotZqcczKLHi4Htz3
+root - INFO - Buddy Holly - 0noMw79nLyguA49zV6Gk3t
+root - INFO - Led Zeppelin - 4ywWJqYKOwaVVh9xXARWUS
+root - INFO - Stevie Wonder - 0HnuZ2RifC5MX5vYtmcgvE
+root - INFO - Aretha Franklin - 3NfxSdJnVdon1axzloJgba
+root - INFO - Ray Charles - 5P11rW6aJErF37MTfRZS31
+root - INFO - The Beach Boys - 2KOt2JrCB720UxIbyzweQo
+root - INFO - Bob Marley - 58Zt987fK6gWxtO0MwEzPn
+root - INFO - Buddy Holly - 3U9Kkv90QElks0pzIgfAxw
+root - INFO - Led Zeppelin - 5hhVpGIBlqAU5yJEOmrk5o
+root - INFO - Aretha Franklin - 2oZmMp5M6L0Rh7G84Um2tF
+root - INFO - Stevie Wonder - 4C5GsegFD0j5ujSr1y93Oj
+root - INFO - Ray Charles - 7DJsL4jyXA39GDiHFQYQ0t
+root - INFO - The Beach Boys - 4ZgP0UEPtoxtxJYcvZvxf7
+root - INFO - Bob Marley - 2sevvnMrqH607r5lwk3kFT
+root - INFO - Buddy Holly - 5xmWeMhi9VwuLyiju0ofRS
+root - INFO - Led Zeppelin - 0d0Z9qFbTIgDSZtImluTAy
+root - INFO - Total number of tracks: 20
+root - INFO - Little Richard - 2iXcvnD3d1gfLBum0cE5Eg
+root - INFO - Aretha Franklin - 5liSqIuo993Rj1ayyqQqAw
+root - INFO - Stevie Wonder - 2lnQcP5hr4RKR63TFvnI4k
+root - INFO - Ray Charles - 5yQ9iMZXGcr5rlO4hoLsP4
+root - INFO - Total number of tracks: 20
+root - INFO - James Brown - 2bQv3yAOjVFO7hcVpqyyVc
+root - INFO - Bob Marley - 0QyBdoz2JktWEo111DBEx9
+root - INFO - The Beach Boys - 4MHzXgBy7hexDe2Bto11hP
+root - INFO - Little Richard - 507IFqPuG8mBQoKebfGG9t
+root - INFO - Buddy Holly - 5HJi63X1utQNC0B0S4FePJ
+root - INFO - Aretha Franklin - 2gJDyiRxxIglLXp545SPVL
+root - INFO - Ray Charles - 1XjXU5QseFCdZfda2u63hB
+root - INFO - Total number of tracks: 20
+root - INFO - Jimi Hendrix - 2aoo2jlRnM3A0NyLQqMN2f
+root - INFO - James Brown - 5OcyX5eg7VrJuI833qOCUc
+root - INFO - Bob Marley - 3sqZDdEO5viqNqMCNem5m5
+root - INFO - The Beach Boys - 26nOt1H77GICkM3RRiwfFX
+root - INFO - Little Richard - 0ZvgXNstN4o2ZXPomtBYVp
+root - INFO - Buddy Holly - 64wXoxgsQgC4PCKnqfK6f1
+root - INFO - Aretha Franklin - 1hES47PrbU8GPTI5A9lsr0
+root - INFO - Ray Charles - 79nJj5dMyTsUzKvN5jUXsJ
+root - INFO - Jimi Hendrix - 5nJ9WqiiVz9Rz6a2xLhHlZ
+root - INFO - James Brown - 5XeSAezNDk9tuw3viiCbZ3
+root - INFO - Bob Marley - 1ATZfYmZOcm24vl5oQtPdC
+root - INFO - The Beach Boys - 0aHcPO9MloEnchhbBAZeIa
+root - INFO - Little Richard - 3otRbR9blMGHjTSxCTIabQ
+root - INFO - Ray Charles - 3MGxxDOKDvWM31RbYG087C
+root - INFO - Aretha Franklin - 5AoTuHE5P5bvC7BBppYnja
+root - INFO - Jimi Hendrix - 1Eolhana7nKHYpcYpdVcT5
+root - INFO - James Brown - 5haXbSJqjjM0TCJ5XkfEaC
+root - INFO - Bob Marley - 4FNm4ZJaUVLDCMXcqwS6zY
+root - INFO - The Beach Boys - 1Ctb4keO4gwXheea7qzMCg
+root - INFO - Little Richard - 5tHFPtV7dT01fxDe2AhKjD
+root - INFO - Total number of tracks: 20
+root - INFO - Chuck Berry - 2QfiRTz5Yc8DdShCxG1tB2
+root - INFO - Total number of tracks: 20
+root - INFO - The Rolling Stones - 63T7DJ1AFDD6Bn8VzG6JE8
+root - INFO - Aretha Franklin - 4yQw7FR9lcvL6RHtegbJBh
+root - INFO - Ray Charles - 5EpwOn2sBvXXKiwO68g7a1
+root - INFO - James Brown - 00pGV4EInVd77cnOIwPTCv
+root - INFO - Jimi Hendrix - 3qebSLgUwaEqbwCM5sj5Kh
+root - INFO - Little Richard - 7i3xpu7SFWvzhGa9AZyySR
+root - INFO - The Rolling Stones - 75zMKn5euxQdlkZgu4P42J
+root - INFO - Aretha Franklin - 3iX0BMs9dX9CsgrHhiB173
+root - INFO - Chuck Berry - 2L8mIvM1OwkJyGb3WwDFT3
+root - INFO - Ray Charles - 47mA6f44zxLtdATOoY7GjN
+root - INFO - Jimi Hendrix - 0wJoRiX5K5BxlqZTolB2LD
+root - INFO - James Brown - 225vG9vU7QrnjJARJXnSpd
+root - INFO - Little Richard - 4YXKKnIZuk7UtXH5oC0ffa
+root - INFO - The Rolling Stones - 6H3kDe7CGoWYBabAeVWGiD
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Aretha Franklin - 7L4G39PVgMfaeHRyi1ML7y
+root - INFO - Chuck Berry - 6FT83pFXKhDlXDsNJFAHWz
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Total number of tracks: 20
+root - INFO - Elvis Presley - 44AyOl4qVkzS48vBsbNXaC
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Total number of tracks: 20
+root - INFO - The Beatles - 6dGnYIeXmHdcikdzNNDMm2
+root - INFO - Total number of tracks: 20
+root - INFO - Bob Dylan - 3liDoBAc3NGI8tmWUTOAed
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - Api rate limit reached. Retrying...
+root - INFO - James Brown - 44AgaeLQCnvk3PPHIaDeDk
+root - INFO - Jimi Hendrix - 2AxCeJ6PSsBYiTckM0HLY7
+root - INFO - Ray Charles - 2htH7r8oqqEwp3BB6oh2cU
+root - INFO - The Rolling Stones - 7HKez549fwJQDzx3zLjHKC
+root - INFO - Aretha Franklin - 4VijLEUxHEzbWKYL5u9wuN
+root - INFO - Little Richard - 1YuvAZ445u1tbegYi8u34i
+root - INFO - Chuck Berry - 3qt3ybU6MScMxMKL2TYBvt
+root - INFO - Elvis Presley - 1H5IfYyIIAlgDX8zguUzns
+root - INFO - James Brown - 5U3i59kbTLrxo46TU1FRnF
+root - INFO - Jimi Hendrix - 0NWPxcsf5vdjdiFUI8NgkP
+root - INFO - Ray Charles - 0OKYalLV6PdwiLjBDkaAuc
+root - INFO - Aretha Franklin - 3BucMqBqIR5Aw7MrUkF00y
+root - INFO - The Rolling Stones - 77oU2rjC5XbjQfNe3bD6so
+root - INFO - The Beatles - 2EqlS6tkEnglzr7tkKAAYD
+root - INFO - Bob Dylan - 6HSXNV0b4M4cLJ7ljgVVeh
+root - INFO - Little Richard - 7HmEH46Z57kyKbVO8JvlQQ
+root - INFO - Chuck Berry - 2R1CGhRSsNFwCsqRxYAZK7
+root - INFO - Elvis Presley - 64Ny7djQ6rNJspquof2KoX
+root - INFO - Jimi Hendrix - 23MrkN7g6Q5U7GLIxNHN1B
+root - INFO - James Brown - 76p5d8BcoUNIibKjCqOAOg
+root - INFO - Ray Charles - 76MSB9fAR5jXVcBXdK5xMy
+root - INFO - Aretha Franklin - 1JEFsHZxUy24AvyC49GKVj
+root - INFO - The Rolling Stones - 2PzU4IB8Dr6mxV3lHuaG34
+root - INFO - The Beatles - 1tdltVUBkiBCW1C3yB4zyD
+root - INFO - Bob Dylan - 1lqMLr9Wj7SM2F9AikGcxN
+root - INFO - Little Richard - 6S3qTQ9q2HdFZYoaJJ9RpE
+root - INFO - Elvis Presley - 452KBpASS5lZLeJWX9Ixub
+root - INFO - Chuck Berry - 3SQhmctWreNM0X6Zkm2K5R
+root - INFO - Ray Charles - 51EKPuV1uAWryjNMqZLtgJ
+root - INFO - Jimi Hendrix - 5LI7PoHEolR8plrf3I16sq
+root - INFO - Aretha Franklin - 6XPZOFBB6E4poQIotMYvP1
+root - INFO - James Brown - 6LzjgzpVl0hB3YrBU1b8Z1
+root - INFO - The Rolling Stones - 6lFZbCc7pn6Lme1NP7qQqQ
+root - INFO - The Beatles - 3BQHpFgAp4l80e1XslIjNI
+root - INFO - Elvis Presley - 7zMUCLm1TN9o9JlLISztxO
+root - INFO - Little Richard - 5wbZ3sbWf4PppzZiRxkxou
+root - INFO - Bob Dylan - 3AhXZa8sUQht0UEdBJgpGc
+root - INFO - Chuck Berry - 2pnPe4pJtq7689i5ydzvJJ
+root - INFO - Ray Charles - 0gutAUZDhQ7jHEOLaez0JL
+root - INFO - Jimi Hendrix - 5H6Jp0syB5yEPk7SWYdlmk
+root - INFO - Aretha Franklin - 0lpIVCLNQRBKffcRRNrHyh
+root - INFO - James Brown - 7bFfjakySYhojqSPrAPtc3
+root - INFO - The Rolling Stones - 1Ud6moTC0KyXMq1Oxfien0
+root - INFO - The Beatles - 5jgFfDIR6FR0gvlA56Nakr
+root - INFO - Bob Dylan - 2WOjLF83vqjit2Zh4B69V3
+root - INFO - Chuck Berry - 6C7aTTCUWRK7dD379yUT3W
+root - INFO - Little Richard - 0EOTFIX60ua9qt8pel84tA
+root - INFO - Elvis Presley - 4gphxUgq0JSFv2BCLhNDiE
+root - INFO - Ray Charles - 0Orin32Q3cTRu9o3R4Rb24
+root - INFO - Jimi Hendrix - 1ntxpzIUbSsizvuAy6lTYY
+root - INFO - James Brown - 5gBJuMhaQihyChgp2ZFZvS
+root - INFO - Aretha Franklin - 7J1urWMctA5ipGxuAjk9Ak
+root - INFO - The Rolling Stones - 1GcVa4jFySlun4jLSuMhiq
+root - INFO - The Beatles - 4pbG9SUmWIvsROVLF0zF9s
+root - INFO - Chuck Berry - 6TXnGAr6DLVYshIrMeP0lZ
+root - INFO - Elvis Presley - 7KWoeBqSdZHEloYKVxssfG
+root - INFO - Bob Dylan - 18GiV1BaXzPVYpp9rmOg0E
+root - INFO - Ray Charles - 6LahUh0U4umx6hDFfVWlGi
+root - INFO - Little Richard - 7jkPCXETejn3V1wkvu03AC
+root - INFO - Jimi Hendrix - 7xdLNxZCtY68x5MAOBEmBq
+root - INFO - Aretha Franklin - 5YD86vWLu1YqR818b1GADO
+root - INFO - James Brown - 5EEsZl9wCWtPHXoi9I9PY7
+root - INFO - The Rolling Stones - 3fnPv1LRMxENr63afVhaz1
+root - INFO - The Beatles - 1gFNm7cXfG1vSMcxPpSxec
+root - INFO - Elvis Presley - 3C6pSIVeBKIbSpCFtaw1r8
+root - INFO - Bob Dylan - 4K1imZQQ0yKtJ40vGmUajS
+root - INFO - Chuck Berry - 7cTrN7Jpg3RduYiH1HwQb8
+root - INFO - Little Richard - 3EZgL5m9Z5wJ8Gj7BbF9sJ
+root - INFO - Jimi Hendrix - 3XxBSvDZKH5YvZZjTpn6eR
+root - INFO - James Brown - 2ivdsb1RcEJjIs5tuHkUC9
+root - INFO - Aretha Franklin - 0jkBzn7J5jc889TYxwvXy6
+root - INFO - The Rolling Stones - 3hJLKtTpgct9Y9wKww0BiR
+root - INFO - The Beatles - 3KfbEIOC7YIv90FIfNSZpo
+root - INFO - Elvis Presley - 0LfJkvPNCNEMLpZJgDQiV1
+root - INFO - Chuck Berry - 114gCJP9NGrrs5gjPU8RTi
+root - INFO - Bob Dylan - 52vA3CYKZqZVdQnzRrdZt6
+root - INFO - Little Richard - 5rMbcP1NsPtnpK3t9IIvNB
+root - INFO - Jimi Hendrix - 0auKlivXpm76wR63mMJ3pR
+root - INFO - James Brown - 5O85vsSxFsSgNR5epa71bK
+root - INFO - Aretha Franklin - 6PyAImt1t8IhbhMoM6bTEd
+root - INFO - The Beatles - 0aym2LBJBk9DAYuHHutrIl
+root - INFO - The Rolling Stones - 0FfZBWDv7p63yj6oh2I2PS
+root - INFO - Chuck Berry - 5QHrCl8kOMIFOWYQQzHXFH
+root - INFO - Elvis Presley - 1B5Tp2Ml9nLlmTSJx8xVfI
+root - INFO - Little Richard - 23TrwDkYnBPea6i6FPd6Wd
+root - INFO - Jimi Hendrix - 3f5JtAsGRIXN8pSAeTi6vA
+root - INFO - James Brown - 3whRKAOlJ0M3banzcChvQv
+root - INFO - Bob Dylan - 6Vcwr9tb3ZLO63F8DL8cqu
+root - INFO - The Beatles - 7iN1s7xHE4ifF5povM6A48
+root - INFO - The Rolling Stones - 61UuPxxYUvacEH6SHIK3sU
+root - INFO - Chuck Berry - 3UYtylPa55RqHS1YDGZoLs
+root - INFO - James Brown - 3SQ9Hb9rfpJ02AWfaOPhpy
+root - INFO - Bob Dylan - 3y4Uza6K58JXQ7RYya8ZI5
+root - INFO - Elvis Presley - 6KDG8vvFerlCU63IXdw1zb
+root - INFO - Jimi Hendrix - 5Zyv0v4rPcrXjkaeImuodv
+root - INFO - Little Richard - 6egH9cDQRVmAfgJy8xxavG
+root - INFO - The Beatles - 0pNeVovbiZHkulpGeOx1Gj
+root - INFO - The Rolling Stones - 2TLz1ezRkzKgMfRQWZZCun
+root - INFO - Chuck Berry - 09hxCc0SgV8u46gWsfeqJA
+root - INFO - James Brown - 6qsaEadyD2FpKnT1cGT5ei
+root - INFO - Jimi Hendrix - 2McQn0M9t059SFVgw1OW8U
+root - INFO - Bob Dylan - 6k9DUKMJpWvu6eFG3O64Lg
+root - INFO - Little Richard - 37I0S92IT4PRvLXpBcjL51
+root - INFO - Elvis Presley - 0OavtQSojULqejmC4Qbstr
+root - INFO - The Rolling Stones - 52dm9op3rbfAkc1LGXgipW
+root - INFO - The Beatles - 3evG0BIqEFMMP7lVJh1cSf
+root - INFO - Chuck Berry - 6YKsrLIfXGhOzDKVyb0VNL
+root - INFO - James Brown - 5vMTfupz6z7wlNiz0xVb4j
+root - INFO - Little Richard - 2T8TBjRFWnOr3LWKXiGeu4
+root - INFO - Bob Dylan - 6rfGPGghQL7SJmZPXprXIc
+root - INFO - Elvis Presley - 0D1pEisM3QkiacGXJe5dmd
+root - INFO - Jimi Hendrix - 4f5nUYzeUioPwNbz2mGx5S
+root - INFO - The Beatles - 3Am0IbOxmvlSXro7N5iSfZ
+root - INFO - The Rolling Stones - 1RJeiAIwR9pZBgJA8ndZLL
+root - INFO - Chuck Berry - 1k2VqOD6LgUwHznfq7tMkq
+root - INFO - James Brown - 4Y5yjzs9FFw5qIgfZBd43I
+root - INFO - Little Richard - 23HHXTq3Ms5p2gP9fgdC0i
+root - INFO - Elvis Presley - 47gmoUrZV3w20JAnQOZMcO
+root - INFO - Jimi Hendrix - 0uco0wQkB909zpPlHvu5Cc
+root - INFO - Bob Dylan - 4uYwlMp841PLJmj1gJJwIq
+root - INFO - The Beatles - 5ZBeML7Lf3FMEVviTyvi8l
+root - INFO - The Rolling Stones - 6KOtheMY0KN4s9TrQHr9It
+root - INFO - Chuck Berry - 41ADUIxv4MkkWi7kgaZMrH
+root - INFO - Jimi Hendrix - 5uDpwSGjljhIgDB1ZYdp9c
+root - INFO - Bob Dylan - 1qli6fjEVdmMgssWy55eiZ
+root - INFO - Elvis Presley - 1iUgrte2PxLxQ6Te95RnAV
+root - INFO - The Beatles - 1H7gMYGykdtwZOV6s1N0by
+root - INFO - The Rolling Stones - 1KuaFokVUIJMQyHzJArned
+root - INFO - Chuck Berry - 4k19AV4XoY1w999XZQo4mP
+root - INFO - Elvis Presley - 6pyex9B1kBoRIuabBAc4m8
+root - INFO - Bob Dylan - 3RkQ3UwOyPqpIiIvGVewuU
+root - INFO - The Rolling Stones - 0INM0SfWqrD33nTDGA5Mts
+root - INFO - The Beatles - 3KiexfmhxHvG5IgAElmTkd
+root - INFO - Chuck Berry - 5L5RO8srDgDnWcAAy2v5Br
+root - INFO - Elvis Presley - 7JO9xpBP2uwgMMINJkc43y
+root - INFO - Bob Dylan - 0Fnb2pfBfu0ka33d6Yki17
+root - INFO - The Rolling Stones - 3N9AxGilFvoUIQ0H4UcAz5
+root - INFO - The Beatles - 4joiWvli4qJVEW6qZV2i2J
+root - INFO - Chuck Berry - 5PRKTa8Cnoaf1xdQpjcYUk
+root - INFO - Elvis Presley - 4cXnUi6qulwgj0fLSu0VYE
+root - INFO - Bob Dylan - 7xRemq7GLu0Tbqe9OckG87
+root - INFO - The Beatles - 5GjPQ0eI7AgmOnADn1EO6Q
+root - INFO - Elvis Presley - 1Uxk2dxmATlKH5quLX2iFG
+root - INFO - Bob Dylan - 3uHpPWsNDTpbbqedCRoaQU
+root - INFO - The Beatles - 25yQPHgC35WNnnOUqFhgVR
+root - INFO - Elvis Presley - 0SSKHTfyUmL8JUQtfpKcfB
+root - INFO - Bob Dylan - 0dRQDSgpobhDk7IuOBy8GJ
+root - INFO - The Beatles - 3VbGCXWRiouAq8VyMYN2MI
+root - INFO - Bob Dylan - 5ka7NFOlZUpVLJmA2tO0o4

@@ -1,6 +1,7 @@
 import requests
 from base64 import b64encode
 import aiohttp
+import logging
 import asyncio
 
 class HTTPClient:
@@ -10,14 +11,15 @@ class HTTPClient:
         self.client_id = client_id
         self.client_secret = client_secret
         self.token = None
-        self.retry_times  = 15
-        self.backoff_factor = 0.7
+        self.retry_times  = 10
+        self.backoff_factor = 0.5
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
         return {"Authorization" : f"Basic {encoded_credentials}", "Content-Type" : "application/x-www-form-urlencoded"}
     
     def retrieve_token(self):
+        logging.info("Retrieving token")
         headers = self._pepare_header()
         resp = requests.post(self.token_url, headers = headers, params = {"grant_type" : "client_credentials"})
         resp.raise_for_status()
@@ -45,7 +47,9 @@ class HTTPClient:
                             500,
                             429,
                             406
-                        ]:
+                        ]:  
+                            if resp.status == 429:
+                                logging.info("Api rate limit reached. Retrying...")
                             if retry_count < self.retry_times:
                                 retry_count += 1
                                 await asyncio.sleep(retry_count * self.backoff_factor)

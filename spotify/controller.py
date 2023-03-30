@@ -5,9 +5,9 @@ import consumer
 import producer 
 import result_handler
 
-NUM_WORKERS = 8
+NUM_WORKERS = 10
 WORK_QUEUE_MAX_SIZE = 20
-NUM_RESULT_HANDLERS = 5
+NUM_RESULT_HANDLERS = 20
 RESULT_QUEUE_MAX_SIZE = 20
 
 async def _controller(batch_load: List[dict], task_completed_callback: Callable, job_completed_callback: Callable) -> None:

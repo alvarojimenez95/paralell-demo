@@ -39,6 +39,7 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         track_ids = await get_tracks(c, artist)
         for track_id in track_ids:
              start = perf_counter()
+             logging.info(f"{artist} - {track_id}")
              # get the audio features
              track_data = await c.get_audio_features(track_id)
              end = perf_counter()
