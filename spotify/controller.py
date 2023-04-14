@@ -3,6 +3,8 @@ from time import perf_counter
 from typing import Callable, List 
 import consumer 
 import producer 
+from pprint import pprint
+import pandas as pd
 import result_handler
 
 NUM_WORKERS = 5
@@ -29,6 +31,8 @@ async def _controller(batch_load: List[dict], task_completed_callback: Callable,
         tasks.append(
             asyncio.create_task(consumer.do_work(work_queue, result_queue))
         )
+
+
     # start result handlers
     for _ in range(NUM_RESULT_HANDLERS):
         tasks.append(
@@ -37,14 +41,13 @@ async def _controller(batch_load: List[dict], task_completed_callback: Callable,
     await producer_completed.wait()
     await work_queue.join()
     await result_queue.join()
-
     # cancel the tasks
-    for task in tasks:
+    for task in tasks:        
         task.cancel()
-    
+
     end = perf_counter()
     job_completed_callback({"elapsed_secs" : end - start})
-
 def run_job(batch_load: List[dict], task_completed_callback: Callable, job_completed_callback: Callable) -> None:
     """Runs the controller"""
-    asyncio.run(_controller(batch_load, task_completed_callback, job_completed_callback))
+    data = asyncio.run(_controller(batch_load, task_completed_callback, job_completed_callback))
+    return data

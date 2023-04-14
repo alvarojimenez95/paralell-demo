@@ -2,6 +2,7 @@ from spotify_client import Spotify
 from dotenv import load_dotenv
 import os
 import logging
+import pandas as pd
 from time import perf_counter
 import asyncio
 
@@ -32,6 +33,7 @@ async def get_track_by_id(c: Spotify, track_id: str):
 async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
     """Consumes data from the work queue and puts back the results into the result_queue. Consumer"""
     c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+    counter = 1
     while True:
         task_data = await work_queue.get()
         task_id = task_data["task_id"]
@@ -42,10 +44,10 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         track_audio_features = await c.get_audio_features(track_id)
         end = perf_counter()
              # put back the result into the result queue
-        await result_queue.put(
-            {
+        queue_item =            {
             "task_id" : task_id,
             "id" : track_id,
+            "index" : counter,
             "artist" : artist,
             "loudness" : track_audio_features["loudness"],
             "acousticness" : track_audio_features["acousticness"],
@@ -56,6 +58,9 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
             "danceability" : track_audio_features["danceability"],
             "time_secs" : end-start
             }
+        await result_queue.put(
+            queue_item
         )
+        counter+=1
         # finish task
         work_queue.task_done()
