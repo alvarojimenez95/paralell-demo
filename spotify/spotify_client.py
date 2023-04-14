@@ -2,6 +2,7 @@ from client import HTTPClient
 import logging
 class Spotify:
     def __init__(self, client_id: str, client_secret: str):
+        logging.info("A new Spotify client is created.")
         self.client = HTTPClient(client_id=client_id, client_secret=client_secret)
         self.client.retrieve_token()
 
