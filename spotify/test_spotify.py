@@ -114,9 +114,9 @@ def get_tracks(c: Spotify):
     logging.info(f"Total number of artists: {len(track_ids)}")
     return track_ids
 
-def get_track_by_id(c: Spotify, track_id: str):
-    track = c.get_track(track_id=track_id)
-    return track 
+def audio_features(c: Spotify, track_id: str):
+    track_audio_features = c.get_audio_features(track_id=track_id)
+    return track_audio_features
 
 def main():
     import cProfile
@@ -127,8 +127,8 @@ def main():
         tracks = get_tracks(c)
         tracks_info = []
         for track_id in tracks:
-            info = get_track_by_id(c, track_id)
-            logging.info(f"Song name: {info['name']} Artist: {info['artists'][0]['name']}")
+            info = audio_features(c, track_id)
+            logging.info(f"Song id: {info['id']}. Link: {info['track_href']}")
             tracks_info.append(info)
         logging.info(f"Total number of tracks: {len(tracks_info)}")
     stats = pstats.Stats(pr)
