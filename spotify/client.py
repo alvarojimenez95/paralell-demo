@@ -16,7 +16,7 @@ class HTTPClient:
         self.client_secret = client_secret
         self.token = None
         self.retry_times  = 15
-        self.backoff_factor = 0.7
+        self.backoff_factor = 0.9
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
@@ -48,6 +48,7 @@ class HTTPClient:
                         if resp.status in [
                             503,
                             500,
+                            504,
                             429,
                             406
                         ]:
