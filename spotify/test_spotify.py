@@ -106,7 +106,7 @@ ARTISTS = [
 
 def get_tracks(c: Spotify):
     track_ids = []
-    for idx, artist in enumerate(ARTISTS[:10]):
+    for idx, artist in enumerate(ARTISTS):
         logging.info(artist)
         tracks = c.get_artist_track_ids(artist_name=artist)
         for track in tracks["tracks"]["items"]:

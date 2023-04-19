@@ -13,7 +13,7 @@ class _CustomAdapter(HTTPAdapter):
         502,
         504,
         504,
-        # 429,
+        429,
     ]
     _BACKOFF_FACTOR = 0.1
     _TOTAL_RETRIES = 3
