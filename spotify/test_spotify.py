@@ -127,9 +127,10 @@ def main():
         tracks = get_tracks(c)
         tracks_info = []
         for track_id in tracks:
+            
             info = audio_features(c, track_id)
             tracks_info.append(info)
-            print(track_id)
+            logging.info(f"Track: {info['id']}. Link: {info['track_href']}")
         logging.info(f"Total number of tracks: {len(tracks_info)}")
     stats = pstats.Stats(pr)
     stats.sort_stats(pstats.SortKey.TIME)
