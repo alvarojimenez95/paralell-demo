@@ -4,13 +4,12 @@ from typing import Callable, List
 import consumer 
 import producer 
 from pprint import pprint
-import pandas as pd
 import result_handler
 
-NUM_WORKERS = 5
-WORK_QUEUE_MAX_SIZE = 50
-NUM_RESULT_HANDLERS = 50
-RESULT_QUEUE_MAX_SIZE = 50
+NUM_WORKERS = 4
+WORK_QUEUE_MAX_SIZE = 20
+NUM_RESULT_HANDLERS = 20
+RESULT_QUEUE_MAX_SIZE = 20
 
 async def _controller(batch_load: List[dict], task_completed_callback: Callable, job_completed_callback: Callable) -> None:
     """Given a batch load, sets the workload"""
@@ -24,8 +23,8 @@ async def _controller(batch_load: List[dict], task_completed_callback: Callable,
     producer_completed.clear()
     # start producer
     tasks.append(
-        asyncio.create_task(producer.produce_work(batch_load, work_queue, producer_completed))
-    )
+            asyncio.create_task(producer.produce_work(batch_load, work_queue, producer_completed))
+        )
     # start consumers
     for _ in range(NUM_WORKERS):
         tasks.append(
@@ -47,7 +46,7 @@ async def _controller(batch_load: List[dict], task_completed_callback: Callable,
 
     end = perf_counter()
     job_completed_callback({"elapsed_secs" : end - start})
+
 def run_job(batch_load: List[dict], task_completed_callback: Callable, job_completed_callback: Callable) -> None:
     """Runs the controller"""
-    data = asyncio.run(_controller(batch_load, task_completed_callback, job_completed_callback))
-    return data
+    asyncio.run(_controller(batch_load, task_completed_callback, job_completed_callback))
