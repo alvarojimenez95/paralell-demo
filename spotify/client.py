@@ -1,9 +1,5 @@
 import requests
-from typing import Optional, List, Mapping
-from base64 import b64encode, b64decode
-from pprint import pprint
-from urllib.parse import urlparse, parse_qs
-import webbrowser
+from base64 import b64encode
 class HTTPClient:
     token_url = "https://accounts.spotify.com/api/token"
     def __init__(self, client_id: str, client_secret: str):
