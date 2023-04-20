@@ -11,8 +11,8 @@ class HTTPClient:
         self.client_id = client_id
         self.client_secret = client_secret
         self.token = None
-        self.retry_times  = 10
-        self.backoff_factor = 0.5
+        self.retry_times  = 15
+        self.backoff_factor = 0.8
 
     def _pepare_header(self):
         encoded_credentials = b64encode(f"{self.client_id}:{self.client_secret}".encode('utf-8')).decode("ascii")
@@ -48,11 +48,11 @@ class HTTPClient:
                             429,
                             406
                         ]:  
+                            retry_count += 1
                             if resp.status == 429:
-                                logging.info("Api rate limit reached. Retrying...")
+                                logging.info(f"Api rate limit reached. Retry number {retry_count}")
                             if retry_count < self.retry_times:
-                                retry_count += 1
-                                await asyncio.sleep(retry_count * self.backoff_factor)
+                                await asyncio.sleep(2)
                                 continue
                             else:
                                 resp.raise_for_status()

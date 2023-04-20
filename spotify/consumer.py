@@ -2,7 +2,6 @@ from spotify_client import Spotify
 from dotenv import load_dotenv
 import os
 import logging
-import pandas as pd
 from time import perf_counter
 import asyncio
 
@@ -23,13 +22,6 @@ async def get_tracks(c:Spotify, artist: str):
     logging.info(f"Total number of tracks: {len(track_ids)}")
     return track_ids
 
-
-async def get_track_by_id(c: Spotify, track_id: str):
-    """Given a track id, returns the track info"""
-    track = await c.get_track(track_id=track_id)
-    return track 
-
-
 async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
     """Consumes data from the work queue and puts back the results into the result_queue. Consumer"""
     c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
@@ -43,8 +35,9 @@ async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
         start = perf_counter()
         track_audio_features = await c.get_audio_features(track_id)
         end = perf_counter()
-             # put back the result into the result queue
-        queue_item =            {
+        # put back the result into the result queue
+        logging.info(f"Track: {track_id}. Link: {track_audio_features['track_href']}")
+        queue_item = {
             "task_id" : task_id,
             "id" : track_id,
             "index" : counter,
