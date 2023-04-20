@@ -13,99 +13,6 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-ARTISTS = [
-    "Talking Heads",
-    "Carl Perkins",
-    "Curtis Mayfield",
-    "R.E.M.",
-    "Diana Ross and the Supremes",
-    "Lynyrd Skynyrd",
-    "Nine Inch Nails",
-    "Booker T. and the MGs",
-    "Guns n’ Roses",
-    "Tom Petty",
-    "Carlos Santana",
-    "The Yardbirds",
-    "Jay-Z",
-    "Gram Parsons",
-    "Tupac Shakur",
-    "Black Sabbath",
-    "James Taylor",
-    "Eminem",
-    "Creedence Clearwater Revival",
-    "The Drifters",
-    "Elvis Costello",
-    "The Four Tops",
-    "The Stooges",
-    "Beastie Boys",
-    "The Shirelles",
-    "Eagles",
-    "Hank Williams",
-    "Hank Williams",
-    "AC/DC",
-    "Frank Zappa",
-    "The Police",
-    "Jackie Wilson",
-    "The Temptations",
-    "Cream",
-    "Al Green",
-    "The Kinks",
-    "Phil Spector",
-    "Tina Turner",
-    "Joni Mitchell",
-    "Metallica",
-    "The Sex Pistols",
-    "Aerosmith",
-    "Parliament and Funkadelic",
-    "Grateful Dead",
-    "Dr. Dre",
-    "Eric Clapton",
-    "Howlin’ Wolf",
-    "The Allman Brothers Band",
-    "Queen",
-    "Pink Floyd",
-    "Simon and Garfunkel",
-    "David Bowie",
-    "John Lennon",
-    "Roy Orbison",
-    "Madonna",
-    "Michael Jackson",
-    "Neil Young",
-    "The Everly Brothers",
-    "Smokey Robinson and the Miracles",
-    "Johnny Cash",
-    "Nirvana",
-    "The Who",
-    "The Clash",
-    "Prince",
-    "The Ramones",
-    "Fats Domino",
-    "Jerry Lee Lewis",
-    "Bruce Springsteen",
-    "U2",
-    "Otis Redding",
-    "Bo Diddley",
-    "The Velvet Underground",
-    "Marvin Gaye",
-    "Muddy Waters",
-    "Sam Cooke",
-    "Stevie Wonder",
-    "Led Zeppelin",
-    "Buddy Holly",
-    "The Beach Boys",
-    "Bob Marley",
-    "Ray Charles",
-    "Aretha Franklin",
-    "Little Richard",
-    "James Brown",
-    "Jimi Hendrix",
-    "Chuck Berry",
-    "The Rolling Stones",
-    "Elvis Presley",
-    "Bob Dylan",
-    "The Beatles"
-]
-
 
 def main(job_id: str) -> None:
     import cProfile
@@ -116,18 +23,20 @@ def main(job_id: str) -> None:
         task_callback = partial(task_completed_callback_handler, job_id)
         job_callback = partial(job_completed_callback_handler, job_id)
         # set the task data
+        track_ids = []
+        with open("/Users/alvaro/dev/sandbox/paralell-demo/track_ids.txt", "r") as f:
+            track_ids = f.readlines()
         task_data = [
-            {"task_id" : i, "artist" : artist} for i, artist in enumerate(ARTISTS)
+            {"track_id" : track_id.replace("\n", "")} for _, track_id in enumerate(track_ids)
         ]
 
-        data = run_job(task_data, task_callback, job_callback)
-        pprint(data)
+        run_job(task_data, task_callback, job_callback)
     stats = pstats.Stats(pr)
     stats.dump_stats(filename="profile.prof")
 
 
 def task_completed_callback_handler(job_id: str, callback_message: dict)-> None:
-    pprint(f"Task completed in {job_id=}: {callback_message=}")
+    pprint(f"Task completed {callback_message=}")
 
 def job_completed_callback_handler(job_id: str, callback_message: dict)-> None:
     pprint(f"Job completed in {job_id=}: {callback_message=}")

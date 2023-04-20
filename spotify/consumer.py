@@ -1,4 +1,5 @@
-from spotify_client import Spotify
+from pprint import pprint
+from localhost import SpotifyLocalHost
 from dotenv import load_dotenv
 import os
 import logging
@@ -12,36 +13,32 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-async def get_tracks(c:Spotify, artist: str):
+async def get_tracks(c:SpotifyLocalHost, artist: str):
     """Given an artist's name, it returns a list of track ids of songs
     for that artist"""
     track_ids = []
     tracks = await c.get_artist_track_ids(artist_name=artist)
-    for track in tracks["tracks"]["items"]:
-            track_ids.append(track["id"])
+    for track in tracks:
+            track_ids.append(track["track_id"])
     logging.info(f"Total number of tracks: {len(track_ids)}")
     return track_ids
 
 async def do_work(work_queue: asyncio.Queue, result_queue: asyncio.Queue):
     """Consumes data from the work queue and puts back the results into the result_queue. Consumer"""
-    c = Spotify(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+    c = SpotifyLocalHost()
     counter = 1
     while True:
         task_data = await work_queue.get()
-        task_id = task_data["task_id"]
-        artist = task_data["artist"]
         track_id = task_data["track_id"]
         # get the tracks
         start = perf_counter()
-        track_audio_features = await c.get_audio_features(track_id)
+        track_audio_features = await c.get_track_audio_features(track_id)
         end = perf_counter()
         # put back the result into the result queue
         logging.info(f"Track: {track_id}. Link: {track_audio_features['track_href']}")
         queue_item = {
-            "task_id" : task_id,
-            "id" : track_id,
+            "track_id" : track_id,
             "index" : counter,
-            "artist" : artist,
             "loudness" : track_audio_features["loudness"],
             "acousticness" : track_audio_features["acousticness"],
             "instrumentalness" : track_audio_features["instrumentalness"],
